@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCQ Quiz App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script>
+        function startTimer(duration, display) {
+            var timer = duration, minutes, seconds;
+            setInterval(function () {
+                minutes = parseInt(timer / 60, 10);
+                seconds = parseInt(timer % 60, 10);
+
+                minutes = minutes < 10 ? "0" + minutes : minutes;
+                seconds = seconds < 10 ? "0" + seconds : seconds;
+
+                display.textContent = minutes + ":" + seconds;
+
+                if (--timer < 0) {
+                    document.getElementById('quizForm').submit();
+                }
+            }, 1000);
+        }
+
+        window.onload = function () {
+            var sixtyMinutes = 60 * 60,
+                display = document.querySelector('#timer');
+            startTimer(sixtyMinutes, display);
+        };
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>MCQ Quiz App</h1>
+        <div id="timer">60:00</div>
+        <form id="quizForm" action="{{ url_for('submit') }}" method="POST">
+            {% for index, mcq in enumerate(mcqs) %}
+                <div class="question">
+                    <p>{{ index + 1 }}. {{ mcq.question }}</p>
+                    <div class="options">
+                        {% for option_label, option in mcq.shuffled_options %}
+                            <input type="radio" id="q{{ index }}o{{ option_label }}" name="answer{{ index }}" value="{{ option_label }}" required>
+                            <label for="q{{ index }}o{{ option_label }}" class="option-label">{{ option_label }}) {{ option }}</label><br>
+                        {% endfor %}
+                    </div>
+                </div>
+            {% endfor %}
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <footer>
+        <p>Developed by Bandu</p>
+    </footer>
+</body>
+</html>

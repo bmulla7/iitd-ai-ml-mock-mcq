@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Attempts</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz Attempts</h1>
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Score</th>
+                <th>Total</th>
+                <th>Percentage</th>
+                <th>Date</th>
+            </tr>
+            {% for attempt in attempts %}
+                <tr>
+                    <td>{{ attempt.attempt_id }}</td>
+                    <td>{{ attempt.name }}</td>
+                    <td>{{ attempt.email }}</td>
+                    <td>{{ attempt.score }}</td>
+                    <td>{{ attempt.total }}</td>
+                    <td>{{ attempt.percentage }}</td>
+                    <td>{{ attempt.date }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+        <a href="{{ url_for('admin') }}">Back to Admin Panel</a>
+    </div>
+    <footer>
+        <p>Developed by Bandu</p>
+    </footer>
+</body>
+</html>

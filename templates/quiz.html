@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MCQ Quiz App - Quiz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Module: {{ module }}</h1>
+        <form action="{{ url_for('submit') }}" method="post">
+            {% for question_index, result in enumerate(results) %}
+            <div class="question-box">
+                <p><strong>{{ loop.index }}. {{ result.question | safe }}</strong></p>
+                <div class="options">
+                    {% for option_label, option_text in result.shuffled_options %}
+                    <label class="option-container">
+                        <input type="radio" name="answer{{ question_index }}" value="{{ option_label }}">
+                        <span class="option-label">{{ option_text | safe }}</span>
+                    </label>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script>
+        MathJax.typesetPromise();
+    </script>
+</body>
+</html>

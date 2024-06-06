@@ -1,0 +1,1089 @@
+[
+  {
+    "question": "What is the value of the determinant of a 2x2 matrix \\( \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix} \\)?",
+    "options": ["ad - bc", "ab + cd", "ac - bd", "a + d"],
+    "answer": "ad - bc",
+    "feedback": {
+      "ad - bc": "Correct! The determinant of a 2x2 matrix is ad - bc.",
+      "ab + cd": "Incorrect. This is not the formula for the determinant.",
+      "ac - bd": "Incorrect. This is not the formula for the determinant.",
+      "a + d": "Incorrect. This is not the formula for the determinant."
+    }
+  },
+  {
+    "question": "Which of the following is a property of a positive definite matrix?",
+    "options": [
+      "All eigenvalues are positive",
+      "The determinant is zero",
+      "All eigenvalues are negative",
+      "The trace is negative"
+    ],
+    "answer": "All eigenvalues are positive",
+    "feedback": {
+      "All eigenvalues are positive": "Correct! A positive definite matrix has all positive eigenvalues.",
+      "The determinant is zero": "Incorrect. A positive definite matrix has a non-zero determinant.",
+      "All eigenvalues are negative": "Incorrect. A positive definite matrix cannot have negative eigenvalues.",
+      "The trace is negative": "Incorrect. The trace of a positive definite matrix is positive."
+    }
+  },
+  {
+    "question": "What does the R-squared value represent in linear regression?",
+    "options": [
+      "The slope of the regression line",
+      "The intercept of the regression line",
+      "The proportion of variance explained by the model",
+      "The correlation between the independent variables"
+    ],
+    "answer": "The proportion of variance explained by the model",
+    "feedback": {
+      "The slope of the regression line": "Incorrect. The slope indicates the rate of change of the dependent variable.",
+      "The intercept of the regression line": "Incorrect. The intercept is the expected value when all predictors are zero.",
+      "The proportion of variance explained by the model": "Correct! R-squared represents the proportion of variance explained by the model.",
+      "The correlation between the independent variables": "Incorrect. R-squared does not measure the correlation between independent variables."
+    }
+  },
+  {
+    "question": "Which distribution is used to model the number of successes in a fixed number of trials?",
+    "options": [
+      "Uniform distribution",
+      "Normal distribution",
+      "Poisson distribution",
+      "Binomial distribution"
+    ],
+    "answer": "Binomial distribution",
+    "feedback": {
+      "Uniform distribution": "Incorrect. The uniform distribution models equally likely outcomes.",
+      "Normal distribution": "Incorrect. The normal distribution models continuous data with a symmetric distribution.",
+      "Poisson distribution": "Incorrect. The Poisson distribution models the number of events in a fixed interval.",
+      "Binomial distribution": "Correct! The binomial distribution models the number of successes in a fixed number of trials."
+    }
+  },
+  {
+    "question": "What is the purpose of the Lagrange multiplier method in optimization?",
+    "options": [
+      "To linearize a non-linear problem",
+      "To convert a constrained problem into an unconstrained one",
+      "To find the maximum or minimum of a function subject to constraints",
+      "To reduce the number of variables"
+    ],
+    "answer": "To find the maximum or minimum of a function subject to constraints",
+    "feedback": {
+      "To linearize a non-linear problem": "Incorrect. The Lagrange multiplier method is not primarily used for linearizing non-linear problems.",
+      "To convert a constrained problem into an unconstrained one": "Incorrect. While it transforms the problem, it is not the main purpose.",
+      "To find the maximum or minimum of a function subject to constraints": "Correct! The Lagrange multiplier method is used to optimize a function subject to constraints.",
+      "To reduce the number of variables": "Incorrect. The method does not aim to reduce the number of variables."
+    }
+  },
+  {
+    "question": "In optimization, what does the gradient of a function \\( f \\) represent?",
+    "options": [
+      "The direction of steepest descent",
+      "The rate of change in the function's value",
+      "The local minima of the function",
+      "The direction of steepest ascent"
+    ],
+    "answer": "The direction of steepest ascent",
+    "feedback": {
+      "The direction of steepest descent": "Incorrect. The negative gradient represents the direction of steepest descent.",
+      "The rate of change in the function's value": "Incorrect. While related, the gradient specifically indicates direction.",
+      "The local minima of the function": "Incorrect. The gradient is a vector, not a specific point.",
+      "The direction of steepest ascent": "Correct! The gradient indicates the direction of steepest ascent of the function."
+    }
+  },
+  {
+    "question": "What is the determinant of a 2x2 matrix \\( \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix} \\)?",
+    "options": ["ad - bc", "ab + cd", "ac - bd", "a + d"],
+    "answer": "ad - bc",
+    "feedback": {
+      "ad - bc": "Correct! The determinant of a 2x2 matrix is ad - bc.",
+      "ab + cd": "Incorrect. This is not the formula for the determinant.",
+      "ac - bd": "Incorrect. This is not the formula for the determinant.",
+      "a + d": "Incorrect. This is not the formula for the determinant."
+    }
+  },
+  {
+    "question": "Which of the following is a property of eigenvalues of a matrix?",
+    "options": [
+      "They are always positive.",
+      "They can be complex numbers.",
+      "They are always real numbers.",
+      "They are always integers."
+    ],
+    "answer": "They can be complex numbers.",
+    "feedback": {
+      "They are always positive.": "Incorrect. Eigenvalues can be negative or complex as well.",
+      "They can be complex numbers.": "Correct! Eigenvalues can indeed be complex numbers.",
+      "They are always real numbers.": "Incorrect. Eigenvalues can be complex.",
+      "They are always integers.": "Incorrect. Eigenvalues can be any real or complex number."
+    }
+  },
+  {
+    "question": "What is the rank of a matrix?",
+    "options": [
+      "The number of rows",
+      "The number of columns",
+      "The number of non-zero rows",
+      "The number of linearly independent rows or columns"
+    ],
+    "answer": "The number of linearly independent rows or columns",
+    "feedback": {
+      "The number of rows": "Incorrect. The rank is not necessarily the number of rows.",
+      "The number of columns": "Incorrect. The rank is not necessarily the number of columns.",
+      "The number of non-zero rows": "Incorrect. The rank is the number of linearly independent rows or columns.",
+      "The number of linearly independent rows or columns": "Correct! The rank is the number of linearly independent rows or columns."
+    }
+  },
+  {
+    "question": "Which operation is used to compute the inverse of a matrix?",
+    "options": [
+      "Addition",
+      "Subtraction",
+      "Multiplication",
+      "None of the above"
+    ],
+    "answer": "None of the above",
+    "feedback": {
+      "Addition": "Incorrect. Matrix inversion does not involve addition.",
+      "Subtraction": "Incorrect. Matrix inversion does not involve subtraction.",
+      "Multiplication": "Incorrect. Matrix inversion is a specific operation different from these.",
+      "None of the above": "Correct! Matrix inversion is a distinct operation."
+    }
+  },
+  {
+    "question": "In eigenvalue decomposition, a matrix A is decomposed into which form?",
+    "options": ["A = PDP^{-1}", "A = P^{-1}DP", "A = PDP'", "A = P'PD"],
+    "answer": "A = PDP^{-1}",
+    "feedback": {
+      "A = PDP^{-1}": "Correct! Eigenvalue decomposition is A = PDP^{-1}.",
+      "A = P^{-1}DP": "Incorrect. The correct form is A = PDP^{-1}.",
+      "A = PDP'": "Incorrect. The correct form is A = PDP^{-1}.",
+      "A = P'PD": "Incorrect. The correct form is A = PDP^{-1}."
+    }
+  },
+  {
+    "question": "What does a p-value in hypothesis testing indicate?",
+    "options": [
+      "The probability of rejecting the null hypothesis",
+      "The probability of observing the data given that the null hypothesis is true",
+      "The probability that the null hypothesis is true",
+      "The probability that the alternative hypothesis is true"
+    ],
+    "answer": "The probability of observing the data given that the null hypothesis is true",
+    "feedback": {
+      "The probability of rejecting the null hypothesis": "Incorrect. The p-value does not directly tell you this probability.",
+      "The probability of observing the data given that the null hypothesis is true": "Correct! The p-value is the probability of observing the data, or something more extreme, given that the null hypothesis is true.",
+      "The probability that the null hypothesis is true": "Incorrect. The p-value does not give this probability.",
+      "The probability that the alternative hypothesis is true": "Incorrect. The p-value does not give this probability."
+    }
+  },
+  {
+    "question": "What is the mean of a standard normal distribution?",
+    "options": ["0", "1", "2", "3"],
+    "answer": "0",
+    "feedback": {
+      "0": "Correct! The mean of a standard normal distribution is 0.",
+      "1": "Incorrect. The mean of a standard normal distribution is 0.",
+      "2": "Incorrect. The mean of a standard normal distribution is 0.",
+      "3": "Incorrect. The mean of a standard normal distribution is 0."
+    }
+  },
+  {
+    "question": "Which of the following is not a measure of central tendency?",
+    "options": ["Mean", "Median", "Mode", "Range"],
+    "answer": "Range",
+    "feedback": {
+      "Mean": "Incorrect. The mean is a measure of central tendency.",
+      "Median": "Incorrect. The median is a measure of central tendency.",
+      "Mode": "Incorrect. The mode is a measure of central tendency.",
+      "Range": "Correct! The range is a measure of dispersion, not central tendency."
+    }
+  },
+  {
+    "question": "In a binomial distribution, what does 'n' represent?",
+    "options": [
+      "Number of trials",
+      "Number of successes",
+      "Probability of success",
+      "Probability of failure"
+    ],
+    "answer": "Number of trials",
+    "feedback": {
+      "Number of trials": "Correct! 'n' represents the number of trials in a binomial distribution.",
+      "Number of successes": "Incorrect. 'n' represents the number of trials.",
+      "Probability of success": "Incorrect. 'n' represents the number of trials.",
+      "Probability of failure": "Incorrect. 'n' represents the number of trials."
+    }
+  },
+  {
+    "question": "What does the area under the curve of a probability density function (PDF) represent?",
+    "options": [
+      "The mean",
+      "The standard deviation",
+      "The variance",
+      "The total probability"
+    ],
+    "answer": "The total probability",
+    "feedback": {
+      "The mean": "Incorrect. The area under the PDF represents the total probability.",
+      "The standard deviation": "Incorrect. The area under the PDF represents the total probability.",
+      "The variance": "Incorrect. The area under the PDF represents the total probability.",
+      "The total probability": "Correct! The area under the PDF represents the total probability, which is always 1."
+    }
+  },
+  {
+    "question": "In optimization, what is a local minimum?",
+    "options": [
+      "The smallest value of the function over its entire range",
+      "A value of the function that is lower than neighboring values",
+      "The highest value of the function over its entire range",
+      "A value of the function that is higher than neighboring values"
+    ],
+    "answer": "A value of the function that is lower than neighboring values",
+    "feedback": {
+      "The smallest value of the function over its entire range": "Incorrect. This describes a global minimum.",
+      "A value of the function that is lower than neighboring values": "Correct! A local minimum is a value that is lower than neighboring values.",
+      "The highest value of the function over its entire range": "Incorrect. This describes a global maximum.",
+      "A value of the function that is higher than neighboring values": "Incorrect. This describes a local maximum."
+    }
+  },
+  {
+    "question": "What is the gradient of a function?",
+    "options": [
+      "A scalar value representing the rate of change",
+      "A vector indicating the direction and rate of fastest increase",
+      "A matrix representing the second derivatives",
+      "None of the above"
+    ],
+    "answer": "A vector indicating the direction and rate of fastest increase",
+    "feedback": {
+      "A scalar value representing the rate of change": "Incorrect. The gradient is a vector.",
+      "A vector indicating the direction and rate of fastest increase": "Correct! The gradient is a vector that points in the direction of the steepest ascent.",
+      "A matrix representing the second derivatives": "Incorrect. The Hessian matrix represents the second derivatives.",
+      "None of the above": "Incorrect. The gradient is a vector indicating the direction and rate of fastest increase."
+    }
+  },
+  {
+    "question": "What is the determinant of a 2x2 matrix \\( \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix} \\)?",
+    "options": ["ad - bc", "ab + cd", "ac - bd", "a + d"],
+    "answer": "ad - bc",
+    "feedback": {
+      "ad - bc": "Correct! The determinant of a 2x2 matrix is ad - bc.",
+      "ab + cd": "Incorrect. This is not the formula for the determinant.",
+      "ac - bd": "Incorrect. This is not the formula for the determinant.",
+      "a + d": "Incorrect. This is not the formula for the determinant."
+    }
+  },
+  {
+    "question": "Which of the following is a property of eigenvalues of a matrix?",
+    "options": [
+      "They are always positive.",
+      "They can be complex numbers.",
+      "They are always real numbers.",
+      "They are always integers."
+    ],
+    "answer": "They can be complex numbers.",
+    "feedback": {
+      "They are always positive.": "Incorrect. Eigenvalues can be negative or complex as well.",
+      "They can be complex numbers.": "Correct! Eigenvalues can indeed be complex numbers.",
+      "They are always real numbers.": "Incorrect. Eigenvalues can be complex.",
+      "They are always integers.": "Incorrect. Eigenvalues can be any real or complex number."
+    }
+  },
+  {
+    "question": "What is the rank of a matrix?",
+    "options": [
+      "The number of rows",
+      "The number of columns",
+      "The number of non-zero rows",
+      "The number of linearly independent rows or columns"
+    ],
+    "answer": "The number of linearly independent rows or columns",
+    "feedback": {
+      "The number of rows": "Incorrect. The rank is not necessarily the number of rows.",
+      "The number of columns": "Incorrect. The rank is not necessarily the number of columns.",
+      "The number of non-zero rows": "Incorrect. The rank is the number of linearly independent rows or columns.",
+      "The number of linearly independent rows or columns": "Correct! The rank is the number of linearly independent rows or columns."
+    }
+  },
+  {
+    "question": "Which operation is used to compute the inverse of a matrix?",
+    "options": [
+      "Addition",
+      "Subtraction",
+      "Multiplication",
+      "None of the above"
+    ],
+    "answer": "None of the above",
+    "feedback": {
+      "Addition": "Incorrect. Matrix inversion does not involve addition.",
+      "Subtraction": "Incorrect. Matrix inversion does not involve subtraction.",
+      "Multiplication": "Incorrect. Matrix inversion is a specific operation different from these.",
+      "None of the above": "Correct! Matrix inversion is a distinct operation."
+    }
+  },
+  {
+    "question": "In eigenvalue decomposition, a matrix A is decomposed into which form?",
+    "options": ["A = PDP^{-1}", "A = P^{-1}DP", "A = PDP'", "A = P'PD"],
+    "answer": "A = PDP^{-1}",
+    "feedback": {
+      "A = PDP^{-1}": "Correct! Eigenvalue decomposition is A = PDP^{-1}.",
+      "A = P^{-1}DP": "Incorrect. The correct form is A = PDP^{-1}.",
+      "A = PDP'": "Incorrect. The correct form is A = PDP^{-1}.",
+      "A = P'PD": "Incorrect. The correct form is A = PDP^{-1}."
+    }
+  },
+  {
+    "question": "What does a p-value in hypothesis testing indicate?",
+    "options": [
+      "The probability of rejecting the null hypothesis",
+      "The probability of observing the data given that the null hypothesis is true",
+      "The probability that the null hypothesis is true",
+      "The probability that the alternative hypothesis is true"
+    ],
+    "answer": "The probability of observing the data given that the null hypothesis is true",
+    "feedback": {
+      "The probability of rejecting the null hypothesis": "Incorrect. The p-value does not directly tell you this probability.",
+      "The probability of observing the data given that the null hypothesis is true": "Correct! The p-value is the probability of observing the data, or something more extreme, given that the null hypothesis is true.",
+      "The probability that the null hypothesis is true": "Incorrect. The p-value does not give this probability.",
+      "The probability that the alternative hypothesis is true": "Incorrect. The p-value does not give this probability."
+    }
+  },
+  {
+    "question": "What is the mean of a standard normal distribution?",
+    "options": ["0", "1", "2", "3"],
+    "answer": "0",
+    "feedback": {
+      "0": "Correct! The mean of a standard normal distribution is 0.",
+      "1": "Incorrect. The mean of a standard normal distribution is 0.",
+      "2": "Incorrect. The mean of a standard normal distribution is 0.",
+      "3": "Incorrect. The mean of a standard normal distribution is 0."
+    }
+  },
+  {
+    "question": "Which of the following is not a measure of central tendency?",
+    "options": ["Mean", "Median", "Mode", "Range"],
+    "answer": "Range",
+    "feedback": {
+      "Mean": "Incorrect. The mean is a measure of central tendency.",
+      "Median": "Incorrect. The median is a measure of central tendency.",
+      "Mode": "Incorrect. The mode is a measure of central tendency.",
+      "Range": "Correct! The range is a measure of dispersion, not central tendency."
+    }
+  },
+  {
+    "question": "In a binomial distribution, what does 'n' represent?",
+    "options": [
+      "Number of trials",
+      "Number of successes",
+      "Probability of success",
+      "Probability of failure"
+    ],
+    "answer": "Number of trials",
+    "feedback": {
+      "Number of trials": "Correct! 'n' represents the number of trials in a binomial distribution.",
+      "Number of successes": "Incorrect. 'n' represents the number of trials.",
+      "Probability of success": "Incorrect. 'n' represents the number of trials.",
+      "Probability of failure": "Incorrect. 'n' represents the number of trials."
+    }
+  },
+  {
+    "question": "What does the area under the curve of a probability density function (PDF) represent?",
+    "options": [
+      "The mean",
+      "The standard deviation",
+      "The variance",
+      "The total probability"
+    ],
+    "answer": "The total probability",
+    "feedback": {
+      "The mean": "Incorrect. The area under the PDF represents the total probability.",
+      "The standard deviation": "Incorrect. The area under the PDF represents the total probability.",
+      "The variance": "Incorrect. The area under the PDF represents the total probability.",
+      "The total probability": "Correct! The area under the PDF represents the total probability, which is always 1."
+    }
+  },
+  {
+    "question": "In optimization, what is a local minimum?",
+    "options": [
+      "The smallest value of the function over its entire range",
+      "A value of the function that is lower than neighboring values",
+      "The highest value of the function over its entire range",
+      "A value of the function that is higher than neighboring values"
+    ],
+    "answer": "A value of the function that is lower than neighboring values",
+    "feedback": {
+      "The smallest value of the function over its entire range": "Incorrect. This describes a global minimum.",
+      "A value of the function that is lower than neighboring values": "Correct! A local minimum is a value that is lower than neighboring values.",
+      "The highest value of the function over its entire range": "Incorrect. This describes a global maximum.",
+      "A value of the function that is higher than neighboring values": "Incorrect. This describes a local maximum."
+    }
+  },
+  {
+    "question": "What is the gradient of a function?",
+    "options": [
+      "A scalar value representing the rate of change",
+      "A vector indicating the direction and rate of fastest increase",
+      "A matrix representing the second derivatives",
+      "None of the above"
+    ],
+    "answer": "A vector indicating the direction and rate of fastest increase",
+    "feedback": {
+      "A scalar value representing the rate of change": "Incorrect. The gradient is a vector.",
+      "A vector indicating the direction and rate of fastest increase": "Correct! The gradient is a vector that points in the direction of the steepest ascent.",
+      "A matrix representing the second derivatives": "Incorrect. The Hessian matrix represents the second derivatives.",
+      "None of the above": "Incorrect. The gradient is a vector indicating the direction and rate of fastest increase."
+    }
+  },
+  {
+    "question": "Which method is commonly used for unconstrained optimization?",
+    "options": [
+      "Simplex method",
+      "Newton's method",
+      "Dual simplex method",
+      "Barrier method"
+    ],
+    "answer": "Newton's method",
+    "feedback": {
+      "Simplex method": "Incorrect. The simplex method is used for linear programming.",
+      "Newton's method": "Correct! Newton's method is commonly used for unconstrained optimization.",
+      "Dual simplex method": "Incorrect. The dual simplex method is used for linear programming.",
+      "Barrier method": "Incorrect. The barrier method is used for constrained optimization."
+    }
+  },
+  {
+    "question": "What is the purpose of the Lagrange multiplier method?",
+    "options": [
+      "To find the local minima of a function",
+      "To convert a constrained problem into an unconstrained one",
+      "To find the gradient of a function",
+      "To reduce the number of variables"
+    ],
+    "answer": "To convert a constrained problem into an unconstrained one",
+    "feedback": {
+      "To find the local minima of a function": "Incorrect. Lagrange multipliers are used to handle constraints.",
+      "To convert a constrained problem into an unconstrained one": "Correct! Lagrange multipliers are used to convert constrained problems into unconstrained ones.",
+      "To find the gradient of a function": "Incorrect. Lagrange multipliers do not find gradients.",
+      "To reduce the number of variables": "Incorrect. Lagrange multipliers do not reduce the number of variables."
+    }
+  },
+  {
+    "question": "What is the KKT condition used for?",
+    "options": [
+      "To determine the local minimum of a function",
+      "To convert a non-linear problem to a linear one",
+      "To test the optimality in constrained optimization",
+      "To solve linear programming problems"
+    ],
+    "answer": "To test the optimality in constrained optimization",
+    "feedback": {
+      "To determine the local minimum of a function": "Incorrect. KKT conditions are used in constrained optimization.",
+      "To convert a non-linear problem to a linear one": "Incorrect. KKT conditions do not convert problems.",
+      "To test the optimality in constrained optimization": "Correct! KKT conditions are used to test optimality in constrained optimization.",
+      "To solve linear programming problems": "Incorrect. KKT conditions are specific to non-linear constrained optimization."
+    }
+  },
+  {
+    "question": "Which of the following matrices is orthogonal?",
+    "options": [
+      "\\( \\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\end{bmatrix} \\)",
+      "\\( \\begin{bmatrix} 0 & 1 \\\\ -1 & 0 \\end{bmatrix} \\)",
+      "\\( \\begin{bmatrix} 1 & 1 \\\\ 1 & 1 \\end{bmatrix} \\)",
+      "\\( \\begin{bmatrix} 2 & 0 \\\\ 0 & 2 \\end{bmatrix} \\)"
+    ],
+    "answer": "\\( \\begin{bmatrix} 0 & 1 \\\\ -1 & 0 \\end{bmatrix} \\)",
+    "feedback": {
+      "\\( \\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\end{bmatrix} \\)": "Incorrect. This is an identity matrix.",
+      "\\( \\begin{bmatrix} 0 & 1 \\\\ -1 & 0 \\end{bmatrix} \\)": "Correct! This matrix is orthogonal because its rows and columns are orthonormal vectors.",
+      "\\( \\begin{bmatrix} 1 & 1 \\\\ 1 & 1 \\end{bmatrix} \\)": "Incorrect. This matrix is not orthogonal.",
+      "\\( \\begin{bmatrix} 2 & 0 \\\\ 0 & 2 \\end{bmatrix} \\)": "Incorrect. This is a scalar multiple of the identity matrix but not orthogonal."
+    }
+  },
+  {
+    "question": "What is the trace of a matrix?",
+    "options": [
+      "The sum of its diagonal elements",
+      "The product of its eigenvalues",
+      "The determinant of the matrix",
+      "The sum of its eigenvalues"
+    ],
+    "answer": "The sum of its diagonal elements",
+    "feedback": {
+      "The sum of its diagonal elements": "Correct! The trace is the sum of the diagonal elements of a matrix.",
+      "The product of its eigenvalues": "Incorrect. The product of its eigenvalues gives the determinant.",
+      "The determinant of the matrix": "Incorrect. The determinant is not the same as the trace.",
+      "The sum of its eigenvalues": "Incorrect. While the trace is equal to the sum of the eigenvalues, the trace is specifically the sum of the diagonal elements."
+    }
+  },
+  {
+    "question": "What does it mean for a set of vectors to be linearly independent?",
+    "options": [
+      "They are not scalar multiples of each other.",
+      "Their dot product is zero.",
+      "They span the vector space.",
+      "Their determinant is zero."
+    ],
+    "answer": "They are not scalar multiples of each other.",
+    "feedback": {
+      "They are not scalar multiples of each other.": "Correct! Linearly independent vectors cannot be written as scalar multiples of each other.",
+      "Their dot product is zero.": "Incorrect. This describes orthogonality, not linear independence.",
+      "They span the vector space.": "Incorrect. Spanning the vector space is related to the concept of a basis, not just independence.",
+      "Their determinant is zero.": "Incorrect. This is not a criterion for linear independence."
+    }
+  },
+  {
+    "question": "In matrix multiplication, what condition must be met for two matrices to be multiplied?",
+    "options": [
+      "They must be square matrices.",
+      "The number of rows in the first matrix must equal the number of columns in the second matrix.",
+      "The number of columns in the first matrix must equal the number of rows in the second matrix.",
+      "Both matrices must have the same dimensions."
+    ],
+    "answer": "The number of columns in the first matrix must equal the number of rows in the second matrix.",
+    "feedback": {
+      "They must be square matrices.": "Incorrect. Matrices do not need to be square to be multiplied.",
+      "The number of rows in the first matrix must equal the number of columns in the second matrix.": "Incorrect. The correct condition is related to the columns of the first and rows of the second matrix.",
+      "The number of columns in the first matrix must equal the number of rows in the second matrix.": "Correct! This is the condition for matrix multiplication.",
+      "Both matrices must have the same dimensions.": "Incorrect. The dimensions do not need to be the same, just compatible."
+    }
+  },
+  {
+    "question": "Which property does a symmetric matrix exhibit?",
+    "options": [
+      "It is always invertible.",
+      "It is equal to its transpose.",
+      "Its eigenvalues are always positive.",
+      "It is equal to its inverse."
+    ],
+    "answer": "It is equal to its transpose.",
+    "feedback": {
+      "It is always invertible.": "Incorrect. Not all symmetric matrices are invertible.",
+      "It is equal to its transpose.": "Correct! A symmetric matrix is equal to its transpose.",
+      "Its eigenvalues are always positive.": "Incorrect. This describes a positive definite matrix.",
+      "It is equal to its inverse.": "Incorrect. This describes an orthogonal matrix."
+    }
+  },
+  {
+    "question": "What is the eigenvalue of the identity matrix?",
+    "options": ["0", "1", "2", "Undefined"],
+    "answer": "1",
+    "feedback": {
+      "0": "Incorrect. The eigenvalue of the identity matrix is 1.",
+      "1": "Correct! The eigenvalue of the identity matrix is 1.",
+      "2": "Incorrect. The eigenvalue of the identity matrix is 1.",
+      "Undefined": "Incorrect. The eigenvalue of the identity matrix is 1."
+    }
+  },
+  {
+    "question": "What does the rank of a matrix tell us?",
+    "options": [
+      "The number of non-zero rows",
+      "The number of linearly independent rows or columns",
+      "The number of columns",
+      "The number of zero rows"
+    ],
+    "answer": "The number of linearly independent rows or columns",
+    "feedback": {
+      "The number of non-zero rows": "Incorrect. The rank is the number of linearly independent rows or columns.",
+      "The number of linearly independent rows or columns": "Correct! The rank of a matrix is the number of linearly independent rows or columns.",
+      "The number of columns": "Incorrect. The rank is not necessarily the number of columns.",
+      "The number of zero rows": "Incorrect. The rank is the number of linearly independent rows or columns."
+    }
+  },
+  {
+    "question": "Which matrix operation is not defined?",
+    "options": [
+      "Addition of two matrices",
+      "Subtraction of two matrices",
+      "Multiplication of a matrix by a scalar",
+      "Division of a matrix by a matrix"
+    ],
+    "answer": "Division of a matrix by a matrix",
+    "feedback": {
+      "Addition of two matrices": "Incorrect. Addition of two matrices is defined.",
+      "Subtraction of two matrices": "Incorrect. Subtraction of two matrices is defined.",
+      "Multiplication of a matrix by a scalar": "Incorrect. Multiplication of a matrix by a scalar is defined.",
+      "Division of a matrix by a matrix": "Correct! Division of one matrix by another is not defined."
+    }
+  },
+  {
+    "question": "What is the inverse of a matrix A if it exists?",
+    "options": [
+      "A matrix that when multiplied by A gives the identity matrix",
+      "A matrix that when added to A gives the zero matrix",
+      "A matrix that when subtracted from A gives the zero matrix",
+      "A matrix that when divided by A gives the identity matrix"
+    ],
+    "answer": "A matrix that when multiplied by A gives the identity matrix",
+    "feedback": {
+      "A matrix that when multiplied by A gives the identity matrix": "Correct! The inverse of a matrix A, when it exists, is a matrix that when multiplied by A gives the identity matrix.",
+      "A matrix that when added to A gives the zero matrix": "Incorrect. The inverse of a matrix is not defined this way.",
+      "A matrix that when subtracted from A gives the zero matrix": "Incorrect. The inverse of a matrix is not defined this way.",
+      "A matrix that when divided by A gives the identity matrix": "Incorrect. Matrix division is not defined."
+    }
+  },
+  {
+    "question": "What is the characteristic equation of a matrix A?",
+    "options": [
+      "det(A - λI) = 0",
+      "tr(A - λI) = 0",
+      "det(A + λI) = 0",
+      "tr(A + λI) = 0"
+    ],
+    "answer": "det(A - λI) = 0",
+    "feedback": {
+      "det(A - λI) = 0": "Correct! The characteristic equation of a matrix A is det(A - λI) = 0.",
+      "tr(A - λI) = 0": "Incorrect. The characteristic equation involves the determinant, not the trace.",
+      "det(A + λI) = 0": "Incorrect. The correct equation is det(A - λI) = 0.",
+      "tr(A + λI) = 0": "Incorrect. The characteristic equation involves the determinant, not the trace."
+    }
+  },
+  {
+    "question": "Which of the following is true for an orthogonal matrix Q?",
+    "options": ["Q^TQ = I", "QQ = I", "Q = Q^T", "Q^T = I"],
+    "answer": "Q^TQ = I",
+    "feedback": {
+      "Q^TQ = I": "Correct! For an orthogonal matrix Q, Q^TQ = I.",
+      "QQ = I": "Incorrect. The correct relation is Q^TQ = I.",
+      "Q = Q^T": "Incorrect. This is true for symmetric matrices, not orthogonal ones.",
+      "Q^T = I": "Incorrect. The transpose of an orthogonal matrix is not necessarily the identity matrix."
+    }
+  },
+  {
+    "question": "What is the definition of a positive definite matrix?",
+    "options": [
+      "All its eigenvalues are positive",
+      "All its eigenvalues are negative",
+      "All its diagonal elements are positive",
+      "All its diagonal elements are negative"
+    ],
+    "answer": "All its eigenvalues are positive",
+    "feedback": {
+      "All its eigenvalues are positive": "Correct! A positive definite matrix has all positive eigenvalues.",
+      "All its eigenvalues are negative": "Incorrect. This describes a negative definite matrix.",
+      "All its diagonal elements are positive": "Incorrect. Positive diagonal elements alone do not define a positive definite matrix.",
+      "All its diagonal elements are negative": "Incorrect. This describes a negative definite matrix."
+    }
+  },
+  {
+    "question": "What is the result of multiplying a matrix by its transpose?",
+    "options": [
+      "A symmetric matrix",
+      "A skew-symmetric matrix",
+      "A diagonal matrix",
+      "An orthogonal matrix"
+    ],
+    "answer": "A symmetric matrix",
+    "feedback": {
+      "A symmetric matrix": "Correct! Multiplying a matrix by its transpose results in a symmetric matrix.",
+      "A skew-symmetric matrix": "Incorrect. This is not the result of multiplying a matrix by its transpose.",
+      "A diagonal matrix": "Incorrect. The result is a symmetric matrix, not necessarily diagonal.",
+      "An orthogonal matrix": "Incorrect. This is not the result of multiplying a matrix by its transpose."
+    }
+  },
+  {
+    "question": "What is the determinant of a singular matrix?",
+    "options": ["0", "1", "-1", "Undefined"],
+    "answer": "0",
+    "feedback": {
+      "0": "Correct! The determinant of a singular matrix is 0.",
+      "1": "Incorrect. The determinant of a singular matrix is 0.",
+      "-1": "Incorrect. The determinant of a singular matrix is 0.",
+      "Undefined": "Incorrect. The determinant of a singular matrix is defined as 0."
+    }
+  },
+  {
+    "question": "Which of the following is a property of eigenvectors?",
+    "options": [
+      "They are scalar multiples of each other.",
+      "They are orthogonal to each other.",
+      "They are invariant under the associated linear transformation.",
+      "They have a magnitude of 1."
+    ],
+    "answer": "They are invariant under the associated linear transformation.",
+    "feedback": {
+      "They are scalar multiples of each other.": "Incorrect. Eigenvectors are not necessarily scalar multiples of each other.",
+      "They are orthogonal to each other.": "Incorrect. This is not a general property of eigenvectors.",
+      "They are invariant under the associated linear transformation.": "Correct! Eigenvectors remain invariant under the associated linear transformation.",
+      "They have a magnitude of 1.": "Incorrect. Eigenvectors can have any magnitude."
+    }
+  },
+  {
+    "question": "Which of the following matrices has an inverse?",
+    "options": [
+      "A singular matrix",
+      "A matrix with a determinant of 0",
+      "A non-square matrix",
+      "A non-singular square matrix"
+    ],
+    "answer": "A non-singular square matrix",
+    "feedback": {
+      "A singular matrix": "Incorrect. A singular matrix does not have an inverse.",
+      "A matrix with a determinant of 0": "Incorrect. A matrix with a determinant of 0 is singular and does not have an inverse.",
+      "A non-square matrix": "Incorrect. Only square matrices can have inverses.",
+      "A non-singular square matrix": "Correct! A non-singular square matrix has an inverse."
+    }
+  },
+  {
+    "question": "What is a diagonal matrix?",
+    "options": [
+      "A matrix with non-zero elements only on its main diagonal",
+      "A matrix with non-zero elements only above its main diagonal",
+      "A matrix with non-zero elements only below its main diagonal",
+      "A matrix with zero elements on its main diagonal"
+    ],
+    "answer": "A matrix with non-zero elements only on its main diagonal",
+    "feedback": {
+      "A matrix with non-zero elements only on its main diagonal": "Correct! A diagonal matrix has non-zero elements only on its main diagonal.",
+      "A matrix with non-zero elements only above its main diagonal": "Incorrect. This describes an upper triangular matrix.",
+      "A matrix with non-zero elements only below its main diagonal": "Incorrect. This describes a lower triangular matrix.",
+      "A matrix with zero elements on its main diagonal": "Incorrect. This does not describe a diagonal matrix."
+    }
+  },
+  {
+    "question": "What is the adjoint of a matrix?",
+    "options": [
+      "The transpose of the cofactor matrix",
+      "The inverse of the matrix",
+      "The determinant of the matrix",
+      "The transpose of the matrix"
+    ],
+    "answer": "The transpose of the cofactor matrix",
+    "feedback": {
+      "The transpose of the cofactor matrix": "Correct! The adjoint of a matrix is the transpose of the cofactor matrix.",
+      "The inverse of the matrix": "Incorrect. The adjoint is not the inverse of the matrix.",
+      "The determinant of the matrix": "Incorrect. The adjoint is not the determinant.",
+      "The transpose of the matrix": "Incorrect. The adjoint is the transpose of the cofactor matrix."
+    }
+  },
+  {
+    "question": "What does the determinant of a matrix indicate?",
+    "options": [
+      "The volume scaling factor of the linear transformation",
+      "The trace of the matrix",
+      "The rank of the matrix",
+      "The number of non-zero rows"
+    ],
+    "answer": "The volume scaling factor of the linear transformation",
+    "feedback": {
+      "The volume scaling factor of the linear transformation": "Correct! The determinant indicates the volume scaling factor of the linear transformation.",
+      "The trace of the matrix": "Incorrect. The trace is the sum of the diagonal elements.",
+      "The rank of the matrix": "Incorrect. The rank is the number of linearly independent rows or columns.",
+      "The number of non-zero rows": "Incorrect. The determinant does not indicate the number of non-zero rows."
+    }
+  },
+  {
+    "question": "What is the expected value of a fair six-sided die?",
+    "options": ["3.5", "2.5", "3", "4"],
+    "answer": "3.5",
+    "feedback": {
+      "3.5": "Correct! The expected value of a fair six-sided die is 3.5.",
+      "2.5": "Incorrect. This is not the expected value of a fair six-sided die.",
+      "3": "Incorrect. This is not the expected value of a fair six-sided die.",
+      "4": "Incorrect. This is not the expected value of a fair six-sided die."
+    }
+  },
+  {
+    "question": "In linear regression, what does the R-squared value represent?",
+    "options": [
+      "The slope of the regression line",
+      "The intercept of the regression line",
+      "The proportion of variance explained by the model",
+      "The correlation between the independent variables"
+    ],
+    "answer": "The proportion of variance explained by the model",
+    "feedback": {
+      "The slope of the regression line": "Incorrect. The R-squared value represents the proportion of variance explained by the model.",
+      "The intercept of the regression line": "Incorrect. The R-squared value represents the proportion of variance explained by the model.",
+      "The proportion of variance explained by the model": "Correct! The R-squared value represents the proportion of variance explained by the model.",
+      "The correlation between the independent variables": "Incorrect. The R-squared value represents the proportion of variance explained by the model."
+    }
+  },
+  {
+    "question": "Which of the following is a property of a positive definite matrix?",
+    "options": [
+      "All eigenvalues are negative",
+      "The trace is negative",
+      "The determinant is zero",
+      "All eigenvalues are positive"
+    ],
+    "answer": "All eigenvalues are positive",
+    "feedback": {
+      "All eigenvalues are negative": "Incorrect. A positive definite matrix has all positive eigenvalues.",
+      "The trace is negative": "Incorrect. The trace of a positive definite matrix is positive.",
+      "The determinant is zero": "Incorrect. A positive definite matrix has a positive determinant.",
+      "All eigenvalues are positive": "Correct! A positive definite matrix has all positive eigenvalues."
+    }
+  },
+  {
+    "question": "In probability, what is the complement of an event \\(A\\)?",
+    "options": [
+      "The probability of A occurring",
+      "The union of A with another event",
+      "The probability of A not occurring",
+      "The intersection of A with another event"
+    ],
+    "answer": "The probability of A not occurring",
+    "feedback": {
+      "The probability of A occurring": "Incorrect. The complement of an event is the probability of it not occurring.",
+      "The union of A with another event": "Incorrect. The complement of an event is the probability of it not occurring.",
+      "The probability of A not occurring": "Correct! The complement of an event is the probability of it not occurring.",
+      "The intersection of A with another event": "Incorrect. The complement of an event is the probability of it not occurring."
+    }
+  },
+  {
+    "question": "What does a p-value represent in hypothesis testing?",
+    "options": [
+      "The probability of the null hypothesis being true",
+      "The probability of obtaining a result at least as extreme as the one observed, assuming the null hypothesis is true",
+      "The probability of the alternative hypothesis being true",
+      "The probability of making a Type I error"
+    ],
+    "answer": "The probability of obtaining a result at least as extreme as the one observed, assuming the null hypothesis is true",
+    "feedback": {
+      "The probability of the null hypothesis being true": "Incorrect. The p-value does not represent the probability of the null hypothesis being true.",
+      "The probability of obtaining a result at least as extreme as the one observed, assuming the null hypothesis is true": "Correct! The p-value represents the probability of obtaining a result at least as extreme as the one observed, assuming the null hypothesis is true.",
+      "The probability of the alternative hypothesis being true": "Incorrect. The p-value does not represent the probability of the alternative hypothesis being true.",
+      "The probability of making a Type I error": "Incorrect. The p-value does not represent the probability of making a Type I error."
+    }
+  },
+  {
+    "question": "What is the purpose of a confidence interval?",
+    "options": [
+      "To provide a range of values within which the true population parameter is expected to fall",
+      "To test the significance of a hypothesis",
+      "To determine the sample size needed for a study",
+      "To calculate the mean of a sample"
+    ],
+    "answer": "To provide a range of values within which the true population parameter is expected to fall",
+    "feedback": {
+      "To provide a range of values within which the true population parameter is expected to fall": "Correct! A confidence interval provides a range of values within which the true population parameter is expected to fall.",
+      "To test the significance of a hypothesis": "Incorrect. A confidence interval does not test the significance of a hypothesis.",
+      "To determine the sample size needed for a study": "Incorrect. A confidence interval does not determine the sample size needed for a study.",
+      "To calculate the mean of a sample": "Incorrect. A confidence interval does not calculate the mean of a sample."
+    }
+  },
+  {
+    "question": "What does the central limit theorem state?",
+    "options": [
+      "The distribution of sample means approaches a normal distribution as the sample size increases",
+      "The distribution of sample means approaches a uniform distribution as the sample size increases",
+      "The distribution of sample means approaches a binomial distribution as the sample size increases",
+      "The distribution of sample means approaches a Poisson distribution as the sample size increases"
+    ],
+    "answer": "The distribution of sample means approaches a normal distribution as the sample size increases",
+    "feedback": {
+      "The distribution of sample means approaches a normal distribution as the sample size increases": "Correct! The central limit theorem states that the distribution of sample means approaches a normal distribution as the sample size increases.",
+      "The distribution of sample means approaches a uniform distribution as the sample size increases": "Incorrect. The central limit theorem states that the distribution of sample means approaches a normal distribution as the sample size increases.",
+      "The distribution of sample means approaches a binomial distribution as the sample size increases": "Incorrect. The central limit theorem states that the distribution of sample means approaches a normal distribution as the sample size increases.",
+      "The distribution of sample means approaches a Poisson distribution as the sample size increases": "Incorrect. The central limit theorem states that the distribution of sample means approaches a normal distribution as the sample size increases."
+    }
+  },
+  {
+    "question": "Which distribution is used to model the number of successes in a fixed number of trials?",
+    "options": [
+      "Uniform distribution",
+      "Normal distribution",
+      "Poisson distribution",
+      "Binomial distribution"
+    ],
+    "answer": "Binomial distribution",
+    "feedback": {
+      "Uniform distribution": "Incorrect. The binomial distribution is used to model the number of successes in a fixed number of trials.",
+      "Normal distribution": "Incorrect. The binomial distribution is used to model the number of successes in a fixed number of trials.",
+      "Poisson distribution": "Incorrect. The binomial distribution is used to model the number of successes in a fixed number of trials.",
+      "Binomial distribution": "Correct! The binomial distribution is used to model the number of successes in a fixed number of trials."
+    }
+  },
+  {
+    "question": "What is the purpose of regression analysis?",
+    "options": [
+      "To establish causality between variables",
+      "To predict the value of a dependent variable based on an independent variable",
+      "To determine the distribution of a sample",
+      "To calculate the mean and standard deviation of a dataset"
+    ],
+    "answer": "To predict the value of a dependent variable based on an independent variable",
+    "feedback": {
+      "To establish causality between variables": "Incorrect. Regression analysis does not establish causality.",
+      "To predict the value of a dependent variable based on an independent variable": "Correct! Regression analysis is used to predict the value of a dependent variable based on an independent variable.",
+      "To determine the distribution of a sample": "Incorrect. Regression analysis is not used to determine the distribution of a sample.",
+      "To calculate the mean and standard deviation of a dataset": "Incorrect. Regression analysis is not used to calculate the mean and standard deviation of a dataset."
+    }
+  },
+  {
+    "question": "What does the law of large numbers state?",
+    "options": [
+      "As the number of trials increases, the experimental probability approaches the theoretical probability",
+      "As the number of trials increases, the variance of the sample decreases",
+      "As the number of trials increases, the sample mean approaches the population mean",
+      "As the number of trials increases, the sample standard deviation approaches the population standard deviation"
+    ],
+    "answer": "As the number of trials increases, the sample mean approaches the population mean",
+    "feedback": {
+      "As the number of trials increases, the experimental probability approaches the theoretical probability": "Incorrect. The law of large numbers states that the sample mean approaches the population mean.",
+      "As the number of trials increases, the variance of the sample decreases": "Incorrect. The law of large numbers states that the sample mean approaches the population mean.",
+      "As the number of trials increases, the sample mean approaches the population mean": "Correct! The law of large numbers states that as the number of trials increases, the sample mean approaches the population mean.",
+      "As the number of trials increases, the sample standard deviation approaches the population standard deviation": "Incorrect. The law of large numbers states that the sample mean approaches the population mean."
+    }
+  },
+  {
+    "question": "What is the gradient descent update rule?",
+    "options": [
+      "It randomly changes parameters to find the best fit",
+      "It keeps the parameters constant throughout the process",
+      "It adjusts the loss function directly",
+      "It iteratively updates the parameters in the direction of the steepest descent of the loss function"
+    ],
+    "answer": "It iteratively updates the parameters in the direction of the steepest descent of the loss function",
+    "feedback": {
+      "It randomly changes parameters to find the best fit": "Incorrect. The gradient descent update rule involves iteratively adjusting parameters.",
+      "It keeps the parameters constant throughout the process": "Incorrect. The gradient descent update rule involves iteratively adjusting parameters.",
+      "It adjusts the loss function directly": "Incorrect. The gradient descent update rule involves iteratively adjusting parameters.",
+      "It iteratively updates the parameters in the direction of the steepest descent of the loss function": "Correct! The gradient descent update rule involves iteratively adjusting parameters in the direction of the steepest descent."
+    }
+  },
+  {
+    "question": "What is the purpose of the Lagrange multiplier method in optimization?",
+    "options": [
+      "To linearize a non-linear problem",
+      "To convert a constrained problem into an unconstrained one",
+      "To find the maximum or minimum of a function subject to constraints",
+      "To reduce the number of variables"
+    ],
+    "answer": "To find the maximum or minimum of a function subject to constraints",
+    "feedback": {
+      "To linearize a non-linear problem": "Incorrect. The Lagrange multiplier method is used to find the maximum or minimum of a function subject to constraints.",
+      "To convert a constrained problem into an unconstrained one": "Incorrect. The Lagrange multiplier method is used to find the maximum or minimum of a function subject to constraints.",
+      "To find the maximum or minimum of a function subject to constraints": "Correct! The Lagrange multiplier method is used to find the maximum or minimum of a function subject to constraints.",
+      "To reduce the number of variables": "Incorrect. The Lagrange multiplier method is used to find the maximum or minimum of a function subject to constraints."
+    }
+  },
+  {
+    "question": "Which of the following is a first-order optimization algorithm?",
+    "options": [
+      "Newton's Method",
+      "Conjugate Gradient Method",
+      "Gradient Descent",
+      "Quasi-Newton Method"
+    ],
+    "answer": "Gradient Descent",
+    "feedback": {
+      "Newton's Method": "Incorrect. Gradient Descent is a first-order optimization algorithm.",
+      "Conjugate Gradient Method": "Incorrect. Gradient Descent is a first-order optimization algorithm.",
+      "Gradient Descent": "Correct! Gradient Descent is a first-order optimization algorithm.",
+      "Quasi-Newton Method": "Incorrect. Gradient Descent is a first-order optimization algorithm."
+    }
+  },
+  {
+    "question": "What does the term 'convergence' mean in the context of optimization algorithms?",
+    "options": [
+      "The algorithm always finds the global minimum",
+      "The algorithm always finds the global maximum",
+      "The algorithm approaches a solution as iterations increase",
+      "The algorithm stops after a fixed number of iterations"
+    ],
+    "answer": "The algorithm approaches a solution as iterations increase",
+    "feedback": {
+      "The algorithm always finds the global minimum": "Incorrect. Convergence means the algorithm approaches a solution as iterations increase.",
+      "The algorithm always finds the global maximum": "Incorrect. Convergence means the algorithm approaches a solution as iterations increase.",
+      "The algorithm approaches a solution as iterations increase": "Correct! Convergence means the algorithm approaches a solution as iterations increase.",
+      "The algorithm stops after a fixed number of iterations": "Incorrect. Convergence means the algorithm approaches a solution as iterations increase."
+    }
+  },
+  {
+    "question": "What is the primary goal when optimizing a loss function?",
+    "options": [
+      "To reach the maximum of the loss function",
+      "To find a balance between bias and variance",
+      "To reach the minimum of the loss function",
+      "To maintain the loss function at a constant value"
+    ],
+    "answer": "To reach the minimum of the loss function",
+    "feedback": {
+      "To reach the maximum of the loss function": "Incorrect. The primary goal is to reach the minimum of the loss function.",
+      "To find a balance between bias and variance": "Incorrect. The primary goal is to reach the minimum of the loss function.",
+      "To reach the minimum of the loss function": "Correct! The primary goal is to reach the minimum of the loss function.",
+      "To maintain the loss function at a constant value": "Incorrect. The primary goal is to reach the minimum of the loss function."
+    }
+  },
+  {
+    "question": "What is the purpose of regularization in machine learning models?",
+    "options": [
+      "To reduce the complexity of the model",
+      "To increase the complexity of the model",
+      "To eliminate the need for cross-validation",
+      "To improve model accuracy by adding noise"
+    ],
+    "answer": "To reduce the complexity of the model",
+    "feedback": {
+      "To reduce the complexity of the model": "Correct! Regularization is used to reduce the complexity of the model and prevent overfitting.",
+      "To increase the complexity of the model": "Incorrect. Regularization reduces the complexity of the model.",
+      "To eliminate the need for cross-validation": "Incorrect. Regularization does not eliminate the need for cross-validation.",
+      "To improve model accuracy by adding noise": "Incorrect. Regularization does not improve model accuracy by adding noise."
+    }
+  },
+  {
+    "question": "What happens if the learning rate is too high in gradient descent?",
+    "options": [
+      "It slows down the convergence",
+      "It makes no difference to the optimization process",
+      "It can cause the algorithm to overshoot the minimum",
+      "It ensures faster convergence to the minimum"
+    ],
+    "answer": "It can cause the algorithm to overshoot the minimum",
+    "feedback": {
+      "It slows down the convergence": "Incorrect. A high learning rate might lead to instability and divergence.",
+      "It makes no difference to the optimization process": "Incorrect. A high learning rate can affect the optimization process.",
+      "It can cause the algorithm to overshoot the minimum": "Correct! A high learning rate might lead to instability and divergence.",
+      "It ensures faster convergence to the minimum": "Incorrect. A high learning rate might lead to instability and divergence."
+    }
+  },
+  {
+    "question": "What does a random approach to optimization result in?",
+    "options": [
+      "Loss consistently decreases",
+      "Loss reaches its global minimum",
+      "Loss does not decrease significantly",
+      "Loss remains constant"
+    ],
+    "answer": "Loss does not decrease significantly",
+    "feedback": {
+      "Loss consistently decreases": "Incorrect. While the loss might remain nearly constant, the key point is that it does not decrease significantly.",
+      "Loss reaches its global minimum": "Incorrect. While the loss might remain nearly constant, the key point is that it does not decrease significantly.",
+      "Loss does not decrease significantly": "Correct! A random approach to optimization does not lead to significant decreases in loss.",
+      "Loss remains constant": "Incorrect. While the loss might remain nearly constant, the key point is that it does not decrease significantly."
+    }
+  },
+  {
+    "question": "How does following the slope help in optimization?",
+    "options": [
+      "It reduces the number of iterations needed",
+      "It ensures the loss function remains unchanged",
+      "It guides towards the direction of steepest descent, leading to faster convergence",
+      "It helps in increasing the learning rate dynamically"
+    ],
+    "answer": "It guides towards the direction of steepest descent, leading to faster convergence",
+    "feedback": {
+      "It reduces the number of iterations needed": "Incorrect. Following the slope helps in finding the direction of steepest descent, not in reducing iterations directly.",
+      "It ensures the loss function remains unchanged": "Incorrect. Following the slope guides towards the direction of steepest descent.",
+      "It guides towards the direction of steepest descent, leading to faster convergence": "Correct! Following the slope helps in finding the direction of steepest descent.",
+      "It helps in increasing the learning rate dynamically": "Incorrect. Following the slope helps in finding the direction of steepest descent."
+    }
+  },
+  {
+    "question": "What is the convergence criterion in gradient descent?",
+    "options": [
+      "When the loss function becomes negative",
+      "When the loss function starts increasing",
+      "When the gradient of the loss function is close to zero",
+      "When the learning rate is adjusted dynamically"
+    ],
+    "answer": "When the gradient of the loss function is close to zero",
+    "feedback": {
+      "When the loss function becomes negative": "Incorrect. The convergence criterion is when the gradient of the loss function is close to zero.",
+      "When the loss function starts increasing": "Incorrect. The convergence criterion is when the gradient of the loss function is close to zero.",
+      "When the gradient of the loss function is close to zero": "Correct! The convergence criterion in gradient descent is when the gradient of the loss function is close to zero.",
+      "When the learning rate is adjusted dynamically": "Incorrect. The convergence criterion is when the gradient of the loss function is close to zero."
+    }
+  }
+]

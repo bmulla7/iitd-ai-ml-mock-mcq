@@ -1,0 +1,178 @@
+[
+    {
+      "question": "What is the value of the determinant of a 2x2 matrix \\( \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix} \\)?",
+      "options": ["ad - bc", "ab + cd", "ac - bd", "a + d"],
+      "answer": "ad - bc",
+      "feedback": {
+        "ad - bc": "Correct! The determinant of a 2x2 matrix is ad - bc.",
+        "ab + cd": "Incorrect. This is not the formula for the determinant.",
+        "ac - bd": "Incorrect. This is not the formula for the determinant.",
+        "a + d": "Incorrect. This is not the formula for the determinant."
+      }
+    },
+    {
+      "question": "If the eigenvalues of a matrix are all positive, what can be said about the matrix?",
+      "options": ["The matrix is positive definite", "The matrix is negative definite", "The matrix is singular", "The matrix is invertible"],
+      "answer": "The matrix is positive definite",
+      "feedback": {
+        "The matrix is positive definite": "Correct! A matrix with all positive eigenvalues is positive definite.",
+        "The matrix is negative definite": "Incorrect. A negative definite matrix has all negative eigenvalues.",
+        "The matrix is singular": "Incorrect. A singular matrix has at least one zero eigenvalue.",
+        "The matrix is invertible": "Partially correct. While a matrix with all positive eigenvalues is indeed invertible, this is not the specific property being asked about."
+      }
+    },
+    {
+      "question": "What does the gradient of a function \\( f \\) represent in optimization?",
+      "options": ["The rate of change in the function's value", "The direction of steepest descent", "The local minima of the function", "The direction of steepest ascent"],
+      "answer": "The direction of steepest descent",
+      "feedback": {
+        "The rate of change in the function's value": "Incorrect. The gradient gives the direction of the steepest ascent, not just the rate of change.",
+        "The direction of steepest descent": "Correct! The gradient points in the direction of the steepest ascent, and the negative gradient points in the direction of the steepest descent.",
+        "The local minima of the function": "Incorrect. The gradient provides information on the slope, not the location of local minima.",
+        "The direction of steepest ascent": "Partially correct. The gradient indeed points in the direction of steepest ascent, but for optimization, we often consider the negative gradient for descent."
+      }
+    },
+    {
+      "question": "In linear regression, what does the R-squared value represent?",
+      "options": ["The slope of the regression line", "The intercept of the regression line", "The proportion of variance explained by the model", "The correlation between the independent variables"],
+      "answer": "The proportion of variance explained by the model",
+      "feedback": {
+        "The slope of the regression line": "Incorrect. The slope represents the change in the dependent variable for a unit change in the independent variable.",
+        "The intercept of the regression line": "Incorrect. The intercept represents the value of the dependent variable when the independent variable is zero.",
+        "The proportion of variance explained by the model": "Correct! The R-squared value indicates the proportion of the variance in the dependent variable that is predictable from the independent variable.",
+        "The correlation between the independent variables": "Incorrect. The R-squared value does not measure the correlation between the independent variables."
+      }
+    },
+    {
+      "question": "What is the expected value of a fair six-sided die?",
+      "options": ["3.5", "2.5", "3", "4"],
+      "answer": "3.5",
+      "feedback": {
+        "3.5": "Correct! The expected value of a fair six-sided die is 3.5.",
+        "2.5": "Incorrect. The expected value of a fair six-sided die is 3.5.",
+        "3": "Incorrect. The expected value of a fair six-sided die is 3.5.",
+        "4": "Incorrect. The expected value of a fair six-sided die is 3.5."
+      }
+    },
+    {
+      "question": "Which distribution is used to model the number of successes in a fixed number of trials?",
+      "options": ["Uniform distribution", "Normal distribution", "Poisson distribution", "Binomial distribution"],
+      "answer": "Binomial distribution",
+      "feedback": {
+        "Uniform distribution": "Incorrect. The uniform distribution is used when all outcomes are equally likely.",
+        "Normal distribution": "Incorrect. The normal distribution is used for continuous data that is symmetrically distributed.",
+        "Poisson distribution": "Incorrect. The Poisson distribution models the number of events in a fixed interval of time or space.",
+        "Binomial distribution": "Correct! The binomial distribution models the number of successes in a fixed number of trials."
+      }
+    },
+    {
+      "question": "What is the purpose of the Lagrange multiplier method in optimization?",
+      "options": ["To linearize a non-linear problem", "To convert a constrained problem into an unconstrained one", "To find the maximum or minimum of a function subject to constraints", "To reduce the number of variables"],
+      "answer": "To find the maximum or minimum of a function subject to constraints",
+      "feedback": {
+        "To linearize a non-linear problem": "Incorrect. The Lagrange multiplier method is used for optimization with constraints, not for linearization.",
+        "To convert a constrained problem into an unconstrained one": "Incorrect. The Lagrange multiplier method deals with constraints directly.",
+        "To find the maximum or minimum of a function subject to constraints": "Correct! The Lagrange multiplier method is used to find the maximum or minimum of a function subject to constraints.",
+        "To reduce the number of variables": "Incorrect. The Lagrange multiplier method does not necessarily reduce the number of variables."
+      }
+    },
+    {
+      "question": "What is the complement of an event \\( A \\) in probability?",
+      "options": ["The probability of \\( A \\) occurring", "The union of \\( A \\) with another event", "The probability of \\( A \\) not occurring", "The intersection of \\( A \\) with another event"],
+      "answer": "The probability of \\( A \\) not occurring",
+      "feedback": {
+        "The probability of \\( A \\) occurring": "Incorrect. The complement of an event is the probability of it not occurring.",
+        "The union of \\( A \\) with another event": "Incorrect. The union of events is not the complement.",
+        "The probability of \\( A \\) not occurring": "Correct! The complement of an event \\( A \\) is the probability of it not occurring.",
+        "The intersection of \\( A \\) with another event": "Incorrect. The intersection of events is not the complement."
+      }
+    },
+    {
+      "question": "What does the gradient of a function \\( f \\) represent in optimization?",
+      "options": ["The rate of change in the function's value", "The direction of steepest descent", "The local minima of the function", "The direction of steepest ascent"],
+      "answer": "The direction of steepest descent",
+      "feedback": {
+        "The rate of change in the function's value": "Incorrect. The gradient gives the direction of the steepest ascent, not just the rate of change.",
+        "The direction of steepest descent": "Correct! The gradient points in the direction of the steepest ascent, and the negative gradient points in the direction of the steepest descent.",
+        "The local minima of the function": "Incorrect. The gradient provides information on the slope, not the location of local minima.",
+        "The direction of steepest ascent": "Partially correct. The gradient indeed points in the direction of steepest ascent, but for optimization, we often consider the negative gradient for descent."
+      }
+    },
+    {
+      "question": "What is the purpose of the Lagrange multiplier method in optimization?",
+      "options": ["To linearize a non-linear problem", "To convert a constrained problem into an unconstrained one", "To find the maximum or minimum of a function subject to constraints", "To reduce the number of variables"],
+      "answer": "To find the maximum or minimum of a function subject to constraints",
+      "feedback": {
+        "To linearize a non-linear problem": "Incorrect. The Lagrange multiplier method is used for optimization with constraints, not for linearization.",
+        "To convert a constrained problem into an unconstrained one": "Incorrect. The Lagrange multiplier method deals with constraints directly.",
+        "To find the maximum or minimum of a function subject to constraints": "Correct! The Lagrange multiplier method is used to find the maximum or minimum of a function subject to constraints.",
+        "To reduce the number of variables": "Incorrect. The Lagrange multiplier method does not necessarily reduce the number of variables."
+      }
+    },
+    {
+      "question": "What is the gradient descent update rule?",
+      "options": ["It adjusts the loss function directly", "It keeps the parameters constant throughout the process", "It iteratively updates the parameters in the direction of the steepest descent of the loss function", "It randomly changes parameters to find the best fit"],
+      "answer": "It iteratively updates the parameters in the direction of the steepest descent of the loss function",
+      "feedback": {
+        "It adjusts the loss function directly": "Incorrect. The gradient descent update rule involves adjusting the parameters, not the loss function.",
+        "It keeps the parameters constant throughout the process": "Incorrect. Gradient descent involves updating the parameters iteratively.",
+        "It iteratively updates the parameters in the direction of the steepest descent of the loss function": "Correct! The gradient descent update rule involves iteratively adjusting parameters in the direction of the steepest descent.",
+        "It randomly changes parameters to find the best fit": "Incorrect. Gradient descent is a systematic approach, not a random one."
+      }
+    },
+    {
+      "question": "How does the learning rate affect gradient descent?",
+      "options": ["It ensures the parameters remain constant", "It controls the number of iterations", "It determines the size of the steps taken towards the minimum", "It adjusts the loss function directly"],
+      "answer": "It determines the size of the steps taken towards the minimum",
+      "feedback": {
+        "It ensures the parameters remain constant": "Incorrect. The learning rate affects the step size, not the parameters directly.",
+        "It controls the number of iterations": "Incorrect. The learning rate influences the step size, which can affect the convergence rate, but does not directly control the number of iterations.",
+        "It determines the size of the steps taken towards the minimum": "Correct! The learning rate determines the size of the steps taken towards the minimum during gradient descent.",
+        "It adjusts the loss function directly": "Incorrect. The learning rate affects the step size, not the loss function directly."
+      }
+    },
+    {
+      "question": "What is the primary use of Hinge Loss?",
+      "options": ["In clustering algorithms", "In regression problems", "In multi-class classification problems", "In Support Vector Machine (SVM) algorithms for binary classification"],
+      "answer": "In Support Vector Machine (SVM) algorithms for binary classification",
+      "feedback": {
+        "In clustering algorithms": "Incorrect. Hinge Loss is not typically used in clustering algorithms.",
+        "In regression problems": "Incorrect. Hinge Loss is used for classification, not regression.",
+        "In multi-class classification problems": "Incorrect. Hinge Loss is primarily used for binary classification.",
+        "In Support Vector Machine (SVM) algorithms for binary classification": "Correct! Hinge Loss is used in SVM algorithms for binary classification."
+      }
+    },
+    {
+      "question": "What happens if the learning rate is too high in gradient descent?",
+      "options": ["It makes no difference to the optimization process", "It can cause the algorithm to overshoot the minimum", "It ensures faster convergence to the minimum", "It slows down the convergence"],
+      "answer": "It can cause the algorithm to overshoot the minimum",
+      "feedback": {
+        "It makes no difference to the optimization process": "Incorrect. The learning rate has a significant impact on the optimization process.",
+        "It can cause the algorithm to overshoot the minimum": "Correct! A high learning rate can cause the algorithm to overshoot the minimum, leading to divergence.",
+        "It ensures faster convergence to the minimum": "Incorrect. A high learning rate can lead to instability and divergence.",
+        "It slows down the convergence": "Incorrect. A high learning rate usually causes instability, not necessarily a slower convergence."
+      }
+    },
+    {
+      "question": "Which of the following is a property of a convex function?",
+      "options": ["It has a global minimum", "It has multiple local minima", "It has a negative curvature", "It is non-differentiable"],
+      "answer": "It has a global minimum",
+      "feedback": {
+        "It has a global minimum": "Correct! A convex function has a global minimum.",
+        "It has multiple local minima": "Incorrect. A convex function has a single global minimum.",
+        "It has a negative curvature": "Incorrect. A convex function has a positive curvature.",
+        "It is non-differentiable": "Incorrect. Convex functions are often differentiable, though some may have points of non-differentiability."
+      }
+    },
+    {
+      "question": "Which algorithm is used for finding the minimum of a function by iteratively moving in the direction of the negative gradient?",
+      "options": ["Newton's Method", "Gradient Descent", "Simulated Annealing", "Genetic Algorithm"],
+      "answer": "Gradient Descent",
+      "feedback": {
+        "Newton's Method": "Incorrect. Newton's Method uses second-order derivatives to find the minimum.",
+        "Gradient Descent": "Correct! Gradient Descent iteratively moves in the direction of the negative gradient to find the minimum.",
+        "Simulated Annealing": "Incorrect. Simulated Annealing uses probabilistic techniques to find the global minimum.",
+        "Genetic Algorithm": "Incorrect. Genetic Algorithms use evolutionary techniques to find the global minimum."
+      }
+    }
+]

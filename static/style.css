@@ -1,0 +1,288 @@
+/* Basic reset and styling */
+body, h1, h2, p, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles for body and container */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+/* Styling for headers */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+/* Styling for form elements */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+label {
+    /* font-weight: bold; */
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Styling for question box */
+.question-box {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+/* Styling for options */
+.option-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.option-label {
+    margin-left: 10px;
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    button {
+        font-size: 0.9em;
+    }
+
+    .question-box {
+        padding: 10px;
+    }
+
+    .option-container {
+        /* flex-direction: column; */
+        /* align-items: flex-start; */
+    }
+
+    .option-label {
+        margin-left: 0;
+        margin-top: 5px;
+    }
+}
+
+
+
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+/* Options */
+.option-container {
+    /* display: flex; */
+    /* align-items: center; */
+    /* margin-bottom: 10px; */
+}
+
+.option-label {
+    margin-left: 8px;
+}
+
+.correct-answer {
+    color: green;
+    margin-left: 10px;
+}
+
+.incorrect-answer {
+    color: red;
+    margin-left: 10px;
+}
+
+/* Result Blocks */
+.result-block.correct {
+    border: 2px solid green;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.result-block.incorrect {
+    border: 2px solid red;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Feedback */
+.feedback {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+/* Button */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Result Page Styles */
+/* Start of Container Styling */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* End of Container Styling */
+
+/* Start of Result Header Styling */
+.result-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.result-header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.result-header p {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+/* End of Result Header Styling */
+
+/* Start of Result Block Styling */
+.result-block {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+.result-block.correct {
+    border-color: #4CAF50;
+}
+.result-block.incorrect {
+    border-color: #f44336;
+}
+.result-block .question {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.result-block .options {
+    margin-bottom: 10px;
+}
+.option-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.option-label {
+    margin-left: 5px;
+}
+.correct-answer {
+    color: #4CAF50;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.incorrect-answer {
+    color: #f44336;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.feedback {
+    font-style: italic;
+    color: #777;
+}
+/* End of Result Block Styling */
+
+/* Start of Button Styling */
+.button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.button:hover {
+    background: #45a049;
+}
+/* End of Button Styling */
