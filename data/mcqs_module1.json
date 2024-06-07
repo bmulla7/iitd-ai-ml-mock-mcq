@@ -32,22 +32,6 @@
       }
   },
   {
-      "question": "Which of the following properties does a positive definite matrix \\( A \\) have?",
-      "options": [
-          "\\( A = A^T \\)",
-          "\\( x^T A x > 0 \\) for all non-zero \\( x \\)",
-          "All eigenvalues are positive",
-          "All eigenvalues are negative"
-      ],
-      "answer": "\\( x^T A x > 0 \\) for all non-zero \\( x \\)",
-      "feedback": {
-          "\\( A = A^T \\)": "Incorrect. This property is for symmetric matrices, but not necessarily positive definite.",
-          "\\( x^T A x > 0 \\) for all non-zero \\( x \\)": "Correct! This is a defining property of positive definite matrices.",
-          "All eigenvalues are positive": "Correct! Positive definite matrices have positive eigenvalues.",
-          "All eigenvalues are negative": "Incorrect. Positive definite matrices have positive eigenvalues."
-      }
-  },
-  {
       "question": "The eigenvalues of a matrix \\( A \\) are found by solving:",
       "options": [
           "\\( \\det(A - \\lambda I) = 0 \\)",
@@ -173,38 +157,6 @@
           "Unsupervised Learning": "Incorrect. Supervised learning involves labeled data, which is appropriate for species identification.",
           "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
           "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "The Kullback-Leibler (KL) divergence measures:",
-      "options": [
-          "The similarity between two distributions",
-          "The distance between two distributions",
-          "The independence of two distributions",
-          "The correlation between two distributions"
-      ],
-      "answer": "The distance between two distributions",
-      "feedback": {
-          "The similarity between two distributions": "Incorrect. KL divergence measures the distance, not the similarity.",
-          "The distance between two distributions": "Correct! KL divergence measures the distance between two distributions.",
-          "The independence of two distributions": "Incorrect. KL divergence is not about independence.",
-          "The correlation between two distributions": "Incorrect. KL divergence is not about correlation."
-      }
-  },
-  {
-      "question": "In linear algebra, what is the inner product of two vectors \\( \\mathbf{x} \\) and \\( \\mathbf{y} \\)?",
-      "options": [
-          "\\( \\mathbf{x} + \\mathbf{y} \\)",
-          "\\( \\mathbf{x} \\cdot \\mathbf{y} \\)",
-          "\\( \\mathbf{x}^T \\mathbf{y} \\)",
-          "\\( \\mathbf{x} \\mathbf{y}^T \\)"
-      ],
-      "answer": "\\( \\mathbf{x}^T \\mathbf{y} \\)",
-      "feedback": {
-          "\\( \\mathbf{x} + \\mathbf{y} \\)": "Incorrect. This is vector addition, not the inner product.",
-          "\\( \\mathbf{x} \\cdot \\mathbf{y} \\)": "Incorrect. This is the dot product notation, not the inner product in linear algebra terms.",
-          "\\( \\mathbf{x}^T \\mathbf{y} \\)": "Correct! The inner product is given by \\( \\mathbf{x}^T \\mathbf{y} \\).",
-          "\\( \\mathbf{x} \\mathbf{y}^T \\)": "Incorrect. This is the outer product, not the inner product."
       }
   },
   {
@@ -384,22 +336,6 @@
       }
   },
   {
-      "question": "In the context of linear algebra, the inner product of two vectors \\( \\mathbf{x} \\) and \\( \\mathbf{y} \\) is given by:",
-      "options": [
-          "\\( \\mathbf{x} + \\mathbf{y} \\)",
-          "\\( \\mathbf{x} \\cdot \\mathbf{y} \\)",
-          "\\( \\mathbf{x}^T \\mathbf{y} \\)",
-          "\\( \\mathbf{x} \\mathbf{y}^T \\)"
-      ],
-      "answer": "\\( \\mathbf{x}^T \\mathbf{y} \\)",
-      "feedback": {
-          "\\( \\mathbf{x} + \\mathbf{y} \\)": "Incorrect. This is vector addition, not the inner product.",
-          "\\( \\mathbf{x} \\cdot \\mathbf{y} \\)": "Incorrect. This is the dot product notation but not the inner product in linear algebra terms.",
-          "\\( \\mathbf{x}^T \\mathbf{y} \\)": "Correct! The inner product is given by \\( \\mathbf{x}^T \\mathbf{y} \\).",
-          "\\( \\mathbf{x} \\mathbf{y}^T \\)": "Incorrect. This is the outer product, not the inner product."
-      }
-  },
-  {
       "question": "A function \\( f(x) \\) is convex if:",
       "options": [
           "Its second derivative is positive",
@@ -448,22 +384,6 @@
       }
   },
   {
-      "question": "What are the eigenvectors of a matrix \\(A\\) corresponding to distinct eigenvalues?",
-      "options": [
-          "Orthogonal",
-          "Linearly dependent",
-          "Linearly independent",
-          "Identical"
-      ],
-      "answer": "Orthogonal",
-      "feedback": {
-          "Orthogonal": "Correct! Eigenvectors corresponding to distinct eigenvalues are orthogonal.",
-          "Linearly dependent": "Incorrect. Eigenvectors corresponding to distinct eigenvalues are linearly independent.",
-          "Linearly independent": "Incorrect. While they are linearly independent, the correct term in this context is orthogonal.",
-          "Identical": "Incorrect. Eigenvectors corresponding to distinct eigenvalues are not identical."
-      }
-  },
-  {
       "question": "What is the concept of rank in linear algebra related to?",
       "options": [
           "The number of non-zero rows in row echelon form",
@@ -477,22 +397,6 @@
           "The number of zero rows in row echelon form": "Incorrect. Rank is defined by the number of non-zero rows.",
           "The determinant of the matrix": "Incorrect. The determinant is a scalar value, not related to rank.",
           "The trace of the matrix": "Incorrect. The trace is the sum of the diagonal elements, not the rank."
-      }
-  },
-  {
-      "question": "What is the expected value of a random variable in probability theory?",
-      "options": [
-          "The most likely value of the random variable",
-          "The value the random variable will take in a single trial",
-          "The average value of the random variable over many trials",
-          "The variance of the random variable"
-      ],
-      "answer": "The average value of the random variable over many trials",
-      "feedback": {
-          "The most likely value of the random variable": "Incorrect. The most likely value is the mode.",
-          "The value the random variable will take in a single trial": "Incorrect. The expected value is an average, not a single outcome.",
-          "The average value of the random variable over many trials": "Correct! The expected value is the average value over many trials.",
-          "The variance of the random variable": "Incorrect. The variance measures the spread, not the average."
       }
   },
   {
@@ -592,22 +496,6 @@
       }
   },
   {
-      "question": "What is the Singular Value Decomposition (SVD) of a matrix used for?",
-      "options": [
-          "Solving systems of linear equations",
-          "Performing dimensionality reduction",
-          "Computing the determinant",
-          "Finding the eigenvalues"
-      ],
-      "answer": "Performing dimensionality reduction",
-      "feedback": {
-          "Solving systems of linear equations": "Incorrect. Gaussian elimination or LU decomposition is used to solve systems of linear equations.",
-          "Performing dimensionality reduction": "Correct! SVD is commonly used for dimensionality reduction.",
-          "Computing the determinant": "Incorrect. The determinant is computed using other methods, not SVD.",
-          "Finding the eigenvalues": "Incorrect. Eigenvalue decomposition is used to find eigenvalues."
-      }
-  },
-  {
       "question": "What are the columns and rows of an orthogonal matrix in linear algebra?",
       "options": [
           "Linearly dependent",
@@ -640,22 +528,6 @@
       }
   },
   {
-      "question": "What are the eigenvectors of a matrix \\(A\\) corresponding to distinct eigenvalues?",
-      "options": [
-          "Orthogonal",
-          "Linearly dependent",
-          "Linearly independent",
-          "Identical"
-      ],
-      "answer": "Orthogonal",
-      "feedback": {
-          "Orthogonal": "Correct! Eigenvectors corresponding to distinct eigenvalues are orthogonal.",
-          "Linearly dependent": "Incorrect. Eigenvectors corresponding to distinct eigenvalues are linearly independent.",
-          "Linearly independent": "Correct! They are also orthogonal.",
-          "Identical": "Incorrect. Eigenvectors corresponding to distinct eigenvalues are not identical."
-      }
-  },
-  {
       "question": "What is the concept of rank in linear algebra related to?",
       "options": [
           "The number of non-zero rows in row echelon form",
@@ -669,22 +541,6 @@
           "The number of zero rows in row echelon form": "Incorrect. Rank is defined by the number of non-zero rows.",
           "The determinant of the matrix": "Incorrect. The determinant is a scalar value, not related to rank.",
           "The trace of the matrix": "Incorrect. The trace is the sum of the diagonal elements, not the rank."
-      }
-  },
-  {
-      "question": "What is the expected value of a random variable in probability theory?",
-      "options": [
-          "The most likely value of the random variable",
-          "The value the random variable will take in a single trial",
-          "The average value of the random variable over many trials",
-          "The variance of the random variable"
-      ],
-      "answer": "The average value of the random variable over many trials",
-      "feedback": {
-          "The most likely value of the random variable": "Incorrect. The most likely value is the mode.",
-          "The value the random variable will take in a single trial": "Incorrect. The expected value is an average, not a single outcome.",
-          "The average value of the random variable over many trials": "Correct! The expected value is the average value over many trials.",
-          "The variance of the random variable": "Incorrect. The variance measures the spread, not the average."
       }
   },
   {
@@ -1008,22 +864,6 @@
       }
   },
   {
-      "question": "In linear algebra, how is the inner product of two vectors \\( \\mathbf{x} \\) and \\( \\mathbf{y} \\) given?",
-      "options": [
-          "\\( \\mathbf{x} + \\mathbf{y} \\)",
-          "\\( \\mathbf{x} \\cdot \\mathbf{y} \\)",
-          "\\( \\mathbf{x}^T \\mathbf{y} \\)",
-          "\\( \\mathbf{x} \\mathbf{y}^T \\)"
-      ],
-      "answer": "\\( \\mathbf{x}^T \\mathbf{y} \\)",
-      "feedback": {
-          "\\( \\mathbf{x} + \\mathbf{y} \\)": "Incorrect. This is vector addition, not the inner product.",
-          "\\( \\mathbf{x} \\cdot \\mathbf{y} \\)": "Incorrect. This is the dot product notation but not the inner product in linear algebra terms.",
-          "\\( \\mathbf{x}^T \\mathbf{y} \\)": "Correct! The inner product is given by \\( \\mathbf{x}^T \\mathbf{y} \\).",
-          "\\( \\mathbf{x} \\mathbf{y}^T \\)": "Incorrect. This is the outer product, not the inner product."
-      }
-  },
-  {
       "question": "What does the determinant of a matrix help determine?",
       "options": [
           "If the matrix is orthogonal",
@@ -1168,22 +1008,6 @@
       }
   },
   {
-      "question": "The Kullback-Leibler (KL) divergence measures:",
-      "options": [
-          "The similarity between two distributions",
-          "The distance between two distributions",
-          "The independence of two distributions",
-          "The correlation between two distributions"
-      ],
-      "answer": "The distance between two distributions",
-      "feedback": {
-          "The similarity between two distributions": "Incorrect. KL divergence measures the distance, not the similarity.",
-          "The distance between two distributions": "Correct! KL divergence measures the distance between two distributions.",
-          "The independence of two distributions": "Incorrect. KL divergence is not about independence.",
-          "The correlation between two distributions": "Incorrect. KL divergence is not about correlation."
-      }
-  },
-  {
       "question": "What is the primary use of the Gradient descent optimization algorithm?",
       "options": [
           "To maximize a function",
@@ -1264,22 +1088,6 @@
       }
   },
   {
-      "question": "What does the likelihood function in statistics represent?",
-      "options": [
-          "The probability of the data given the parameters",
-          "The probability of the parameters given the data",
-          "The marginal probability of the data",
-          "The conditional probability of the data given the parameters"
-      ],
-      "answer": "The probability of the data given the parameters",
-      "feedback": {
-          "The probability of the data given the parameters": "Correct! The likelihood function represents the probability of the data given the parameters.",
-          "The probability of the parameters given the data": "Incorrect. This describes the posterior probability.",
-          "The marginal probability of the data": "Incorrect. The likelihood function does not represent the marginal probability.",
-          "The conditional probability of the data given the parameters": "Incorrect. This describes the likelihood, but the more precise answer is the probability of the data given the parameters."
-      }
-  },
-  {
       "question": "What is a characteristic of a positive definite matrix?",
       "options": [
           "All its eigenvalues are positive",
@@ -1344,38 +1152,6 @@
       }
   },
   {
-      "question": "Bayes' Theorem can be used to calculate:",
-      "options": [
-          "Posterior probability",
-          "Prior probability",
-          "Likelihood",
-          "Normalization constant"
-      ],
-      "answer": "Posterior probability",
-      "feedback": {
-          "Posterior probability": "Correct! Bayes' Theorem calculates the posterior probability.",
-          "Prior probability": "Incorrect. Bayes' Theorem uses the prior probability but does not calculate it.",
-          "Likelihood": "Incorrect. Bayes' Theorem uses the likelihood but does not calculate it.",
-          "Normalization constant": "Incorrect. Bayes' Theorem uses the normalization constant but does not calculate it."
-      }
-  },
-  {
-      "question": "Two events \\(A\\) and \\(B\\) are independent if:",
-      "options": [
-          "\\(P(A \\cup B) = P(A) + P(B)\\)",
-          "\\(P(A \\cap B) = P(A)P(B)\\)",
-          "\\(P(A) + P(B) = 1\\)",
-          "\\(P(A|B) = P(A)\\)"
-      ],
-      "answer": "\\(P(A \\cap B) = P(A)P(B)\\)",
-      "feedback": {
-          "\\(P(A \\cup B) = P(A) + P(B)\\)": "This is not the condition for independence.",
-          "\\(P(A \\cap B) = P(A)P(B)\\)": "Correct! This is the condition for independence.",
-          "\\(P(A) + P(B) = 1\\)": "This is not the condition for independence.",
-          "\\(P(A|B) = P(A)\\)": "This condition implies independence but is not the full definition."
-      }
-  },
-  {
       "question": "Covariance measures:",
       "options": [
           "The variance of a single variable",
@@ -1421,22 +1197,6 @@
           "Find the minimum of a function": "Correct! Gradient descent is used to find the minimum of a function.",
           "Calculate the derivative of a function": "Incorrect. Gradient descent uses the derivative but does not calculate it.",
           "Integrate a function": "Incorrect. Gradient descent is not used for integration."
-      }
-  },
-  {
-      "question": "What is the formula for the area of a circle?",
-      "options": [
-          "$\\pi r^2$",
-          "$2\\pi r$",
-          "$\\pi d$",
-          "$d^2$"
-      ],
-      "answer": "$\\pi r^2$",
-      "feedback": {
-          "$\\pi r^2$": "Correct! The area of a circle is $\\pi r^2$.",
-          "$2\\pi r$": "Incorrect. This is the circumference of a circle.",
-          "$\\pi d$": "Incorrect. This is not the formula for the area of a circle.",
-          "$d^2$": "Incorrect. This is not the formula for the area of a circle."
       }
   },
   {
@@ -1520,22 +1280,6 @@
       }
   },
   {
-      "question": "In linear algebra, how is the inner product of two vectors \\( \\mathbf{x} \\) and \\( \\mathbf{y} \\) represented?",
-      "options": [
-          "\\( \\mathbf{x} + \\mathbf{y} \\)",
-          "\\( \\mathbf{x} \\cdot \\mathbf{y} \\)",
-          "\\( \\mathbf{x}^T \\mathbf{y} \\)",
-          "\\( \\mathbf{x} \\mathbf{y}^T \\)"
-      ],
-      "answer": "\\( \\mathbf{x}^T \\mathbf{y} \\)",
-      "feedback": {
-          "\\( \\mathbf{x} + \\mathbf{y} \\)": "Incorrect. This represents vector addition, not the inner product.",
-          "\\( \\mathbf{x} \\cdot \\mathbf{y} \\)": "Incorrect. This is the dot product notation, not the inner product in linear algebra terms.",
-          "\\( \\mathbf{x}^T \\mathbf{y} \\)": "Correct! The inner product is represented by \\( \\mathbf{x}^T \\mathbf{y} \\).",
-          "\\( \\mathbf{x} \\mathbf{y}^T \\)": "Incorrect. This represents the outer product, not the inner product."
-      }
-  },
-  {
       "question": "What conditions must be met for a function \\(f(x)\\) to have a local minimum at \\(x = c\\)?",
       "options": [
           "\\(f'(c) = 0\\) and \\(f''(c) > 0\\)",
@@ -1597,22 +1341,6 @@
           "Has a single global minimum": "Correct! A convex function has a single global minimum.",
           "Is always differentiable": "Incorrect. Convex functions are not necessarily differentiable.",
           "Is always continuous": "Incorrect. Convex functions are not necessarily continuous."
-      }
-  },
-  {
-      "question": "What is the Laplacian matrix of a graph used for?",
-      "options": [
-          "Graph clustering",
-          "Graph coloring",
-          "Graph traversal",
-          "Graph isomorphism"
-      ],
-      "answer": "Graph clustering",
-      "feedback": {
-          "Graph clustering": "Correct! The Laplacian matrix is used in graph clustering.",
-          "Graph coloring": "Incorrect. The Laplacian matrix is not used for graph coloring.",
-          "Graph traversal": "Incorrect. The Laplacian matrix is not used for graph traversal.",
-          "Graph isomorphism": "Incorrect. The Laplacian matrix is not used for graph isomorphism."
       }
   },
   {
@@ -1693,22 +1421,6 @@
           "The total number of columns": "Incorrect. The rank is not just the total number of columns.",
           "The count of linearly independent rows or columns": "Correct! The rank represents the count of linearly independent rows or columns.",
           "The determinant of the matrix": "Incorrect. The determinant is a scalar value that represents certain properties of the matrix, not the rank."
-      }
-  },
-  {
-      "question": "In the context of linear algebra, how is the inner product of two vectors \\( \\mathbf{x} \\) and \\( \\mathbf{y} \\) defined?",
-      "options": [
-          "\\( \\mathbf{x} + \\mathbf{y} \\)",
-          "\\( \\mathbf{x} \\cdot \\mathbf{y} \\)",
-          "\\( \\mathbf{x}^T \\mathbf{y} \\)",
-          "\\( \\mathbf{x} \\mathbf{y}^T \\)"
-      ],
-      "answer": "\\( \\mathbf{x}^T \\mathbf{y} \\)",
-      "feedback": {
-          "\\( \\mathbf{x} + \\mathbf{y} \\)": "Incorrect. This represents vector addition, not the inner product.",
-          "\\( \\mathbf{x} \\cdot \\mathbf{y} \\)": "Incorrect. This is the dot product notation, not the inner product in terms of linear algebra.",
-          "\\( \\mathbf{x}^T \\mathbf{y} \\)": "Correct! The inner product is defined as \\( \\mathbf{x}^T \\mathbf{y} \\).",
-          "\\( \\mathbf{x} \\mathbf{y}^T \\)": "Incorrect. This represents the outer product, not the inner product."
       }
   },
   {
@@ -1856,38 +1568,6 @@
       }
   },
   {
-      "question": "What is the main purpose of the Lagrange multiplier method in optimization?",
-      "options": [
-          "To linearize a non-linear problem",
-          "To convert a constrained problem into an unconstrained one",
-          "To find the maximum or minimum of a function subject to constraints",
-          "To reduce the number of variables"
-      ],
-      "answer": "To find the maximum or minimum of a function subject to constraints",
-      "feedback": {
-          "To linearize a non-linear problem": "Incorrect. The Lagrange multiplier method is not primarily used for linearizing non-linear problems.",
-          "To convert a constrained problem into an unconstrained one": "Incorrect. While it transforms the problem, it is not the main purpose.",
-          "To find the maximum or minimum of a function subject to constraints": "Correct! The Lagrange multiplier method is used to optimize a function subject to constraints.",
-          "To reduce the number of variables": "Incorrect. The method does not aim to reduce the number of variables."
-      }
-  },
-  {
-      "question": "What does the gradient of a function \\( f \\) indicate in optimization?",
-      "options": [
-          "The direction of steepest descent",
-          "The rate of change in the function's value",
-          "The local minima of the function",
-          "The direction of steepest ascent"
-      ],
-      "answer": "The direction of steepest ascent",
-      "feedback": {
-          "The direction of steepest descent": "Incorrect. The negative gradient represents the direction of steepest descent.",
-          "The rate of change in the function's value": "Incorrect. While related, the gradient specifically indicates direction.",
-          "The local minima of the function": "Incorrect. The gradient is a vector, not a specific point.",
-          "The direction of steepest ascent": "Correct! The gradient indicates the direction of steepest ascent of the function."
-      }
-  },
-  {
       "question": "How is the determinant of a 2x2 matrix \\( \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix} \\) calculated?",
       "options": [
           "ad - bc",
@@ -1968,22 +1648,6 @@
       }
   },
   {
-      "question": "What does a p-value indicate in hypothesis testing?",
-      "options": [
-          "The probability of rejecting the null hypothesis",
-          "The probability of observing the data given that the null hypothesis is true",
-          "The probability that the null hypothesis is true",
-          "The probability that the alternative hypothesis is true"
-      ],
-      "answer": "The probability of observing the data given that the null hypothesis is true",
-      "feedback": {
-          "The probability of rejecting the null hypothesis": "Incorrect. The p-value does not directly tell you this probability.",
-          "The probability of observing the data given that the null hypothesis is true": "Correct! The p-value is the probability of observing the data, or something more extreme, given that the null hypothesis is true.",
-          "The probability that the null hypothesis is true": "Incorrect. The p-value does not give this probability.",
-          "The probability that the alternative hypothesis is true": "Incorrect. The p-value does not give this probability."
-      }
-  },
-  {
       "question": "What is the mean of a standard normal distribution?",
       "options": [
           "0",
@@ -1997,22 +1661,6 @@
           "1": "Incorrect. The mean of a standard normal distribution is not 1, it's 0.",
           "2": "Incorrect. The mean of a standard normal distribution is not 2, it's 0.",
           "3": "Incorrect. The mean of a standard normal distribution is not 3, it's 0."
-      }
-  },
-  {
-      "question": "Which of the following is not a measure of central tendency?",
-      "options": [
-          "Mean",
-          "Median",
-          "Mode",
-          "Range"
-      ],
-      "answer": "Range",
-      "feedback": {
-          "Mean": "Incorrect. The mean is a measure of central tendency.",
-          "Median": "Incorrect. The median is a measure of central tendency.",
-          "Mode": "Incorrect. The mode is a measure of central tendency.",
-          "Range": "Correct! The range is a measure of dispersion, not central tendency."
       }
   },
   {
@@ -2096,22 +1744,6 @@
       }
   },
   {
-      "question": "What is the purpose of the Lagrange multiplier method in optimization?",
-      "options": [
-          "To linearize a non-linear problem",
-          "To convert a constrained problem into an unconstrained one",
-          "To find the maximum or minimum of a function subject to constraints",
-          "To reduce the number of variables"
-      ],
-      "answer": "To find the maximum or minimum of a function subject to constraints",
-      "feedback": {
-          "To linearize a non-linear problem": "Incorrect. The Lagrange multiplier method is not primarily used for linearizing non-linear problems.",
-          "To convert a constrained problem into an unconstrained one": "Incorrect. The main purpose of the Lagrange multiplier method is not to convert a constrained problem into an unconstrained one.",
-          "To find the maximum or minimum of a function subject to constraints": "Correct! The Lagrange multiplier method is used to optimize a function subject to constraints.",
-          "To reduce the number of variables": "Incorrect. The method does not aim to reduce the number of variables."
-      }
-  },
-  {
       "question": "What is the KKT condition used for?",
       "options": [
           "To determine the local minimum of a function",
@@ -2125,22 +1757,6 @@
           "To convert a non-linear problem to a linear one": "Incorrect. KKT conditions do not convert problems.",
           "To test the optimality in constrained optimization": "Correct! KKT conditions are used to test optimality in constrained optimization.",
           "To solve linear programming problems": "Incorrect. KKT conditions are specific to non-linear constrained optimization."
-      }
-  },
-  {
-      "question": "Which of the following matrices is orthogonal?",
-      "options": [
-          "\\( \\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\end{bmatrix} \\)",
-          "\\( \\begin{bmatrix} 0 & 1 \\\\ -1 & 0 \\end{bmatrix} \\)",
-          "\\( \\begin{bmatrix} 1 & 1 \\\\ 1 & 1 \\end{bmatrix} \\)",
-          "\\( \\begin{bmatrix} 2 & 0 \\\\ 0 & 2 \\end{bmatrix} \\)"
-      ],
-      "answer": "\\( \\begin{bmatrix} 0 & 1 \\\\ -1 & 0 \\end{bmatrix} \\)",
-      "feedback": {
-          "\\( \\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\end{bmatrix} \\)": "Incorrect. This is an identity matrix.",
-          "\\( \\begin{bmatrix} 0 & 1 \\\\ -1 & 0 \\end{bmatrix} \\)": "Correct! This matrix is orthogonal because its rows and columns are orthonormal vectors.",
-          "\\( \\begin{bmatrix} 1 & 1 \\\\ 1 & 1 \\end{bmatrix} \\)": "Incorrect. This matrix is not orthogonal.",
-          "\\( \\begin{bmatrix} 2 & 0 \\\\ 0 & 2 \\end{bmatrix} \\)": "Incorrect. This is a scalar multiple of the identity matrix but not orthogonal."
       }
   },
   {
@@ -2480,22 +2096,6 @@
       }
   },
   {
-      "question": "In hypothesis testing, what does a p-value indicate?",
-      "options": [
-          "The probability of rejecting the null hypothesis",
-          "The probability of observing the data given that the null hypothesis is true",
-          "The probability that the null hypothesis is true",
-          "The probability that the alternative hypothesis is true"
-      ],
-      "answer": "The probability of observing the data given that the null hypothesis is true",
-      "feedback": {
-          "The probability of rejecting the null hypothesis": "Incorrect. The p-value does not directly indicate this probability.",
-          "The probability of observing the data given that the null hypothesis is true": "Correct! The p-value is the probability of observing the data, or something more extreme, given that the null hypothesis is true.",
-          "The probability that the null hypothesis is true": "Incorrect. The p-value does not indicate this probability.",
-          "The probability that the alternative hypothesis is true": "Incorrect. The p-value does not indicate this probability."
-      }
-  },
-  {
       "question": "What is the main purpose of a confidence interval?",
       "options": [
           "To provide a range of values within which the true population parameter is expected to fall",
@@ -2541,22 +2141,6 @@
           "To predict the value of a dependent variable based on an independent variable": "Correct! Regression analysis is used to predict the value of a dependent variable based on an independent variable.",
           "To determine the distribution of a sample": "Incorrect. Regression analysis is not used to determine the distribution of a sample.",
           "To calculate the mean and standard deviation of a dataset": "Incorrect. Regression analysis is not used to calculate the mean and standard deviation of a dataset."
-      }
-  },
-  {
-      "question": "What does the Law of Large Numbers state?",
-      "options": [
-          "As the number of trials increases, the experimental probability approaches the theoretical probability",
-          "As the number of trials increases, the variance of the sample decreases",
-          "As the number of trials increases, the sample mean approaches the population mean",
-          "As the number of trials increases, the sample standard deviation approaches the population standard deviation"
-      ],
-      "answer": "As the number of trials increases, the sample mean approaches the population mean",
-      "feedback": {
-          "As the number of trials increases, the experimental probability approaches the theoretical probability": "Incorrect. The law of large numbers states that the sample mean approaches the population mean.",
-          "As the number of trials increases, the variance of the sample decreases": "Incorrect. The law of large numbers states that the sample mean approaches the population mean.",
-          "As the number of trials increases, the sample mean approaches the population mean": "Correct! The law of large numbers states that as the number of trials increases, the sample mean approaches the population mean.",
-          "As the number of trials increases, the sample standard deviation approaches the population standard deviation": "Incorrect. The law of large numbers states that the sample mean approaches the population mean."
       }
   },
   {
