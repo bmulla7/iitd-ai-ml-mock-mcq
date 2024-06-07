@@ -8,68 +8,105 @@
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <style>
-        .mcq-table {
-            width: 100%;
-            border-collapse: collapse;
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            margin: 0;
+            padding: 0;
         }
-
-        .mcq-table th, .mcq-table td {
-            border: 1px solid #ddd;
-            padding: 8px;
-        }
-
-        .mcq-table th {
-            background-color: #f2f2f2;
-            text-align: left;
-        }
-
         .container {
-            width: 100%;
-            margin: 0 auto;
+            max-width: 900px;
+            margin: 20px auto;
             padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
         }
-
-        @media (max-width: 600px) {
-            .container {
-                padding: 10px;
-            }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .question-block {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #f9f9f9;
+        }
+        .question-block h2 {
+            font-size: 20px;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        .options {
+            margin-bottom: 15px;
+        }
+        .option {
+            margin-bottom: 10px;
+        }
+        .option input[type="radio"] {
+            margin-right: 10px;
+        }
+        .correct-answer {
+            color: green;
+            font-weight: bold;
+        }
+        .feedback {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #e9ecef;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .feedback strong {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .feedback span {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 14px;
+            color: #555;
+        }
+        .feedback .correct {
+            color: green;
+        }
+        .feedback .incorrect {
+            color: red;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>MCQ Quiz Admin</h1>
-        <table class="mcq-table">
-            <thead>
-                <tr>
-                    <th>#</th>
-                    <th>Question</th>
-                    <th>Options</th>
-                    <th>Answer</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for index, mcq in enumerate(mcqs) %}
-                <tr>
-                    <td>{{ index + 1 }}</td>
-                    <td><span class="math">{{ mcq.question }}</span></td>
-                    <td>
-                        <ul>
-                            {% for label, option in mcq.shuffled_options %}
-                            <li>{{ label }}: <span class="math">{{ option }}</span></li>
-                            {% endfor %}
-                        </ul>
-                    </td>
-                    <td>{{ mcq.correct_answer_label }}</td>
-                </tr>
+        {% for question_index, result in enumerate(mcqs) %}
+        <div class="question-block">
+            <h2>{{ loop.index }}. {{ result.question | safe }}</h2>
+            <div class="options">
+                {% for option_index, option in enumerate(result.options) %}
+                <div class="option">
+                    <label>
+                        <input type="radio" name="question{{ question_index }}" id="question{{ question_index }}_option{{ option_index }}" value="{{ option }}" {% if option == result.answer %}checked{% endif %} disabled>
+                        {{ option }}
+                        {% if option == result.answer %}
+                        <span class="correct-answer">(Correct Answer)</span>
+                        {% endif %}
+                    </label>
+                </div>
                 {% endfor %}
-            </tbody>
-        </table>
+            </div>
+            <div class="feedback">
+                <strong>Feedback:</strong>
+                {% for opt, feedback in result.feedback.items() %}
+                <span class="{% if opt == result.answer %}correct{% else %}incorrect{% endif %}"><strong>{{ opt }}:</strong> {{ feedback }}</span>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
     </div>
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            MathJax.typesetPromise();
-        });
+        MathJax.typesetPromise();
     </script>
 </body>
 </html>

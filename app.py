@@ -12,13 +12,14 @@ app.secret_key = 'your_secret_key'  # Set a secret key for session management
 ADMIN_USERNAME = 'admin'
 ADMIN_PASSWORD = 'password'
 
-def load_mcqs(filename='data/mcqs_module1.json'):
+def load_mcqs(module):
+    filename = f'data/mcqs_{module}.json'
     with open(filename, 'r') as file:
         return json.load(file)
 
 def save_mcqs(mcqs, filename):
     with open(filename, 'w') as file:
-        json.dump(mcqs, file)
+        return json.dump(mcqs, file)
 
 def save_attempt(attempt):
     with open('data/attempts.json', 'r+') as file:
@@ -89,28 +90,22 @@ def quiz():
     session['user_email'] = user_email
     session['module'] = module
 
-    # Load MCQs based on selected module
-    if module == 'module1':
-        mcqs = load_mcqs('data/mcqs_module1.json')
-    else:
-        mcqs = load_mcqs('data/mcqs_module2.json')
-
     # Randomize the questions
+    mcqs = load_mcqs(module)
     randomized_mcqs = random.sample(mcqs, len(mcqs))
     for mcq in randomized_mcqs:
         shuffle_options(mcq)
 
-    mcqs_filename = f'.cache/mcqs_{datetime.now().strftime("%Y%m%d%H%M%S")}.json'
+    mcqs_filename = f'.cached/mcqs_{datetime.now().strftime("%Y%m%d%H%M%S")}.json'
     save_mcqs(randomized_mcqs, mcqs_filename)
     session['mcqs_file'] = mcqs_filename  # Store the filename in the session
 
-    return render_template('quiz.html', results=randomized_mcqs, module=module, enumerate=enumerate)
+    return render_template('quiz.html', mcqs=randomized_mcqs, enumerate=enumerate)
 
 @app.route('/submit', methods=['POST'])
 def submit():
     user_name = session.get('user_name')
     user_email = session.get('user_email')
-    module = session.get('module')
     mcqs_filename = session.get('mcqs_file')
 
     if not mcqs_filename or not os.path.exists(mcqs_filename):
@@ -120,6 +115,7 @@ def submit():
     with open(mcqs_filename, 'r') as file:
         randomized_mcqs = json.load(file)
 
+    # Process user answers and calculate the score
     user_answers = [request.form.get(f'answer{i}') for i in range(len(randomized_mcqs))]
     score = 0
     results = []
@@ -127,17 +123,46 @@ def submit():
     for i, mcq in enumerate(randomized_mcqs):
         correct_answer_label = mcq['correct_answer_label']
         user_answer = user_answers[i]
-        user_answer_text = mcq['shuffled_options'][ord(user_answer) - 65][1]  # Get user answer text
+
+        # Check if the user skipped the question
+        if user_answer is None:
+            feedback = mcq.get('feedback', {}).get(mcq['answer'], "No feedback available.")
+            results.append({
+                'question': mcq['question'],
+                'correct_answer': correct_answer_label,
+                'user_answer': None,
+                'shuffled_options': mcq['shuffled_options'],
+                'feedback': feedback,
+                'status': 'skipped'
+            })
+            continue
+
+        # Ensure user_answer is a single character
+        if len(user_answer) == 1:
+            user_answer_text = mcq['shuffled_options'][ord(user_answer) - 65][1]  # Get user answer text
+        else:
+            user_answer_text = "Invalid answer"
+
         feedback = mcq.get('feedback', {}).get(user_answer_text, "No feedback available.")
         if user_answer == correct_answer_label:
             score += 1
-        results.append({
-            'question': mcq['question'],
-            'correct_answer': correct_answer_label,
-            'user_answer': user_answer,
-            'shuffled_options': mcq['shuffled_options'],
-            'feedback': feedback
-        })
+            results.append({
+                'question': mcq['question'],
+                'correct_answer': correct_answer_label,
+                'user_answer': user_answer,
+                'shuffled_options': mcq['shuffled_options'],
+                'feedback': feedback,
+                'status': 'correct'
+            })
+        else:
+            results.append({
+                'question': mcq['question'],
+                'correct_answer': correct_answer_label,
+                'user_answer': user_answer,
+                'shuffled_options': mcq['shuffled_options'],
+                'feedback': feedback,
+                'status': 'incorrect'
+            })
 
     total_questions = len(randomized_mcqs)
     percentage_score = round((score / total_questions) * 100, 2)
@@ -151,8 +176,7 @@ def submit():
         'score': score,
         'total': total_questions,
         'percentage': percentage_score,
-        'date': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
-        'module': module
+        'date': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     }
     save_attempt(attempt)
 
@@ -164,17 +188,20 @@ def submit():
 @app.route('/admin')
 @login_required
 def admin():
-    mcqs = load_mcqs()
+    module = request.args.get('module', 'module1')  # Default to module1 if no module specified
+    mcqs = load_mcqs(module)
     return render_template('admin.html', mcqs=mcqs, enumerate=enumerate)
 
 @app.route('/attempts')
 @login_required
 def attempts():
     attempts = load_attempts()
-    return render_template('attempts.html', attempts=attempts)
+    return render_template('attempts.html', attempts=attempts, enumerate=enumerate)
 
 if __name__ == '__main__':
     # Initialize attempts file if it doesn't exist
+    os.makedirs('.cached', exist_ok=True)
+    os.makedirs('data', exist_ok=True)
     try:
         with open('data/attempts.json', 'x') as file:
             json.dump([], file)

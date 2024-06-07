@@ -6,43 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async
-            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
     <div class="container">
-        <div class="result-header">
-            <h1>MCQ Quiz App Result</h1>
-            <p>Thank you, <strong>{{ name }}</strong> (<a href="mailto:{{ email }}">{{ email }}</a>)!</p>
-            <p><strong>Your score:</strong> {{ score }} out of {{ total }}</p>
-            <p><strong>Percentage score:</strong> {{ percentage }}%</p>
-            <p><strong>Attempt ID:</strong> {{ attempt_id }}</p>
-        </div>
-        
+        <h1>MCQ Quiz App Result</h1>
+        <p>Thank you, {{ name }} ({{ email }})!</p>
+        <p>Your score is: {{ score }} out of {{ total }}</p>
+        <p>Your percentage score is: {{ percentage }}%</p>
+        <p>Your attempt ID is: {{ attempt_id }}</p>
+
         <h2>Review your answers:</h2>
-        <div class="results">
-            {% for question_index, result in enumerate(results) %}
-                <div class="result-block {% if result.user_answer == result.correct_answer %}correct{% else %}incorrect{% endif %}">
-                    <p class="question"><strong>{{ question_index + 1 }}. {{ result.question }}</strong></p>
-                    <div class="options">
-                        {% for option_index, (option_label, option_text) in enumerate(result.shuffled_options) %}
-                            <label class="option-container">
-                                <input type="radio" id="q{{ question_index }}_o{{ option_index }}" name="answer{{ question_index }}" value="{{ option_label }}"
-                                {% if option_label == result.user_answer %}checked{% endif %} disabled>
-                                <span class="option-label">{{ option_text | safe }}</span>
-                                {% if option_label == result.correct_answer %}
-                                    <span class="correct-answer">✔</span>
-                                {% elif option_label == result.user_answer %}
-                                    <span class="incorrect-answer">✘</span>
-                                {% endif %}
-                            </label>
-                        {% endfor %}
-                    </div>
-                    <p class="feedback">{{ result.feedback }}</p>
+        {% for question_index, result in enumerate(results) %}
+        <div class="question-block {% if result.status == 'correct' %}correct{% elif result.status == 'incorrect' %}incorrect{% else %}skipped{% endif %}">
+            <h3>{{ loop.index }}. {{ result.question | safe }}</h3>
+            <div class="options">
+                {% for option_label, option_text in result.shuffled_options %}
+                <div class="option">
+                    <label>
+                        <input type="radio" name="question{{ question_index }}" value="{{ option_label }}" {% if option_label == result.user_answer %}checked{% endif %} disabled>
+                        {{ option_label }}. {{ option_text }}
+                        {% if option_label == result.correct_answer %}
+                        <span class="correct-answer">(Correct Answer)</span>
+                        {% endif %}
+                    </label>
                 </div>
-            {% endfor %}
+                {% endfor %}
+            </div>
+            <div class="feedback">
+                <strong>Feedback:</strong>
+                {% if result.status == 'skipped' %}
+                    Skipped: {{ result.feedback | replace('Correct! ', '') }}
+                {% else %}
+                    {{ result.feedback }}
+                {% endif %}
+            </div>
         </div>
-        <a href="{{ url_for('start') }}" class="button">Try again</a>
+        {% endfor %}
+
+        <a href="{{ url_for('start') }}" class="btn">Retry</a>
     </div>
+    <script>
+        MathJax.typesetPromise();
+    </script>
 </body>
 </html>

@@ -2,31 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Welcome to the MCQ Quiz App</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MCQ Quiz App</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
     <div class="container">
         <h1>Welcome to the MCQ Quiz App</h1>
-        <form action="{{ url_for('quiz') }}" method="POST">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">Email:</label>
-            <input type="text" id="email" name="email" required>
-
-            <label for="module">Select Module:</label>
-            <select id="module" name="module">
-                <option value="module1">Module 1</option>
-                <option value="module2">Module 2</option>
-            </select>
-
+        <form action="{{ url_for('quiz') }}" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" value="{{ session.get('user_name', '') }}" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" value="{{ session.get('user_email', '') }}" required>
+            </div>
+            <div class="form-group">
+                <label for="module">Select Module:</label>
+                <select id="module" name="module" required>
+                    <option value="module1" {% if session.get('selected_module') == 'module1' %}selected{% endif %}>Module 1</option>
+                    <option value="module2" {% if session.get('selected_module') == 'module2' %}selected{% endif %}>Module 2</option>
+                </select>
+            </div>
             <button type="submit">Start Quiz</button>
         </form>
-        <footer>
-            Developed by Bandu
-        </footer>
     </div>
 </body>
 </html>
