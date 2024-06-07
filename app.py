@@ -92,7 +92,10 @@ def quiz():
 
     # Randomize the questions
     mcqs = load_mcqs(module)
-    randomized_mcqs = random.sample(mcqs, len(mcqs))
+    if len(mcqs) > 40:
+        randomized_mcqs = random.sample(mcqs, 40)
+    else:
+        randomized_mcqs = random.sample(mcqs, len(mcqs))
     for mcq in randomized_mcqs:
         shuffle_options(mcq)
 
@@ -101,7 +104,6 @@ def quiz():
     session['mcqs_file'] = mcqs_filename  # Store the filename in the session
 
     return render_template('quiz.html', mcqs=randomized_mcqs, enumerate=enumerate)
-
 @app.route('/submit', methods=['POST'])
 def submit():
     user_name = session.get('user_name')

@@ -14,7 +14,7 @@
         <form action="{{ url_for('submit') }}" method="POST">
             {% for question_index, mcq in enumerate(mcqs) %}
             <div class="question-block">
-                <p><strong>{{ loop.index + 1 }}. {{ mcq.question | safe }}</strong></p>
+                <p><strong>{{ loop.index }}. {{ mcq.question | safe }}</strong></p>
                 <div class="options">
                     {% for option_label, option_text in mcq.shuffled_options %}
                     <div class="option-container">
