@@ -1,21 +1,5 @@
 [
   {
-      "question": "If \\( A \\) is an \\( n \\times n \\) matrix, which of the following is true about its determinant \\( \\det(A) \\)?",
-      "options": [
-          "It is always non-negative",
-          "It is always positive",
-          "It can be zero",
-          "It can be negative"
-      ],
-      "answer": "It can be zero",
-      "feedback": {
-          "It is always non-negative": "Incorrect. The determinant can be negative.",
-          "It is always positive": "Incorrect. The determinant can be zero or negative.",
-          "It can be zero": "Correct! The determinant of a matrix can be zero.",
-          "It can be negative": "Correct! The determinant of a matrix can be negative."
-      }
-  },
-  {
       "question": "For a matrix \\( A \\), the rank is defined as:",
       "options": [
           "The number of rows",
