@@ -416,374 +416,6 @@
       }
   },
   {
-      "question": "A bank wants to develop a model to detect fraudulent credit card transactions based on the transaction history. Which machine learning paradigm is suitable for this task?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Supervised Learning",
-      "feedback": {
-          "Supervised Learning": "Correct! Supervised learning is used for detecting fraudulent transactions based on labeled transaction history.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is used for tasks like clustering and association, not for fraud detection.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties, not suitable for fraud detection.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself, not suitable for fraud detection."
-      }
-  },
-  {
-      "question": "A marketing team wants to segment their customers into different groups based on their buying behavior to tailor marketing strategies. Which machine learning method should they use?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Unsupervised Learning",
-      "feedback": {
-          "Supervised Learning": "Incorrect. Supervised learning involves labeled data, not suitable for customer segmentation.",
-          "Unsupervised Learning": "Correct! Unsupervised learning is used for customer segmentation based on buying behavior.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties, not suitable for customer segmentation.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself, not suitable for customer segmentation."
-      }
-  },
-  {
-      "question": "A healthcare provider wants to predict patient readmission rates based on patient health records and treatment history. Which machine learning paradigm is appropriate for this task?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Supervised Learning",
-      "feedback": {
-          "Supervised Learning": "Correct! Supervised learning is used for predicting patient readmission rates based on health records and treatment history.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is used for tasks like clustering and association, not for predicting readmission rates.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties, not suitable for predicting readmission rates.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself, not suitable for predicting readmission rates."
-      }
-  },
-  {
-      "question": "An online retailer wants to recommend products to customers based on their previous purchases and browsing history. Which machine learning paradigm is suitable for this task?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Supervised Learning",
-      "feedback": {
-          "Supervised Learning": "Correct! Supervised learning is used for recommending products based on previous purchases and browsing history.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is used for tasks like clustering and association, not for product recommendation.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties, not suitable for product recommendation.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself, not suitable for product recommendation."
-      }
-  },
-  {
-      "question": "A logistics company wants to optimize delivery routes to minimize fuel consumption and delivery time. Which optimization technique should they use?",
-      "options": [
-          "Gradient Descent",
-          "Linear Programming",
-          "K-Means Clustering",
-          "Principal Component Analysis"
-      ],
-      "answer": "Linear Programming",
-      "feedback": {
-          "Gradient Descent": "Incorrect. Gradient descent is used for optimizing differentiable functions, not for route optimization.",
-          "Linear Programming": "Correct! Linear programming is used to optimize delivery routes to minimize fuel consumption and delivery time.",
-          "K-Means Clustering": "Incorrect. K-Means is used for clustering, not for route optimization.",
-          "Principal Component Analysis": "Incorrect. PCA is used for dimensionality reduction, not for route optimization."
-      }
-  },
-  {
-      "question": "Which machine learning paradigm is suitable for predicting player performance based on historical data and various performance metrics?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Supervised Learning",
-      "feedback": {
-          "Supervised Learning": "Correct! Supervised learning is used for predicting player performance based on historical data and performance metrics.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is used for tasks like clustering and association.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "Which machine learning method should a real estate company use to cluster properties based on their features (e.g., location, price, size) to better understand the market?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Unsupervised Learning",
-      "feedback": {
-          "Supervised Learning": "Incorrect. Supervised learning involves labeled data.",
-          "Unsupervised Learning": "Correct! Unsupervised learning is used for clustering properties based on features.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "Which machine learning paradigm is suitable for predicting customer creditworthiness based on their financial history and transaction data?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Supervised Learning",
-      "feedback": {
-          "Supervised Learning": "Correct! Supervised learning is used for predicting customer creditworthiness based on financial history and transaction data.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is used for tasks like clustering and association.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "Which machine learning paradigm is suitable for a language translation application that translates text from one language to another based on a large dataset of paired sentences?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Supervised Learning",
-      "feedback": {
-          "Supervised Learning": "Correct! Supervised learning is used for language translation based on paired sentences.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is used for tasks like clustering and association.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "Which machine learning method should a financial analyst use to identify patterns in stock market data to inform trading strategies?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Unsupervised Learning",
-      "feedback": {
-          "Supervised Learning": "Incorrect. Supervised learning involves labeled data.",
-          "Unsupervised Learning": "Correct! Unsupervised learning is used for identifying patterns in stock market data.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "Which machine learning paradigm is suitable for predicting the arrival times of vehicles based on historical GPS data?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Supervised Learning",
-      "feedback": {
-          "Supervised Learning": "Correct! Supervised learning is used for predicting vehicle arrival times based on historical GPS data.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is used for tasks like clustering and association.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "Which machine learning paradigm is suitable for a recommendation system that suggests new movies to users based on their viewing history and ratings?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Supervised Learning",
-      "feedback": {
-          "Supervised Learning": "Correct! Supervised learning is used for recommending movies based on viewing history and ratings.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is used for tasks like clustering and association.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "Which machine learning method should a researcher use to identify different species of plants in a forest using drone images?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Supervised Learning",
-      "feedback": {
-          "Supervised Learning": "Correct! Supervised learning is used for identifying different species based on features in drone images.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is used for tasks like clustering and association.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "Which machine learning paradigm is suitable for training a customer support chatbot to understand and respond to customer queries based on historical conversation data?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Supervised Learning",
-      "feedback": {
-          "Supervised Learning": "Correct! Supervised learning is used for training a chatbot to understand and respond to customer queries.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is used for tasks like clustering and association.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "Which machine learning paradigm is suitable for a company that wants to develop a personalized email marketing campaign based on customer purchase history and preferences?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Supervised Learning",
-      "feedback": {
-          "Supervised Learning": "Correct! Supervised learning is used for developing personalized email marketing campaigns based on purchase history and preferences.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is used for tasks like clustering and association.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "Which machine learning paradigm is suitable for a researcher who wants to predict the spread of a disease based on various factors like population density, vaccination rates, and travel patterns?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Supervised Learning",
-      "feedback": {
-          "Supervised Learning": "Correct! Supervised learning is used for predicting the spread of a disease based on various factors.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is used for tasks like clustering and association.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "Which machine learning paradigm is suitable for a self-driving car that uses a model to navigate and make driving decisions based on sensor data?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Reinforcement Learning",
-      "feedback": {
-          "Supervised Learning": "Incorrect. Supervised learning involves labeled data.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is used for tasks like clustering and association.",
-          "Reinforcement Learning": "Correct! Reinforcement learning is used for navigating and making driving decisions based on sensor data.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "Which machine learning method should a financial institution use to cluster its customers based on their transaction behaviors to identify potential investment opportunities?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Unsupervised Learning",
-      "feedback": {
-          "Supervised Learning": "Incorrect. Supervised learning involves labeled data.",
-          "Unsupervised Learning": "Correct! Unsupervised learning is used for clustering customers based on transaction behaviors.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "Which machine learning technique should a company use to reduce the dimensionality of a large dataset for 2D visualization?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Principal Component Analysis",
-          "Linear Regression"
-      ],
-      "answer": "Principal Component Analysis",
-      "feedback": {
-          "Supervised Learning": "Incorrect. Supervised learning involves labeled data.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is not a specific technique for dimensionality reduction.",
-          "Principal Component Analysis": "Correct! PCA is used for dimensionality reduction.",
-          "Linear Regression": "Incorrect. Linear regression is used for prediction, not dimensionality reduction."
-      }
-  },
-  {
-      "question": "Which machine learning method should a company use to group similar feedback comments in customer feedback analysis?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Unsupervised Learning",
-      "feedback": {
-          "Supervised Learning": "Incorrect. Supervised learning involves labeled data.",
-          "Unsupervised Learning": "Correct! Unsupervised learning is used for grouping similar feedback comments.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "Which machine learning paradigm should an e-commerce platform use to personalize the shopping experience by recommending products likely to be purchased by each user?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Supervised Learning",
-      "feedback": {
-          "Supervised Learning": "Correct! Supervised learning is used for recommending products based on user behavior.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is used for tasks like clustering and association.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "Which machine learning paradigm should a social media platform use to detect and remove inappropriate content based on user reports and content characteristics?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Supervised Learning",
-      "feedback": {
-          "Supervised Learning": "Correct! Supervised learning is used for detecting and removing inappropriate content based on user reports and content characteristics.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is used for tasks like clustering and association.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "Which machine learning paradigm should be used in an anomaly detection system to identify unusual patterns in network traffic data that may indicate a security breach?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Unsupervised Learning",
-      "feedback": {
-          "Supervised Learning": "Incorrect. Supervised learning involves labeled data.",
-          "Unsupervised Learning": "Correct! Unsupervised learning is used for identifying unusual patterns in network traffic data.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
       "question": "What information do the eigenvalues of a matrix provide?",
       "options": [
           "Diagonal elements",
@@ -912,502 +544,6 @@
       }
   },
   {
-      "question": "Which machine learning paradigm is suitable for a bank to develop a model to detect fraudulent credit card transactions based on the transaction history?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Supervised Learning",
-      "feedback": {
-          "Supervised Learning": "Correct! Supervised learning is used for detecting fraudulent transactions based on labeled transaction history.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is used for tasks like clustering and association.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "Which machine learning method should a marketing team use to segment their customers into different groups based on their buying behavior to tailor marketing strategies?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Unsupervised Learning",
-      "feedback": {
-          "Supervised Learning": "Incorrect. Supervised learning involves labeled data.",
-          "Unsupervised Learning": "Correct! Unsupervised learning is used for customer segmentation based on buying behavior.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "Which machine learning paradigm is appropriate for a healthcare provider to predict patient readmission rates based on patient health records and treatment history?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Supervised Learning",
-      "feedback": {
-          "Supervised Learning": "Correct! Supervised learning is used for predicting patient readmission rates based on health records and treatment history.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is used for tasks like clustering and association.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "Which machine learning paradigm is suitable for an online retailer to recommend products to customers based on their previous purchases and browsing history?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Supervised Learning",
-      "feedback": {
-          "Supervised Learning": "Correct! Supervised learning is used for recommending products based on previous purchases and browsing history.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is used for tasks like clustering and association.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "Which optimization technique should a logistics company use to optimize delivery routes to minimize fuel consumption and delivery time?",
-      "options": [
-          "Gradient Descent",
-          "Linear Programming",
-          "K-Means Clustering",
-          "Principal Component Analysis"
-      ],
-      "answer": "Linear Programming",
-      "feedback": {
-          "Gradient Descent": "Incorrect. Gradient descent is used for optimizing differentiable functions.",
-          "Linear Programming": "Correct! Linear programming is used to optimize delivery routes to minimize fuel consumption and delivery time.",
-          "K-Means Clustering": "Incorrect. K-Means is used for clustering.",
-          "Principal Component Analysis": "Incorrect. PCA is used for dimensionality reduction."
-      }
-  },
-  {
-      "question": "Which machine learning paradigm is suitable for a sports team to predict player performance based on historical data and various performance metrics?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Supervised Learning",
-      "feedback": {
-          "Supervised Learning": "Correct! Supervised learning is used for predicting player performance based on historical data and performance metrics.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is used for tasks like clustering and association.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "Which machine learning method should a real estate company use to cluster properties based on their features (e.g., location, price, size) to better understand the market?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Unsupervised Learning",
-      "feedback": {
-          "Supervised Learning": "Incorrect. Supervised learning involves labeled data.",
-          "Unsupervised Learning": "Correct! Unsupervised learning is used for clustering properties based on features.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "Which machine learning paradigm is suitable for a credit card company to predict customer creditworthiness based on their financial history and transaction data?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Supervised Learning",
-      "feedback": {
-          "Supervised Learning": "Correct! Supervised learning is used for predicting customer creditworthiness based on financial history and transaction data.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is used for tasks like clustering and association.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "Which machine learning paradigm is suitable for a model in a language translation application that translates text from one language to another based on a large dataset of paired sentences?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Supervised Learning",
-      "feedback": {
-          "Supervised Learning": "Correct! Supervised learning is used for language translation based on paired sentences.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is used for tasks like clustering and association.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "Which machine learning method should a financial analyst use to identify patterns in stock market data to inform trading strategies?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Unsupervised Learning",
-      "feedback": {
-          "Supervised Learning": "Incorrect. Supervised learning involves labeled data.",
-          "Unsupervised Learning": "Correct! Unsupervised learning is used for identifying patterns in stock market data.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "For a transportation company predicting vehicle arrival times based on historical GPS data, which machine learning paradigm is suitable?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Supervised Learning",
-      "feedback": {
-          "Supervised Learning": "Correct! Supervised learning is used for predicting vehicle arrival times based on historical GPS data.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is used for tasks like clustering and association.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "For a recommendation system suggesting new movies to users based on their viewing history and ratings, which machine learning paradigm is suitable?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Supervised Learning",
-      "feedback": {
-          "Supervised Learning": "Correct! Supervised learning is used for recommending movies based on viewing history and ratings.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is used for tasks like clustering and association.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "For a researcher identifying different species of plants in a forest using drone images, which machine learning method should they use?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Unsupervised Learning",
-      "feedback": {
-          "Supervised Learning": "Incorrect. Supervised learning involves labeled data.",
-          "Unsupervised Learning": "Correct! Unsupervised learning is used for identifying different species based on features in drone images.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "For a customer support chatbot, a model is trained to understand and respond to customer queries based on historical conversation data. Which machine learning paradigm is suitable?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Supervised Learning",
-      "feedback": {
-          "Supervised Learning": "Correct! Supervised learning is used for training a chatbot to understand and respond to customer queries.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is used for tasks like clustering and association.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "For a company developing a personalized email marketing campaign based on customer purchase history and preferences, which machine learning paradigm is suitable?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Supervised Learning",
-      "feedback": {
-          "Supervised Learning": "Correct! Supervised learning is used for developing personalized email marketing campaigns based on purchase history and preferences.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is used for tasks like clustering and association.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "For a researcher predicting the spread of a disease based on various factors like population density, vaccination rates, and travel patterns, which machine learning paradigm is suitable?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Supervised Learning",
-      "feedback": {
-          "Supervised Learning": "Correct! Supervised learning is used for predicting the spread of a disease based on various factors.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is used for tasks like clustering and association.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "For a self-driving car using a model to navigate and make driving decisions based on sensor data, which machine learning paradigm is suitable?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Reinforcement Learning",
-      "feedback": {
-          "Supervised Learning": "Incorrect. Supervised learning involves labeled data.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is used for tasks like clustering and association.",
-          "Reinforcement Learning": "Correct! Reinforcement learning is used for navigating and making driving decisions based on sensor data.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "For a financial institution clustering its customers based on their transaction behaviors to identify potential investment opportunities, which machine learning method should they use?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Unsupervised Learning",
-      "feedback": {
-          "Supervised Learning": "Incorrect. Supervised learning involves labeled data.",
-          "Unsupervised Learning": "Correct! Unsupervised learning is used for clustering customers based on transaction behaviors.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "For a company reducing the dimensionality of a large dataset to visualize it in 2D space, which machine learning technique should they use?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Principal Component Analysis",
-          "Linear Regression"
-      ],
-      "answer": "Principal Component Analysis",
-      "feedback": {
-          "Supervised Learning": "Incorrect. Supervised learning involves labeled data.",
-          "Unsupervised Learning": "Incorrect. This is not a specific technique for dimensionality reduction.",
-          "Principal Component Analysis": "Correct! PCA is used for dimensionality reduction.",
-          "Linear Regression": "Incorrect. Linear regression is used for prediction, not dimensionality reduction."
-      }
-  },
-  {
-      "question": "For a customer feedback analysis, a company wants to group similar feedback comments to identify common issues. Which machine learning method should they use?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Unsupervised Learning",
-      "feedback": {
-          "Supervised Learning": "Incorrect. Supervised learning involves labeled data.",
-          "Unsupervised Learning": "Correct! Unsupervised learning is used for grouping similar feedback comments.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "For an e-commerce platform aiming to personalize the shopping experience by suggesting likely purchases for each user, which machine learning method should they use?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Supervised Learning",
-      "feedback": {
-          "Supervised Learning": "Correct! Supervised learning is used for recommending products based on user behavior.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is used for tasks like clustering and association.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "For a social media platform aiming to detect and remove inappropriate content based on user reports and content characteristics, which machine learning method should they use?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Supervised Learning",
-      "feedback": {
-          "Supervised Learning": "Correct! Supervised learning is used for detecting and removing inappropriate content based on user reports and content characteristics.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is used for tasks like clustering and association.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "For an anomaly detection system that identifies unusual patterns in network traffic data to indicate a potential security breach, which machine learning method should they use?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Unsupervised Learning",
-      "feedback": {
-          "Supervised Learning": "Incorrect. Supervised learning involves labeled data.",
-          "Unsupervised Learning": "Correct! Unsupervised learning is used for identifying unusual patterns in network traffic data.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "For a company aiming to predict the purchase behavior of customers in a marketing campaign based on their past purchase data, which machine learning method should they use?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Supervised Learning",
-      "feedback": {
-          "Supervised Learning": "Correct! Supervised learning is used for predicting purchase behavior based on past data.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is used for tasks like clustering and association.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "For a company analyzing the spending patterns of its customers to identify different segments within the customer base, which machine learning method should they use?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Unsupervised Learning",
-      "feedback": {
-          "Supervised Learning": "Incorrect. Supervised learning involves labeled data.",
-          "Unsupervised Learning": "Correct! Unsupervised learning is used for tasks like clustering to identify different segments.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning is not used for clustering.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "Which technique can be used to reduce the dimensionality of a dataset while preserving as much variance as possible?",
-      "options": [
-          "Linear Regression",
-          "Principal Component Analysis",
-          "K-Means Clustering",
-          "Logistic Regression"
-      ],
-      "answer": "Principal Component Analysis",
-      "feedback": {
-          "Linear Regression": "Incorrect. Linear regression is used for prediction.",
-          "Principal Component Analysis": "Correct! PCA is used to reduce dimensionality while preserving variance.",
-          "K-Means Clustering": "Incorrect. K-Means is used for clustering.",
-          "Logistic Regression": "Incorrect. Logistic regression is used for classification."
-      }
-  },
-  {
-      "question": "For a clinical trial, researchers want to identify subgroups of patients with similar responses to a new drug. Which machine learning method should they use?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Unsupervised Learning",
-      "feedback": {
-          "Supervised Learning": "Incorrect. Supervised learning involves labeled data.",
-          "Unsupervised Learning": "Correct! Unsupervised learning is used for identifying subgroups or clusters.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning is not used for clustering.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "What matrix decomposition method breaks down a matrix into an orthogonal matrix, a diagonal matrix, and the transpose of a different orthogonal matrix?",
-      "options": [
-          "LU Decomposition",
-          "QR Decomposition",
-          "Eigenvalue Decomposition",
-          "Singular Value Decomposition"
-      ],
-      "answer": "Singular Value Decomposition",
-      "feedback": {
-          "LU Decomposition": "Incorrect. LU decomposition breaks a matrix into a lower triangular matrix and an upper triangular matrix.",
-          "QR Decomposition": "Incorrect. QR decomposition breaks a matrix into an orthogonal matrix and an upper triangular matrix.",
-          "Eigenvalue Decomposition": "Incorrect. Eigenvalue decomposition breaks a matrix into eigenvalues and eigenvectors.",
-          "Singular Value Decomposition": "Correct! SVD breaks a matrix into an orthogonal matrix, a diagonal matrix, and the transpose of another orthogonal matrix."
-      }
-  },
-  {
-      "question": "In a manufacturing process, a company wants to forecast the quality of products based on sensor data collected during production. Which machine learning paradigm is suitable for this task?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Supervised Learning",
-      "feedback": {
-          "Supervised Learning": "Correct! Supervised learning is used for predicting product quality based on sensor data.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is used for tasks like clustering and association.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "A company wants to enhance the performance of its supply chain by reducing transportation costs. What optimization technique should they use?",
-      "options": [
-          "Gradient Descent",
-          "Linear Programming",
-          "K-Means Clustering",
-          "Principal Component Analysis"
-      ],
-      "answer": "Linear Programming",
-      "feedback": {
-          "Gradient Descent": "Incorrect. Gradient descent is used for optimizing differentiable functions.",
-          "Linear Programming": "Correct! Linear programming is used to minimize costs in optimization problems.",
-          "K-Means Clustering": "Incorrect. K-Means is used for clustering.",
-          "Principal Component Analysis": "Incorrect. PCA is used for dimensionality reduction."
-      }
-  },
-  {
-      "question": "In a sports analytics application, a team wants to forecast the future performance of players based on their past performance data. Which machine learning paradigm is suitable for this task?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Supervised Learning",
-      "feedback": {
-          "Supervised Learning": "Correct! Supervised learning is used for predicting future performance based on past data.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is used for tasks like clustering and association.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
       "question": "Which function describes the likelihood of a continuous random variable taking on a range of values?",
       "options": [
           "Probability Mass Function (PMF)",
@@ -1453,262 +589,6 @@
           "Singular values": "Incorrect. Singular values are from SVD.",
           "Characteristic polynomial": "Correct! Eigenvalues are roots of the characteristic polynomial.",
           "Inverse": "Incorrect. The eigenvalues do not directly provide information about the inverse."
-      }
-  },
-  {
-      "question": "In a retail business, a company wants to group customers based on their purchasing behavior to tailor marketing strategies. Which machine learning method is appropriate?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Unsupervised Learning",
-      "feedback": {
-          "Supervised Learning": "Incorrect. Supervised learning involves labeled data.",
-          "Unsupervised Learning": "Correct! Unsupervised learning is for clustering customers based on purchasing behavior.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning is about learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning is about creating labels from the data itself."
-      }
-  },
-  {
-      "question": "A financial institution wants to identify fraudulent transactions in real-time based on transaction patterns. Which machine learning paradigm is most suitable for this task?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Supervised Learning",
-      "feedback": {
-          "Supervised Learning": "Correct! Supervised learning is for identifying fraudulent transactions based on labeled transaction patterns.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is for tasks like clustering and association.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning is about learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning is about creating labels from the data itself."
-      }
-  },
-  {
-      "question": "In a recommendation system, a model suggests products to users based on their past behavior and preferences. Which machine learning paradigm is suitable for this task?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Supervised Learning",
-      "feedback": {
-          "Supervised Learning": "Correct! Supervised learning is for recommendation systems based on past behavior and preferences.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is for tasks like clustering and association.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning is about learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning is about creating labels from the data itself."
-      }
-  },
-  {
-      "question": "Which optimization algorithm is typically used to minimize a loss function in machine learning?",
-      "options": [
-          "Gradient Descent",
-          "K-Means Clustering",
-          "Principal Component Analysis",
-          "Linear Regression"
-      ],
-      "answer": "Gradient Descent",
-      "feedback": {
-          "Gradient Descent": "Correct! Gradient descent is used to minimize loss functions in machine learning.",
-          "K-Means Clustering": "Incorrect. K-Means is for clustering.",
-          "Principal Component Analysis": "Incorrect. PCA is for dimensionality reduction.",
-          "Linear Regression": "Incorrect. Linear regression is for prediction."
-      }
-  },
-  {
-      "question": "The method of maximum likelihood estimation (MLE) involves:",
-      "options": [
-          "Maximizing the posterior distribution",
-          "Maximizing the likelihood function",
-          "Maximizing the prior distribution",
-          "Maximizing the cumulative distribution function (CDF)"
-      ],
-      "answer": "Maximizing the likelihood function",
-      "feedback": {
-          "Maximizing the posterior distribution": "Incorrect. This describes the method of maximum a posteriori (MAP).",
-          "Maximizing the likelihood function": "Correct! MLE involves maximizing the likelihood function.",
-          "Maximizing the prior distribution": "Incorrect. The prior distribution is not maximized in MLE.",
-          "Maximizing the cumulative distribution function (CDF)": "Incorrect. The CDF is not maximized in MLE."
-      }
-  },
-  {
-      "question": "In a weather forecasting system, a model predicts future temperatures based on historical weather data. Which machine learning paradigm is suitable for this task?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Supervised Learning",
-      "feedback": {
-          "Supervised Learning": "Correct! Supervised learning is for predicting future temperatures based on historical data.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is for tasks like clustering and association.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning is about learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning is about creating labels from the data itself."
-      }
-  },
-  {
-      "question": "Which of the following techniques is used to identify the direction and magnitude of the steepest increase or decrease of a function?",
-      "options": [
-          "Gradient Descent",
-          "Newton's Method",
-          "Principal Component Analysis",
-          "Singular Value Decomposition"
-      ],
-      "answer": "Gradient Descent",
-      "feedback": {
-          "Gradient Descent": "Correct! Gradient descent is used to identify the direction and magnitude of the steepest decrease.",
-          "Newton's Method": "Incorrect. Newton's Method is for finding roots of a function.",
-          "Principal Component Analysis": "Incorrect. PCA is for dimensionality reduction.",
-          "Singular Value Decomposition": "Incorrect. SVD is for matrix factorization."
-      }
-  },
-  {
-      "question": "In a financial market, a company uses a model to predict stock prices based on historical data and market indicators. Which machine learning paradigm is suitable for this task?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Supervised Learning",
-      "feedback": {
-          "Supervised Learning": "Correct! Supervised learning is for predicting stock prices based on historical data and market indicators.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is for tasks like clustering and association.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning is about learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning is about creating labels from the data itself."
-      }
-  },
-  {
-      "question": "Identify a supervised learning algorithm from the following options:",
-      "options": [
-          "K-Means Clustering",
-          "Principal Component Analysis",
-          "Linear Regression",
-          "t-SNE"
-      ],
-      "answer": "Linear Regression",
-      "feedback": {
-          "K-Means Clustering": "Incorrect. K-Means Clustering is an unsupervised learning algorithm.",
-          "Principal Component Analysis": "Incorrect. PCA is a dimensionality reduction technique.",
-          "Linear Regression": "Correct! Linear Regression is a supervised learning algorithm.",
-          "t-SNE": "Incorrect. t-SNE is a dimensionality reduction technique."
-      }
-  },
-  {
-      "question": "What is used to measure the goodness of fit of a linear regression model?",
-      "options": [
-          "Mean Squared Error (MSE)",
-          "Silhouette Score",
-          "Adjusted Rand Index",
-          "F1 Score"
-      ],
-      "answer": "Mean Squared Error (MSE)",
-      "feedback": {
-          "Mean Squared Error (MSE)": "Correct! MSE is used to measure the goodness of fit of a linear regression model.",
-          "Silhouette Score": "Incorrect. The silhouette score is used to measure the quality of clustering.",
-          "Adjusted Rand Index": "Incorrect. The adjusted Rand index is used to measure the similarity between two clusterings.",
-          "F1 Score": "Incorrect. The F1 score is used to measure the performance of a classification model."
-      }
-  },
-  {
-      "question": "What does the Kullback-Leibler (KL) divergence measure?",
-      "options": [
-          "The similarity between two distributions",
-          "The distance between two distributions",
-          "The independence of two distributions",
-          "The correlation between two distributions"
-      ],
-      "answer": "The distance between two distributions",
-      "feedback": {
-          "The similarity between two distributions": "Incorrect. KL divergence measures the distance, not the similarity.",
-          "The distance between two distributions": "Correct! KL divergence measures the distance between two distributions.",
-          "The independence of two distributions": "Incorrect. KL divergence is not about independence.",
-          "The correlation between two distributions": "Incorrect. KL divergence is not about correlation."
-      }
-  },
-  {
-      "question": "In a recommendation system, a model suggests products to users based on their past behavior and preferences. What machine learning paradigm is suitable for this task?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Supervised Learning",
-      "feedback": {
-          "Supervised Learning": "Correct! Supervised learning is used for recommendation systems based on past behavior and preferences.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is used for tasks like clustering and association.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "In a spam email detection system, a model classifies incoming emails as spam or not spam based on historical email data. What machine learning paradigm is suitable for this task?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Supervised Learning",
-      "feedback": {
-          "Supervised Learning": "Correct! Supervised learning is used for classifying emails as spam or not spam based on historical data.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is used for tasks like clustering and association.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "What optimization algorithm is used to find the minimum of a convex function?",
-      "options": [
-          "Gradient Descent",
-          "K-Means Clustering",
-          "Principal Component Analysis",
-          "Singular Value Decomposition"
-      ],
-      "answer": "Gradient Descent",
-      "feedback": {
-          "Gradient Descent": "Correct! Gradient descent is used to find the minimum of a convex function.",
-          "K-Means Clustering": "Incorrect. K-Means Clustering is used for clustering.",
-          "Principal Component Analysis": "Incorrect. PCA is used for dimensionality reduction.",
-          "Singular Value Decomposition": "Incorrect. SVD is used for matrix factorization."
-      }
-  },
-  {
-      "question": "In a supply chain management system, a model predicts the demand for products based on historical sales data. What machine learning paradigm is suitable for this task?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Supervised Learning",
-      "feedback": {
-          "Supervised Learning": "Correct! Supervised learning is used for predicting product demand based on historical sales data.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is used for tasks like clustering and association.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning through rewards and penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
-      }
-  },
-  {
-      "question": "Which learning paradigm in machine learning involves an agent learning through interaction with its environment and receiving rewards or penalties?",
-      "options": [
-          "Supervised Learning",
-          "Unsupervised Learning",
-          "Reinforcement Learning",
-          "Self-supervised Learning"
-      ],
-      "answer": "Reinforcement Learning",
-      "feedback": {
-          "Supervised Learning": "Incorrect. Supervised learning involves learning from labeled data.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning involves learning from unlabeled data.",
-          "Reinforcement Learning": "Correct! Reinforcement learning involves learning by interacting with the environment and receiving rewards or penalties.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
       }
   },
   {
@@ -1945,9 +825,9 @@
       ],
       "answer": "RMSprop and Momentum",
       "feedback": {
-          "Momentum and learning rate decay": "ADAM specifically combines RMSprop and Momentum.",
-          "Batch normalization and dropout": "These are techniques to improve training but not part of ADAM.",
-          "Gradient clipping and weight decay": "These are techniques to prevent issues during training but not part of ADAM.",
+          "Momentum and learning rate decay": "Incorrect. ADAM specifically combines RMSprop and Momentum.",
+          "Batch normalization and dropout": "Incorrect. These are techniques to improve training but not part of ADAM.",
+          "Gradient clipping and weight decay": "Incorrect. These are techniques to prevent issues during training but not part of ADAM.",
           "RMSprop and Momentum": "Correct! ADAM combines the ideas of RMSprop and Momentum."
       }
   },
@@ -1957,56 +837,55 @@
           "Its second derivative is positive",
           "Its first derivative is zero",
           "Its second derivative is zero",
-          "It has a global maximum"
+          "It has a global minimum"
       ],
       "answer": "Its second derivative is positive",
       "feedback": {
           "Its second derivative is positive": "Correct! A function is convex if its second derivative is positive.",
           "Its first derivative is zero": "Incorrect. This condition does not define convexity.",
           "Its second derivative is zero": "Incorrect. This condition does not define convexity.",
-          "It has a global maximum": "Incorrect. Convex functions are known for having a global minimum."
+          "It has a global minimum": "Incorrect. Convex functions are known for having a global minimum."
       }
   },
   {
-      "question": "The principal component analysis (PCA) is used to:",
+      "question": "What is the principal component analysis (PCA) primarily used for?",
       "options": [
-          "Classify data",
-          "Reduce the dimensionality of data",
-          "Cluster data",
-          "Perform regression"
+          "Classifying data",
+          "Reducing the dimensionality of data",
+          "Clustering data",
+          "Performing regression"
       ],
-      "answer": "Reduce the dimensionality of data",
+      "answer": "Reducing the dimensionality of data",
       "feedback": {
-          "Classify data": "Incorrect. PCA is not used for classification.",
-          "Reduce the dimensionality of data": "Correct! PCA is used for dimensionality reduction.",
-          "Cluster data": "Incorrect. PCA is not used for clustering.",
-          "Perform regression": "Incorrect. PCA is not used for regression."
+          "Classifying data": "Incorrect. PCA is not primarily used for classification.",
+          "Reducing the dimensionality of data": "Correct! PCA is primarily used for dimensionality reduction.",
+          "Clustering data": "Incorrect. PCA is not primarily used for clustering.",
+          "Performing regression": "Incorrect. PCA is not primarily used for regression."
       }
   },
   {
-      "question": "In linear algebra, the null space of a matrix \\(A\\) is the set of all vectors \\(\\mathbf{x}\\) such that:",
+      "question": "In linear algebra, what does the null space of a matrix \\(A\\) represent?",
       "options": [
-          "\\(A\\mathbf{x} = \\mathbf{0}\\)",
-          "\\(A\\mathbf{x} = \\mathbf{x}\\)",
-          "\\(A\\mathbf{x} = \\lambda \\mathbf{x}\\)",
-          "\\(A\\mathbf{x} = \\mathbf{b}\\)"
+          "The set of all vectors \\(\\mathbf{x}\\) such that \\(A\\mathbf{x} = \\mathbf{0}\\)",
+          "The set of all vectors \\(\\mathbf{x}\\) such that \\(A\\mathbf{x} = \\mathbf{x}\\)",
+          "The set of all vectors \\(\\mathbf{x}\\) such that \\(A\\mathbf{x} = \\lambda \\mathbf{x}\\)",
+          "The set of all vectors \\(\\mathbf{x}\\) such that \\(A\\mathbf{x} = \\mathbf{b}\\)"
       ],
-      "answer": "\\(A\\mathbf{x} = \\mathbf{0}\\)",
+      "answer": "The set of all vectors \\(\\mathbf{x}\\) such that \\(A\\mathbf{x} = \\mathbf{0}\\)",
       "feedback": {
-          "A\\mathbf{x} = \\mathbf{0}": "Correct! The null space is the set of all vectors that are mapped to zero.",
-          "A\\mathbf{x} = \\mathbf{x}": "Incorrect. This describes eigenvectors with eigenvalue 1.",
-          "A\\mathbf{x} = \\lambda \\mathbf{x}": "Incorrect. This describes eigenvectors with eigenvalue \\(\\lambda\\).",
-          "A\\mathbf{x} = \\mathbf{b}": "Incorrect. This describes the solution set of a linear system."
+          "The set of all vectors \\(\\mathbf{x}\\) such that \\(A\\mathbf{x} = \\mathbf{0}\\)": "Correct! The null space is the set of all vectors that are mapped to zero.",
+          "The set of all vectors \\(\\mathbf{x}\\) such that \\(A\\mathbf{x} = \\mathbf{x}\\)": "Incorrect. This describes eigenvectors with eigenvalue 1, not the null space.",
+          "The set of all vectors \\(\\mathbf{x}\\) such that \\(A\\mathbf{x} = \\lambda \\mathbf{x}\\)": "Incorrect. This describes eigenvectors with eigenvalue \\(\\lambda\\), not the null space.",
+          "The set of all vectors \\(\\mathbf{x}\\) such that \\(A\\mathbf{x} = \\mathbf{b}\\)": "Incorrect. This describes the solution set of a linear system, not the null space."
       }
   },
   {
-      "question": "In probability, the law of large numbers states that as the number of trials increases:",
+      "question": "What does the law of large numbers state about the sample mean as the number of trials increases?",
       "options": [
           "The sample mean approaches the population mean",
           "The sample variance approaches the population variance",
           "The probability of each event approaches 0.5",
-          "The sample median approaches the population median",
-          "The use of random data points"
+          "The sample median approaches the population median"
       ],
       "answer": "The sample mean approaches the population mean",
       "feedback": {
@@ -2017,57 +896,55 @@
       }
   },
   {
-      "question": "In probability theory, a random variable is:",
+      "question": "What is a random variable in probability theory?",
       "options": [
           "A deterministic quantity",
           "A function that assigns values to outcomes of a random experiment",
-          "Always discrete",
-          "Always continuous"
+          "A quantity that is always discrete",
+          "A quantity that is always continuous"
       ],
       "answer": "A function that assigns values to outcomes of a random experiment",
       "feedback": {
           "A deterministic quantity": "Incorrect. A random variable is not deterministic.",
           "A function that assigns values to outcomes of a random experiment": "Correct! A random variable assigns values to outcomes of a random experiment.",
-          "Always discrete": "Incorrect. A random variable can be either discrete or continuous.",
-          "Always continuous": "Incorrect. A random variable can be either continuous or discrete."
+          "A quantity that is always discrete": "Incorrect. A random variable can be either discrete or continuous.",
+          "A quantity that is always continuous": "Incorrect. A random variable can be either continuous or discrete."
       }
   },
   {
-      "question": "The cumulative distribution function (CDF) of a random variable \\( X \\) gives:",
+      "question": "What does the cumulative distribution function (CDF) of a random variable \\( X \\) represent?",
       "options": [
           "The probability density at \\( X \\)",
           "The probability that \\( X \\) takes on a specific value",
           "The probability that \\( X \\) is less than or equal to a certain value",
-          "The expected value of \\( X \\)",
-          "Classification tasks"
+          "The expected value of \\( X \\)"
       ],
       "answer": "The probability that \\( X \\) is less than or equal to a certain value",
       "feedback": {
-          "The probability density at \\( X \\)": "Incorrect. The PDF gives the probability density.",
-          "The probability that \\( X \\) takes on a specific value": "Incorrect. The CDF gives the cumulative probability.",
+          "The probability density at \\( X \\)": "Incorrect. The PDF gives the probability density, not the CDF.",
+          "The probability that \\( X \\) takes on a specific value": "Incorrect. The CDF gives the cumulative probability, not the probability of a specific value.",
           "The probability that \\( X \\) is less than or equal to a certain value": "Correct! The CDF gives the probability that \\( X \\) is less than or equal to a certain value.",
           "The expected value of \\( X \\)": "Incorrect. The CDF does not give the expected value."
       }
   },
   {
-      "question": "The Bayes' theorem relates:",
+      "question": "What does the Bayes' theorem relate?",
       "options": [
           "The joint probability and the marginal probability",
           "The prior probability and the posterior probability",
           "The likelihood and the conditional probability",
-          "The mean and the variance",
-          "The transpose of the cofactor matrix"
+          "The mean and the variance"
       ],
       "answer": "The prior probability and the posterior probability",
       "feedback": {
-          "The joint probability and the marginal probability": "Incorrect. Bayes' theorem relates prior and posterior probabilities.",
+          "The joint probability and the marginal probability": "Incorrect. Bayes' theorem relates prior and posterior probabilities, not joint and marginal probabilities.",
           "The prior probability and the posterior probability": "Correct! Bayes' theorem relates the prior probability and the posterior probability.",
-          "The likelihood and the conditional probability": "Incorrect. Bayes' theorem uses likelihood but relates prior and posterior probabilities.",
+          "The likelihood and the conditional probability": "Incorrect. Bayes' theorem uses likelihood but relates prior and posterior probabilities, not likelihood and conditional probability.",
           "The mean and the variance": "Incorrect. Bayes' theorem does not relate mean and variance."
       }
   },
   {
-      "question": "The principal component analysis (PCA) aims to:",
+      "question": "What is the primary aim of the principal component analysis (PCA)?",
       "options": [
           "Maximize the variance of the data",
           "Minimize the variance of the data",
@@ -2077,13 +954,13 @@
       "answer": "Maximize the variance of the data",
       "feedback": {
           "Maximize the variance of the data": "Correct! PCA aims to maximize the variance of the data along the principal components.",
-          "Minimize the variance of the data": "Incorrect. PCA aims to maximize the variance.",
-          "Maximize the correlation between features": "Incorrect. PCA aims to reduce correlation by transforming features.",
-          "Minimize the correlation between features": "Incorrect. PCA reduces correlation but its primary goal is to maximize variance."
+          "Minimize the variance of the data": "Incorrect. PCA aims to maximize the variance, not minimize it.",
+          "Maximize the correlation between features": "Incorrect. PCA aims to reduce correlation by transforming features, not maximize it.",
+          "Minimize the correlation between features": "Incorrect. PCA reduces correlation but its primary goal is not to minimize correlation but to maximize variance."
       }
   },
   {
-      "question": "Which machine learning paradigm involves learning from labeled data?",
+      "question": "Which machine learning paradigm primarily involves learning from labeled data?",
       "options": [
           "Supervised Learning",
           "Unsupervised Learning",
@@ -2092,14 +969,14 @@
       ],
       "answer": "Supervised Learning",
       "feedback": {
-          "Supervised Learning": "Correct! Supervised learning involves learning from labeled data.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning involves learning from unlabeled data.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning involves learning from rewards and punishments.",
-          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself."
+          "Supervised Learning": "Correct! Supervised learning primarily involves learning from labeled data.",
+          "Unsupervised Learning": "Incorrect. Unsupervised learning primarily involves learning from unlabeled data.",
+          "Reinforcement Learning": "Incorrect. Reinforcement learning primarily involves learning from rewards and punishments, not labeled data.",
+          "Self-supervised Learning": "Incorrect. Self-supervised learning involves creating labels from the data itself, not learning from labeled data."
       }
   },
   {
-      "question": "Which method can be used to solve a system of linear equations?",
+      "question": "Which method is primarily used to solve a system of linear equations?",
       "options": [
           "Gradient Descent",
           "Singular Value Decomposition",
@@ -2108,14 +985,14 @@
       ],
       "answer": "Gaussian Elimination",
       "feedback": {
-          "Gradient Descent": "Incorrect. Gradient descent is used for optimization problems.",
-          "Singular Value Decomposition": "Incorrect. SVD is used for matrix factorization.",
-          "Gaussian Elimination": "Correct! Gaussian elimination is used to solve systems of linear equations.",
-          "Principal Component Analysis": "Incorrect. PCA is used for dimensionality reduction."
+          "Gradient Descent": "Incorrect. Gradient descent is primarily used for optimization problems, not solving systems of linear equations.",
+          "Singular Value Decomposition": "Incorrect. SVD is primarily used for matrix factorization, not solving systems of linear equations.",
+          "Gaussian Elimination": "Correct! Gaussian elimination is primarily used to solve systems of linear equations.",
+          "Principal Component Analysis": "Incorrect. PCA is primarily used for dimensionality reduction, not solving systems of linear equations."
       }
   },
   {
-      "question": "The eigenvalues of a matrix provide information about its:",
+      "question": "What do the eigenvalues of a matrix provide information about?",
       "options": [
           "Diagonal elements",
           "Singular values",
@@ -2125,13 +1002,13 @@
       "answer": "Characteristic polynomial",
       "feedback": {
           "Diagonal elements": "Incorrect. The eigenvalues are related to the characteristic polynomial, not just the diagonal elements.",
-          "Singular values": "Incorrect. Singular values are obtained from SVD.",
+          "Singular values": "Incorrect. Singular values are obtained from SVD, not from eigenvalues.",
           "Characteristic polynomial": "Correct! Eigenvalues are roots of the characteristic polynomial.",
-          "Inverse": "Incorrect. The eigenvalues do not directly provide information about the inverse."
+          "Inverse": "Incorrect. The eigenvalues do not directly provide information about the inverse of a matrix."
       }
   },
   {
-      "question": "In linear algebra, the inner product of two vectors \\( \\mathbf{x} \\) and \\( \\mathbf{y} \\) is given by:",
+      "question": "In linear algebra, how is the inner product of two vectors \\( \\mathbf{x} \\) and \\( \\mathbf{y} \\) given?",
       "options": [
           "\\( \\mathbf{x} + \\mathbf{y} \\)",
           "\\( \\mathbf{x} \\cdot \\mathbf{y} \\)",
@@ -2141,29 +1018,29 @@
       "answer": "\\( \\mathbf{x}^T \\mathbf{y} \\)",
       "feedback": {
           "\\( \\mathbf{x} + \\mathbf{y} \\)": "Incorrect. This is vector addition, not the inner product.",
-          "\\( \\mathbf{x} \\cdot \\mathbf{y} \\)": "This is the dot product notation but not in linear algebra terms.",
+          "\\( \\mathbf{x} \\cdot \\mathbf{y} \\)": "Incorrect. This is the dot product notation but not the inner product in linear algebra terms.",
           "\\( \\mathbf{x}^T \\mathbf{y} \\)": "Correct! The inner product is given by \\( \\mathbf{x}^T \\mathbf{y} \\).",
           "\\( \\mathbf{x} \\mathbf{y}^T \\)": "Incorrect. This is the outer product, not the inner product."
       }
   },
   {
-      "question": "The determinant of a matrix is a scalar value that can be used to determine if the matrix is:",
+      "question": "What does the determinant of a matrix help determine?",
       "options": [
-          "Orthogonal",
-          "Invertible",
-          "Diagonalizable",
-          "Positive definite"
+          "If the matrix is orthogonal",
+          "If the matrix is invertible",
+          "If the matrix is diagonalizable",
+          "If the matrix is positive definite"
       ],
-      "answer": "Invertible",
+      "answer": "If the matrix is invertible",
       "feedback": {
-          "Orthogonal": "Incorrect. The determinant does not determine if a matrix is orthogonal.",
-          "Invertible": "Correct! If the determinant is non-zero, the matrix is invertible.",
-          "Diagonalizable": "Incorrect. The determinant does not determine if a matrix is diagonalizable.",
-          "Positive definite": "Incorrect. The determinant alone does not determine if a matrix is positive definite."
+          "If the matrix is orthogonal": "Incorrect. The determinant does not determine if a matrix is orthogonal.",
+          "If the matrix is invertible": "Correct! If the determinant is non-zero, the matrix is invertible.",
+          "If the matrix is diagonalizable": "Incorrect. The determinant does not determine if a matrix is diagonalizable.",
+          "If the matrix is positive definite": "Incorrect. The determinant alone does not determine if a matrix is positive definite."
       }
   },
   {
-      "question": "The inner product of two vectors in an inner product space is used to define:",
+      "question": "What does the inner product of two vectors in an inner product space define?",
       "options": [
           "Orthogonality",
           "Normalization",
@@ -2179,7 +1056,7 @@
       }
   },
   {
-      "question": "A vector space is a set of vectors that is closed under:",
+      "question": "What operations is a vector space closed under?",
       "options": [
           "Addition and scalar multiplication",
           "Addition and subtraction",
@@ -2195,7 +1072,7 @@
       }
   },
   {
-      "question": "In probability, a distribution function (CDF) is used to describe:",
+      "question": "What does a distribution function (CDF) in probability describe?",
       "options": [
           "The probability of a random variable taking on a specific value",
           "The cumulative probability up to a certain value",
@@ -2211,7 +1088,7 @@
       }
   },
   {
-      "question": "The joint distribution of two random variables describes:",
+      "question": "What does the joint distribution of two random variables describe?",
       "options": [
           "The marginal distribution of each variable",
           "The combined probability of both variables",
@@ -2227,7 +1104,7 @@
       }
   },
   {
-      "question": "The covariance between two variables measures:",
+      "question": "What does the covariance between two variables measure?",
       "options": [
           "The average of the variables",
           "The spread of the variables",
@@ -2243,7 +1120,7 @@
       }
   },
   {
-      "question": "The concept of independence in probability means that:",
+      "question": "What does the concept of independence in probability mean?",
       "options": [
           "The events cannot occur at the same time",
           "The occurrence of one event affects the probability of the other",
@@ -2259,7 +1136,7 @@
       }
   },
   {
-      "question": "Entropy in information theory quantifies:",
+      "question": "What does entropy in information theory quantify?",
       "options": [
           "The amount of data in a message",
           "The average length of a message",
@@ -2307,23 +1184,23 @@
       }
   },
   {
-      "question": "Gradient descent is an optimization algorithm used to:",
+      "question": "What is the primary use of the Gradient descent optimization algorithm?",
       "options": [
-          "Maximize a function",
-          "Minimize a function",
-          "Find the root of a function",
-          "Integrate a function"
+          "To maximize a function",
+          "To minimize a function",
+          "To find the root of a function",
+          "To integrate a function"
       ],
-      "answer": "Minimize a function",
+      "answer": "To minimize a function",
       "feedback": {
-          "Maximize a function": "Incorrect. Gradient descent is used to minimize a function.",
-          "Minimize a function": "Correct! Gradient descent is used to find the minimum of a function.",
-          "Find the root of a function": "Incorrect. Gradient descent is not used for root finding.",
-          "Integrate a function": "Incorrect. Gradient descent is not used for integration."
+          "To maximize a function": "Incorrect. Gradient descent is used to minimize a function.",
+          "To minimize a function": "Correct! Gradient descent is used to find the minimum of a function.",
+          "To find the root of a function": "Incorrect. Gradient descent is not used for root finding.",
+          "To integrate a function": "Incorrect. Gradient descent is not used for integration."
       }
   },
   {
-      "question": "The ADAM optimizer is an extension of gradient descent that includes:",
+      "question": "What does the ADAM optimizer, an extension of gradient descent, include?",
       "options": [
           "Momentum and learning rate adaptation",
           "Batch normalization and dropout",
@@ -2339,39 +1216,39 @@
       }
   },
   {
-      "question": "In convex optimization, a convex function:",
+      "question": "What is a characteristic of a convex function in convex optimization?",
       "options": [
-          "Has multiple local minima",
-          "Has a single global minimum",
-          "Is always differentiable",
-          "Is always continuous"
+          "It has multiple local minima",
+          "It has a single global minimum",
+          "It is always differentiable",
+          "It is always continuous"
       ],
-      "answer": "Has a single global minimum",
+      "answer": "It has a single global minimum",
       "feedback": {
-          "Has multiple local minima": "Incorrect. A convex function has no local minima.",
-          "Has a single global minimum": "Correct! A convex function has a single global minimum.",
-          "Is always differentiable": "Incorrect. Convex functions are not necessarily differentiable.",
-          "Is always continuous": "Incorrect. Convex functions are not necessarily continuous."
+          "It has multiple local minima": "Incorrect. A convex function has no local minima.",
+          "It has a single global minimum": "Correct! A convex function has a single global minimum.",
+          "It is always differentiable": "Incorrect. Convex functions are not necessarily differentiable.",
+          "It is always continuous": "Incorrect. Convex functions are not necessarily continuous."
       }
   },
   {
-      "question": "The principal component analysis (PCA) aims to:",
+      "question": "What is the aim of the principal component analysis (PCA)?",
       "options": [
-          "Maximize the variance of the data",
-          "Minimize the variance of the data",
-          "Maximize the correlation between features",
-          "Minimize the correlation between features"
+          "To maximize the variance of the data",
+          "To minimize the variance of the data",
+          "To maximize the correlation between features",
+          "To minimize the correlation between features"
       ],
-      "answer": "Maximize the variance of the data",
+      "answer": "To maximize the variance of the data",
       "feedback": {
-          "Maximize the variance of the data": "Correct! PCA aims to maximize the variance of the data along the principal components.",
-          "Minimize the variance of the data": "Incorrect. PCA aims to maximize the variance.",
-          "Maximize the correlation between features": "Incorrect. PCA aims to reduce correlation by transforming features.",
-          "Minimize the correlation between features": "Incorrect. PCA reduces correlation but its primary goal is to maximize variance."
+          "To maximize the variance of the data": "Correct! PCA aims to maximize the variance of the data along the principal components.",
+          "To minimize the variance of the data": "Incorrect. PCA aims to maximize the variance.",
+          "To maximize the correlation between features": "Incorrect. PCA aims to reduce correlation by transforming features.",
+          "To minimize the correlation between features": "Incorrect. PCA reduces correlation but its primary goal is to maximize variance."
       }
   },
   {
-      "question": "The singular value decomposition (SVD) of a matrix results in:",
+      "question": "What does the singular value decomposition (SVD) of a matrix result in?",
       "options": [
           "A product of an orthogonal matrix, a diagonal matrix, and the transpose of an orthogonal matrix",
           "A product of a lower triangular matrix and an upper triangular matrix",
@@ -2387,7 +1264,7 @@
       }
   },
   {
-      "question": "In statistics, the likelihood function represents:",
+      "question": "What does the likelihood function in statistics represent?",
       "options": [
           "The probability of the data given the parameters",
           "The probability of the parameters given the data",
@@ -2403,19 +1280,19 @@
       }
   },
   {
-      "question": "A positive definite matrix has:",
+      "question": "What is a characteristic of a positive definite matrix?",
       "options": [
-          "All positive eigenvalues",
-          "All negative eigenvalues",
-          "All non-negative eigenvalues",
-          "All non-positive eigenvalues"
+          "All its eigenvalues are positive",
+          "All its eigenvalues are negative",
+          "All its eigenvalues are non-negative",
+          "All its eigenvalues are non-positive"
       ],
-      "answer": "All positive eigenvalues",
+      "answer": "All its eigenvalues are positive",
       "feedback": {
-          "All positive eigenvalues": "Correct! A positive definite matrix has all positive eigenvalues.",
-          "All negative eigenvalues": "Incorrect. A positive definite matrix cannot have negative eigenvalues.",
-          "All non-negative eigenvalues": "Incorrect. This describes a positive semi-definite matrix.",
-          "All non-positive eigenvalues": "Incorrect. This describes a negative semi-definite matrix."
+          "All its eigenvalues are positive": "Correct! A positive definite matrix has all positive eigenvalues.",
+          "All its eigenvalues are negative": "Incorrect. A positive definite matrix cannot have negative eigenvalues.",
+          "All its eigenvalues are non-negative": "Incorrect. This describes a positive semi-definite matrix.",
+          "All its eigenvalues are non-positive": "Incorrect. This describes a negative semi-definite matrix."
       }
   },
   {
@@ -2424,8 +1301,7 @@
           "\\( A\\mathbf{v} = 0 \\)",
           "\\( A\\mathbf{v} = \\mathbf{v} \\)",
           "\\( A\\mathbf{v} = \\mathbf{u} \\) for some non-zero vector \\( \\mathbf{u} \\)",
-          "\\( A\\mathbf{v} = \\lambda \\mathbf{v} \\)",
-          "Principal Component Analysis"
+          "\\( A\\mathbf{v} = \\lambda \\mathbf{v} \\)"
       ],
       "answer": "\\( A\\mathbf{v} = 0 \\)",
       "feedback": {
@@ -2478,9 +1354,9 @@
       "answer": "Posterior probability",
       "feedback": {
           "Posterior probability": "Correct! Bayes' Theorem calculates the posterior probability.",
-          "Prior probability": "Bayes' Theorem uses the prior probability but does not calculate it.",
-          "Likelihood": "Bayes' Theorem uses the likelihood but does not calculate it.",
-          "Normalization constant": "Bayes' Theorem uses the normalization constant but does not calculate it."
+          "Prior probability": "Incorrect. Bayes' Theorem uses the prior probability but does not calculate it.",
+          "Likelihood": "Incorrect. Bayes' Theorem uses the likelihood but does not calculate it.",
+          "Normalization constant": "Incorrect. Bayes' Theorem uses the normalization constant but does not calculate it."
       }
   },
   {
@@ -2509,10 +1385,10 @@
       ],
       "answer": "The relationship between two variables",
       "feedback": {
-          "The variance of a single variable": "Covariance involves two variables, not just one.",
+          "The variance of a single variable": "Incorrect. Covariance involves two variables, not just one.",
           "The relationship between two variables": "Correct! Covariance measures the relationship between two variables.",
-          "The mean of a variable": "Covariance is not related to the mean.",
-          "The standard deviation of a variable": "Covariance is not related to the standard deviation of a single variable."
+          "The mean of a variable": "Incorrect. Covariance is not related to the mean.",
+          "The standard deviation of a variable": "Incorrect. Covariance is not related to the standard deviation of a single variable."
       }
   },
   {
@@ -2541,10 +1417,10 @@
       ],
       "answer": "Find the minimum of a function",
       "feedback": {
-          "Find the maximum of a function": "Gradient descent is used to find the minimum, not the maximum.",
+          "Find the maximum of a function": "Incorrect. Gradient descent is used to find the minimum, not the maximum.",
           "Find the minimum of a function": "Correct! Gradient descent is used to find the minimum of a function.",
-          "Calculate the derivative of a function": "Gradient descent uses the derivative but does not calculate it.",
-          "Integrate a function": "Gradient descent is not used for integration."
+          "Calculate the derivative of a function": "Incorrect. Gradient descent uses the derivative but does not calculate it.",
+          "Integrate a function": "Incorrect. Gradient descent is not used for integration."
       }
   },
   {
@@ -2559,8 +1435,8 @@
       "feedback": {
           "$\\pi r^2$": "Correct! The area of a circle is $\\pi r^2$.",
           "$2\\pi r$": "Incorrect. This is the circumference of a circle.",
-          "$\\pi d$": "Incorrect. This is incorrect.",
-          "$d^2$": "Incorrect. This is incorrect."
+          "$\\pi d$": "Incorrect. This is not the formula for the area of a circle.",
+          "$d^2$": "Incorrect. This is not the formula for the area of a circle."
       }
   },
   {
@@ -2574,9 +1450,9 @@
       "answer": "Its second derivative is positive",
       "feedback": {
           "Its second derivative is positive": "Correct! A function is convex if its second derivative is positive.",
-          "Its first derivative is negative": "This is not the condition for convexity.",
-          "Its second derivative is zero": "This would mean the function is linear.",
-          "It has a local minimum": "Having a local minimum does not define convexity."
+          "Its first derivative is negative": "Incorrect. This is not the condition for convexity.",
+          "Its second derivative is zero": "Incorrect. This would mean the function is linear, not necessarily convex.",
+          "It has a local minimum": "Incorrect. Having a local minimum does not define convexity."
       }
   },
   {
@@ -2585,10 +1461,9 @@
           "Supervised Learning",
           "Unsupervised Learning",
           "Reinforcement Learning",
-          "Dimensionality Reduction",
-          "RMSprop and Momentum"
+          "Dimensionality Reduction"
       ],
-      "answer": "RMSprop and Momentum",
+      "answer": "Supervised Learning",
       "feedback": {
           "Supervised Learning": "Correct! Supervised learning is used for classification and regression.",
           "Unsupervised Learning": "Incorrect. Unsupervised learning is used for clustering and association.",
@@ -2607,9 +1482,9 @@
       "answer": "\\( P^2 = P \\)",
       "feedback": {
           "\\( P^2 = P \\)": "Correct! A projection matrix satisfies \\( P^2 = P \\).",
-          "\\( P^T = P \\)": "This is true for symmetric matrices, not specifically projection matrices.",
-          "\\( P^{-1} = P \\)": "This is true for involutory matrices, not projection matrices.",
-          "\\( P^T P = I \\)": "This is true for orthogonal matrices, not projection matrices."
+          "\\( P^T = P \\)": "Incorrect. This is true for symmetric matrices, not specifically projection matrices.",
+          "\\( P^{-1} = P \\)": "Incorrect. This is true for involutory matrices, not projection matrices.",
+          "\\( P^T P = I \\)": "Incorrect. This is true for orthogonal matrices, not projection matrices."
       }
   },
   {
@@ -2618,8 +1493,7 @@
           "\\( \\det(A - \\lambda I) = 0 \\)",
           "\\( \\det(A + \\lambda I) = 0 \\)",
           "\\( \\det(A) = \\lambda \\)",
-          "\\( \\det(A) = 0 \\)",
-          "Gradient Descent"
+          "\\( \\det(A) = 0 \\)"
       ],
       "answer": "\\( \\det(A - \\lambda I) = 0 \\)",
       "feedback": {
@@ -2640,13 +1514,13 @@
       "answer": "\\( A = QR \\), where \\( Q \\) is an orthogonal matrix and \\( R \\) is an upper triangular matrix",
       "feedback": {
           "\\( A = QR \\), where \\( Q \\) is an orthogonal matrix and \\( R \\) is an upper triangular matrix": "Correct! QR factorization results in \\( A = QR \\), where \\( Q \\) is orthogonal and \\( R \\) is upper triangular.",
-          "\\( A = QR \\), where \\( Q \\) is an upper triangular matrix and \\( R \\) is an orthogonal matrix": "Incorrect. \\( Q \\) is orthogonal and \\( R \\) is upper triangular.",
-          "\\( A = QR \\), where \\( Q \\) and \\( R \\) are both orthogonal matrices": "Incorrect. \\( Q \\) is orthogonal and \\( R \\) is upper triangular.",
-          "\\( A = QR \\), where \\( Q \\) and \\( R \\) are both upper triangular matrices": "Incorrect. \\( Q \\) is orthogonal and \\( R \\) is upper triangular."
+          "\\( A = QR \\), where \\( Q \\) is an upper triangular matrix and \\( R \\) is an orthogonal matrix": "Incorrect. In QR factorization, \\( Q \\) is orthogonal and \\( R \\) is upper triangular.",
+          "\\( A = QR \\), where \\( Q \\) and \\( R \\) are both orthogonal matrices": "Incorrect. In QR factorization, \\( Q \\) is orthogonal and \\( R \\) is upper triangular.",
+          "\\( A = QR \\), where \\( Q \\) and \\( R \\) are both upper triangular matrices": "Incorrect. In QR factorization, \\( Q \\) is orthogonal and \\( R \\) is upper triangular."
       }
   },
   {
-      "question": "In the context of linear algebra, the inner product of two vectors \\( \\mathbf{x} \\) and \\( \\mathbf{y} \\) is given by:",
+      "question": "In linear algebra, how is the inner product of two vectors \\( \\mathbf{x} \\) and \\( \\mathbf{y} \\) represented?",
       "options": [
           "\\( \\mathbf{x} + \\mathbf{y} \\)",
           "\\( \\mathbf{x} \\cdot \\mathbf{y} \\)",
@@ -2655,14 +1529,14 @@
       ],
       "answer": "\\( \\mathbf{x}^T \\mathbf{y} \\)",
       "feedback": {
-          "\\( \\mathbf{x} + \\mathbf{y} \\)": "This is vector addition, not the inner product.",
-          "\\( \\mathbf{x} \\cdot \\mathbf{y} \\)": "This is the dot product notation but not in linear algebra terms.",
-          "\\( \\mathbf{x}^T \\mathbf{y} \\)": "Correct! The inner product is given by \\( \\mathbf{x}^T \\mathbf{y} \\).",
-          "\\( \\mathbf{x} \\mathbf{y}^T \\)": "This is the outer product, not the inner product."
+          "\\( \\mathbf{x} + \\mathbf{y} \\)": "Incorrect. This represents vector addition, not the inner product.",
+          "\\( \\mathbf{x} \\cdot \\mathbf{y} \\)": "Incorrect. This is the dot product notation, not the inner product in linear algebra terms.",
+          "\\( \\mathbf{x}^T \\mathbf{y} \\)": "Correct! The inner product is represented by \\( \\mathbf{x}^T \\mathbf{y} \\).",
+          "\\( \\mathbf{x} \\mathbf{y}^T \\)": "Incorrect. This represents the outer product, not the inner product."
       }
   },
   {
-      "question": "A function \\(f(x)\\) has a local minimum at \\(x = c\\) if:",
+      "question": "What conditions must be met for a function \\(f(x)\\) to have a local minimum at \\(x = c\\)?",
       "options": [
           "\\(f'(c) = 0\\) and \\(f''(c) > 0\\)",
           "\\(f'(c) = 0\\) and \\(f''(c) < 0\\)",
@@ -2671,14 +1545,14 @@
       ],
       "answer": "\\(f'(c) = 0\\) and \\(f''(c) > 0\\)",
       "feedback": {
-          "f'(c) = 0 and f''(c) > 0": "Correct! These conditions indicate a local minimum.",
-          "f'(c) = 0 and f''(c) < 0": "Incorrect. These conditions indicate a local maximum.",
-          "f'(c) > 0 and f''(c) > 0": "Incorrect. The first derivative must be zero at a local minimum.",
-          "f'(c) < 0 and f''(c) < 0": "Incorrect. The first derivative must be zero at a local minimum."
+          "\\(f'(c) = 0\\) and \\(f''(c) > 0\\)": "Correct! These conditions indicate a local minimum.",
+          "\\(f'(c) = 0\\) and \\(f''(c) < 0\\)": "Incorrect. These conditions indicate a local maximum.",
+          "\\(f'(c) > 0\\) and \\(f''(c) > 0\\)": "Incorrect. The first derivative must be zero at a local minimum.",
+          "\\(f'(c) < 0\\) and \\(f''(c) < 0\\)": "Incorrect. The first derivative must be zero at a local minimum."
       }
   },
   {
-      "question": "The singular value decomposition (SVD) of a matrix results in:",
+      "question": "What does the singular value decomposition (SVD) of a matrix result in?",
       "options": [
           "A product of an orthogonal matrix, a diagonal matrix, and the transpose of an orthogonal matrix",
           "A product of a lower triangular matrix and an upper triangular matrix",
@@ -2688,13 +1562,13 @@
       "answer": "A product of an orthogonal matrix, a diagonal matrix, and the transpose of an orthogonal matrix",
       "feedback": {
           "A product of an orthogonal matrix, a diagonal matrix, and the transpose of an orthogonal matrix": "Correct! SVD results in a product of an orthogonal matrix, a diagonal matrix, and the transpose of an orthogonal matrix.",
-          "A product of a lower triangular matrix and an upper triangular matrix": "Incorrect. This describes LU decomposition.",
-          "A product of an orthogonal matrix and an upper triangular matrix": "Incorrect. This describes QR decomposition.",
+          "A product of a lower triangular matrix and an upper triangular matrix": "Incorrect. This describes LU decomposition, not SVD.",
+          "A product of an orthogonal matrix and an upper triangular matrix": "Incorrect. This describes QR decomposition, not SVD.",
           "A product of a permutation matrix and an orthogonal matrix": "Incorrect. This is not a common matrix factorization."
       }
   },
   {
-      "question": "The method of maximum likelihood estimation (MLE) involves:",
+      "question": "What does the method of maximum likelihood estimation (MLE) involve?",
       "options": [
           "Maximizing the posterior distribution",
           "Maximizing the likelihood function",
@@ -2703,14 +1577,14 @@
       ],
       "answer": "Maximizing the likelihood function",
       "feedback": {
-          "Maximizing the posterior distribution": "Incorrect. This describes the method of maximum a posteriori (MAP).",
+          "Maximizing the posterior distribution": "Incorrect. This describes the method of maximum a posteriori (MAP), not MLE.",
           "Maximizing the likelihood function": "Correct! MLE involves maximizing the likelihood function.",
           "Maximizing the prior distribution": "Incorrect. The prior distribution is not maximized in MLE.",
           "Maximizing the cumulative distribution function (CDF)": "Incorrect. The CDF is not maximized in MLE."
       }
   },
   {
-      "question": "In convex optimization, a convex function:",
+      "question": "In convex optimization, what is a characteristic of a convex function?",
       "options": [
           "Has multiple local minima",
           "Has a single global minimum",
@@ -2719,14 +1593,14 @@
       ],
       "answer": "Has a single global minimum",
       "feedback": {
-          "Has multiple local minima": "Incorrect. A convex function has no local minima.",
+          "Has multiple local minima": "Incorrect. A convex function does not have local minima.",
           "Has a single global minimum": "Correct! A convex function has a single global minimum.",
           "Is always differentiable": "Incorrect. Convex functions are not necessarily differentiable.",
           "Is always continuous": "Incorrect. Convex functions are not necessarily continuous."
       }
   },
   {
-      "question": "The Laplacian matrix of a graph is used in:",
+      "question": "What is the Laplacian matrix of a graph used for?",
       "options": [
           "Graph clustering",
           "Graph coloring",
@@ -2742,7 +1616,7 @@
       }
   },
   {
-      "question": "The cross-entropy loss function is commonly used for:",
+      "question": "What is the cross-entropy loss function commonly used for?",
       "options": [
           "Classification tasks",
           "Regression tasks",
@@ -2752,7 +1626,7 @@
       "answer": "Classification tasks",
       "feedback": {
           "Classification tasks": "Correct! The cross-entropy loss function is used for classification tasks.",
-          "Regression tasks": "Incorrect. Mean squared error is commonly used for regression tasks.",
+          "Regression tasks": "Incorrect. Mean squared error is commonly used for regression tasks, not the cross-entropy loss function.",
           "Clustering tasks": "Incorrect. The cross-entropy loss function is not used for clustering.",
           "Dimensionality reduction tasks": "Incorrect. The cross-entropy loss function is not used for dimensionality reduction."
       }
@@ -2763,19 +1637,18 @@
           "Supervised Learning",
           "Unsupervised Learning",
           "Reinforcement Learning",
-          "Dimensionality Reduction",
-          "RMSprop and Momentum"
+          "Dimensionality Reduction"
       ],
-      "answer": "RMSprop and Momentum",
+      "answer": "Supervised Learning",
       "feedback": {
           "Supervised Learning": "Correct! Supervised learning is used for classification and regression.",
-          "Unsupervised Learning": "Incorrect. Unsupervised learning is used for clustering and association.",
-          "Reinforcement Learning": "Incorrect. Reinforcement learning is used for decision-making tasks.",
-          "Dimensionality Reduction": "Incorrect. Dimensionality reduction is a technique used to reduce the number of features."
+          "Unsupervised Learning": "Incorrect. Unsupervised learning is used for clustering and association, not for classification and regression.",
+          "Reinforcement Learning": "Incorrect. Reinforcement learning is used for decision-making tasks, not for classification and regression.",
+          "Dimensionality Reduction": "Incorrect. Dimensionality reduction is a technique used to reduce the number of features, not a machine learning paradigm for classification and regression."
       }
   },
   {
-      "question": "In a vector space, two vectors are considered linearly independent if:",
+      "question": "In a vector space, when are two vectors considered linearly independent?",
       "options": [
           "Their dot product is zero",
           "Their cross product is zero",
@@ -2784,14 +1657,14 @@
       ],
       "answer": "No vector can be written as a linear combination of the other",
       "feedback": {
-          "Their dot product is zero": "Incorrect. This condition defines orthogonality.",
-          "Their cross product is zero": "Incorrect. This condition applies to parallel vectors.",
+          "Their dot product is zero": "Incorrect. This condition defines orthogonality, not linear independence.",
+          "Their cross product is zero": "Incorrect. This condition applies to parallel vectors, not linearly independent vectors.",
           "No vector can be written as a linear combination of the other": "Correct! This is the definition of linear independence.",
-          "They have the same direction": "Incorrect. Vectors with the same direction are linearly dependent."
+          "They have the same direction": "Incorrect. Vectors with the same direction are linearly dependent, not linearly independent."
       }
   },
   {
-      "question": "The solution to a system of linear equations can be found using:",
+      "question": "What method can be used to find the solution to a system of linear equations?",
       "options": [
           "Eigenvalue decomposition",
           "Singular value decomposition",
@@ -2800,30 +1673,30 @@
       ],
       "answer": "Gaussian elimination",
       "feedback": {
-          "Eigenvalue decomposition": "Incorrect. This is used for matrix diagonalization.",
-          "Singular value decomposition": "Incorrect. This is used for matrix factorization.",
+          "Eigenvalue decomposition": "Incorrect. Eigenvalue decomposition is used for matrix diagonalization, not for solving systems of linear equations.",
+          "Singular value decomposition": "Incorrect. Singular value decomposition is used for matrix factorization, not for solving systems of linear equations.",
           "Gaussian elimination": "Correct! Gaussian elimination is used to solve systems of linear equations.",
-          "Matrix multiplication": "Incorrect. Matrix multiplication is an operation, not a solution method."
+          "Matrix multiplication": "Incorrect. Matrix multiplication is an operation, not a method for solving systems of linear equations."
       }
   },
   {
-      "question": "The rank of a matrix indicates:",
+      "question": "What does the rank of a matrix represent?",
       "options": [
-          "The number of rows",
-          "The number of columns",
-          "The number of linearly independent rows or columns",
+          "The total number of rows",
+          "The total number of columns",
+          "The count of linearly independent rows or columns",
           "The determinant of the matrix"
       ],
-      "answer": "The number of linearly independent rows or columns",
+      "answer": "The count of linearly independent rows or columns",
       "feedback": {
-          "The number of rows": "Incorrect. The rank is not simply the number of rows.",
-          "The number of columns": "Incorrect. The rank is not simply the number of columns.",
-          "The number of linearly independent rows or columns": "Correct! The rank is the number of linearly independent rows or columns.",
-          "The determinant of the matrix": "Incorrect. The determinant is a scalar value representing the matrix's properties."
+          "The total number of rows": "Incorrect. The rank is not just the total number of rows.",
+          "The total number of columns": "Incorrect. The rank is not just the total number of columns.",
+          "The count of linearly independent rows or columns": "Correct! The rank represents the count of linearly independent rows or columns.",
+          "The determinant of the matrix": "Incorrect. The determinant is a scalar value that represents certain properties of the matrix, not the rank."
       }
   },
   {
-      "question": "In linear algebra, the inner product of two vectors \\( \\mathbf{x} \\) and \\( \\mathbf{y} \\) is given by:",
+      "question": "In the context of linear algebra, how is the inner product of two vectors \\( \\mathbf{x} \\) and \\( \\mathbf{y} \\) defined?",
       "options": [
           "\\( \\mathbf{x} + \\mathbf{y} \\)",
           "\\( \\mathbf{x} \\cdot \\mathbf{y} \\)",
@@ -2832,46 +1705,46 @@
       ],
       "answer": "\\( \\mathbf{x}^T \\mathbf{y} \\)",
       "feedback": {
-          "\\( \\mathbf{x} + \\mathbf{y} \\)": "Incorrect. This is vector addition, not the inner product.",
-          "\\( \\mathbf{x} \\cdot \\mathbf{y} \\)": "This is the dot product notation but not in linear algebra terms.",
-          "\\( \\mathbf{x}^T \\mathbf{y} \\)": "Correct! The inner product is given by \\( \\mathbf{x}^T \\mathbf{y} \\).",
-          "\\( \\mathbf{x} \\mathbf{y}^T \\)": "Incorrect. This is the outer product, not the inner product."
+          "\\( \\mathbf{x} + \\mathbf{y} \\)": "Incorrect. This represents vector addition, not the inner product.",
+          "\\( \\mathbf{x} \\cdot \\mathbf{y} \\)": "Incorrect. This is the dot product notation, not the inner product in terms of linear algebra.",
+          "\\( \\mathbf{x}^T \\mathbf{y} \\)": "Correct! The inner product is defined as \\( \\mathbf{x}^T \\mathbf{y} \\).",
+          "\\( \\mathbf{x} \\mathbf{y}^T \\)": "Incorrect. This represents the outer product, not the inner product."
       }
   },
   {
-      "question": "The norm of a vector \\( \\mathbf{v} \\) is defined as:",
+      "question": "How is the norm of a vector \\( \\mathbf{v} \\) defined?",
       "options": [
-          "The length of \\( \\mathbf{v} \\)",
+          "The length or magnitude of \\( \\mathbf{v} \\)",
           "The angle of \\( \\mathbf{v} \\)",
           "The direction of \\( \\mathbf{v} \\)",
           "The dot product of \\( \\mathbf{v} \\) with itself"
       ],
-      "answer": "The length of \\( \\mathbf{v} \\)",
+      "answer": "The length or magnitude of \\( \\mathbf{v} \\)",
       "feedback": {
-          "The length of \\( \\mathbf{v} \\)": "Correct! The norm of a vector is its length.",
+          "The length or magnitude of \\( \\mathbf{v} \\)": "Correct! The norm of a vector is its length or magnitude.",
           "The angle of \\( \\mathbf{v} \\)": "Incorrect. The angle is not the norm.",
           "The direction of \\( \\mathbf{v} \\)": "Incorrect. The direction is not the norm.",
-          "The dot product of \\( \\mathbf{v} \\) with itself": "Incorrect. The norm is the square root of the dot product with itself."
+          "The dot product of \\( \\mathbf{v} \\) with itself": "Incorrect. The norm is the square root of the dot product of the vector with itself, not the dot product itself."
       }
   },
   {
-      "question": "A matrix \\( A \\) is positive definite if:",
+      "question": "When is a matrix \\( A \\) considered positive definite?",
       "options": [
-          "All its eigenvalues are positive",
-          "All its eigenvalues are zero",
-          "All its eigenvalues are negative",
-          "All its diagonal elements are positive"
+          "When all its eigenvalues are positive",
+          "When all its eigenvalues are zero",
+          "When all its eigenvalues are negative",
+          "When all its diagonal elements are positive"
       ],
-      "answer": "All its eigenvalues are positive",
+      "answer": "When all its eigenvalues are positive",
       "feedback": {
-          "All its eigenvalues are positive": "Correct! A matrix is positive definite if all its eigenvalues are positive.",
-          "All its eigenvalues are zero": "Incorrect. This would make the matrix singular.",
-          "All its eigenvalues are negative": "Incorrect. This would make the matrix negative definite.",
-          "All its diagonal elements are positive": "Incorrect. Positive diagonal elements alone do not make the matrix positive definite."
+          "When all its eigenvalues are positive": "Correct! A matrix is considered positive definite if all its eigenvalues are positive.",
+          "When all its eigenvalues are zero": "Incorrect. A matrix with all eigenvalues as zero would be singular, not positive definite.",
+          "When all its eigenvalues are negative": "Incorrect. A matrix with all negative eigenvalues would be negative definite, not positive definite.",
+          "When all its diagonal elements are positive": "Incorrect. Having positive diagonal elements alone does not make a matrix positive definite."
       }
   },
   {
-      "question": "Which matrix factorization method decomposes a matrix into eigenvalues and eigenvectors?",
+      "question": "Which method of matrix factorization decomposes a matrix into its eigenvalues and eigenvectors?",
       "options": [
           "QR Decomposition",
           "LU Decomposition",
@@ -2880,14 +1753,14 @@
       ],
       "answer": "Eigenvalue Decomposition",
       "feedback": {
-          "QR Decomposition": "Incorrect. QR decomposition factors a matrix into an orthogonal matrix and an upper triangular matrix.",
-          "LU Decomposition": "Incorrect. LU decomposition factors a matrix into a lower triangular matrix and an upper triangular matrix.",
-          "Singular Value Decomposition": "Incorrect. SVD factors a matrix into singular values and singular vectors.",
-          "Eigenvalue Decomposition": "Correct! Eigenvalue decomposition factors a matrix into eigenvalues and eigenvectors."
+          "QR Decomposition": "Incorrect. QR decomposition factors a matrix into an orthogonal matrix and an upper triangular matrix, not into eigenvalues and eigenvectors.",
+          "LU Decomposition": "Incorrect. LU decomposition factors a matrix into a lower triangular matrix and an upper triangular matrix, not into eigenvalues and eigenvectors.",
+          "Singular Value Decomposition": "Incorrect. SVD factors a matrix into singular values and singular vectors, not into eigenvalues and eigenvectors.",
+          "Eigenvalue Decomposition": "Correct! Eigenvalue decomposition factors a matrix into its eigenvalues and eigenvectors."
       }
   },
   {
-      "question": "The projection of a vector \\( \\mathbf{u} \\) onto another vector \\( \\mathbf{v} \\) is given by:",
+      "question": "How is the projection of a vector \\( \\mathbf{u} \\) onto another vector \\( \\mathbf{v} \\) defined?",
       "options": [
           "\\( \\mathbf{u} + \\mathbf{v} \\)",
           "\\( \\frac{\\mathbf{u} \\cdot \\mathbf{v}}{\\mathbf{v} \\cdot \\mathbf{v}} \\mathbf{v} \\)",
@@ -2896,30 +1769,30 @@
       ],
       "answer": "\\( \\frac{\\mathbf{u} \\cdot \\mathbf{v}}{\\mathbf{v} \\cdot \\mathbf{v}} \\mathbf{v} \\)",
       "feedback": {
-          "\\( \\mathbf{u} + \\mathbf{v} \\)": "Incorrect. This is vector addition.",
+          "\\( \\mathbf{u} + \\mathbf{v} \\)": "Incorrect. This represents vector addition, not the projection.",
           "\\( \\frac{\\mathbf{u} \\cdot \\mathbf{v}}{\\mathbf{v} \\cdot \\mathbf{v}} \\mathbf{v} \\)": "Correct! This is the formula for the projection of \\( \\mathbf{u} \\) onto \\( \\mathbf{v} \\).",
-          "\\( \\mathbf{u} \\times \\mathbf{v} \\)": "Incorrect. This is the cross product.",
-          "\\( \\mathbf{u} - \\mathbf{v} \\)": "Incorrect. This is vector subtraction."
+          "\\( \\mathbf{u} \\times \\mathbf{v} \\)": "Incorrect. This represents the cross product, not the projection.",
+          "\\( \\mathbf{u} - \\mathbf{v} \\)": "Incorrect. This represents vector subtraction, not the projection."
       }
   },
   {
-      "question": "A random variable is:",
+      "question": "What is a random variable?",
       "options": [
           "A variable that is determined by a deterministic process",
           "A function that assigns a numerical value to each outcome in a sample space",
-          "Always continuous",
-          "Always discrete"
+          "A variable that is always continuous",
+          "A variable that is always discrete"
       ],
       "answer": "A function that assigns a numerical value to each outcome in a sample space",
       "feedback": {
-          "A variable that is determined by a deterministic process": "Incorrect. A random variable is not deterministic.",
-          "A function that assigns a numerical value to each outcome in a sample space": "Correct! A random variable assigns numerical values to outcomes.",
-          "Always continuous": "Incorrect. A random variable can be either continuous or discrete.",
-          "Always discrete": "Incorrect. A random variable can be either discrete or continuous."
+          "A variable that is determined by a deterministic process": "Incorrect. A random variable is not deterministic, it is random.",
+          "A function that assigns a numerical value to each outcome in a sample space": "Correct! A random variable is a function that assigns numerical values to outcomes in a sample space.",
+          "A variable that is always continuous": "Incorrect. A random variable can be either continuous or discrete.",
+          "A variable that is always discrete": "Incorrect. A random variable can be either discrete or continuous."
       }
   },
   {
-      "question": "What is the value of the determinant of a 2x2 matrix \\( \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix} \\)?",
+      "question": "How is the determinant of a 2x2 matrix \\( \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix} \\) calculated?",
       "options": [
           "ad - bc",
           "ab + cd",
@@ -2928,14 +1801,14 @@
       ],
       "answer": "ad - bc",
       "feedback": {
-          "ad - bc": "Correct! The determinant of a 2x2 matrix is ad - bc.",
+          "ad - bc": "Correct! The determinant of a 2x2 matrix is calculated as ad - bc.",
           "ab + cd": "Incorrect. This is not the formula for the determinant.",
           "ac - bd": "Incorrect. This is not the formula for the determinant.",
           "a + d": "Incorrect. This is not the formula for the determinant."
       }
   },
   {
-      "question": "Which of the following properties does a positive definite matrix \\( A \\) have?",
+      "question": "What is a defining property of a positive definite matrix \\( A \\)?",
       "options": [
           "\\( A = A^T \\)",
           "\\( x^T A x > 0 \\) for all non-zero \\( x \\)",
@@ -2944,14 +1817,14 @@
       ],
       "answer": "\\( x^T A x > 0 \\) for all non-zero \\( x \\)",
       "feedback": {
-          "\\( A = A^T \\)": "Incorrect. This property is for symmetric matrices, but not necessarily positive definite.",
+          "\\( A = A^T \\)": "Incorrect. This property is for symmetric matrices, not necessarily positive definite.",
           "\\( x^T A x > 0 \\) for all non-zero \\( x \\)": "Correct! This is a defining property of positive definite matrices.",
           "All eigenvalues are zero": "Incorrect. Positive definite matrices have positive eigenvalues.",
           "All eigenvalues are negative": "Incorrect. Positive definite matrices have positive eigenvalues."
       }
   },
   {
-      "question": "What does the R-squared value represent in linear regression?",
+      "question": "What does the R-squared value indicate in linear regression?",
       "options": [
           "The slope of the regression line",
           "The intercept of the regression line",
@@ -2967,7 +1840,7 @@
       }
   },
   {
-      "question": "Which distribution is used to model the number of successes in a fixed number of trials?",
+      "question": "Which distribution models the number of successes in a fixed number of trials?",
       "options": [
           "Uniform distribution",
           "Normal distribution",
@@ -2983,7 +1856,7 @@
       }
   },
   {
-      "question": "What is the purpose of the Lagrange multiplier method in optimization?",
+      "question": "What is the main purpose of the Lagrange multiplier method in optimization?",
       "options": [
           "To linearize a non-linear problem",
           "To convert a constrained problem into an unconstrained one",
@@ -2999,7 +1872,7 @@
       }
   },
   {
-      "question": "In optimization, what does the gradient of a function \\( f \\) represent?",
+      "question": "What does the gradient of a function \\( f \\) indicate in optimization?",
       "options": [
           "The direction of steepest descent",
           "The rate of change in the function's value",
@@ -3015,7 +1888,7 @@
       }
   },
   {
-      "question": "What is the value of the determinant of a 2x2 matrix \\( \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix} \\)?",
+      "question": "How is the determinant of a 2x2 matrix \\( \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix} \\) calculated?",
       "options": [
           "ad - bc",
           "ab + cd",
@@ -3024,14 +1897,14 @@
       ],
       "answer": "ad - bc",
       "feedback": {
-          "ad - bc": "Correct! The determinant of a 2x2 matrix is ad - bc.",
+          "ad - bc": "Correct! The determinant of a 2x2 matrix is calculated as ad - bc.",
           "ab + cd": "Incorrect. This is not the formula for the determinant.",
           "ac - bd": "Incorrect. This is not the formula for the determinant.",
           "a + d": "Incorrect. This is not the formula for the determinant."
       }
   },
   {
-      "question": "Which of the following is a property of eigenvalues of a matrix?",
+      "question": "What can be said about the eigenvalues of a matrix?",
       "options": [
           "They are always positive.",
           "They can be complex numbers.",
@@ -3047,7 +1920,7 @@
       }
   },
   {
-      "question": "What is the rank of a matrix?",
+      "question": "What does the rank of a matrix represent?",
       "options": [
           "The number of rows",
           "The number of columns",
@@ -3063,7 +1936,7 @@
       }
   },
   {
-      "question": "Which operation is used to compute the inverse of a matrix?",
+      "question": "Which operation is not used to compute the inverse of a matrix?",
       "options": [
           "Addition",
           "Subtraction",
@@ -3079,7 +1952,7 @@
       }
   },
   {
-      "question": "In eigenvalue decomposition, a matrix A is decomposed into which form?",
+      "question": "What is the form of a matrix A after eigenvalue decomposition?",
       "options": [
           "A = PDP^{-1}",
           "A = P^{-1}DP",
@@ -3095,7 +1968,7 @@
       }
   },
   {
-      "question": "What does a p-value in hypothesis testing indicate?",
+      "question": "What does a p-value indicate in hypothesis testing?",
       "options": [
           "The probability of rejecting the null hypothesis",
           "The probability of observing the data given that the null hypothesis is true",
@@ -3121,9 +1994,9 @@
       "answer": "0",
       "feedback": {
           "0": "Correct! The mean of a standard normal distribution is 0.",
-          "1": "Incorrect. The mean of a standard normal distribution is 0.",
-          "2": "Incorrect. The mean of a standard normal distribution is 0.",
-          "3": "Incorrect. The mean of a standard normal distribution is 0."
+          "1": "Incorrect. The mean of a standard normal distribution is not 1, it's 0.",
+          "2": "Incorrect. The mean of a standard normal distribution is not 2, it's 0.",
+          "3": "Incorrect. The mean of a standard normal distribution is not 3, it's 0."
       }
   },
   {
@@ -3153,9 +2026,9 @@
       "answer": "Number of trials",
       "feedback": {
           "Number of trials": "Correct! 'n' represents the number of trials in a binomial distribution.",
-          "Number of successes": "Incorrect. 'n' represents the number of trials.",
-          "Probability of success": "Incorrect. 'n' represents the number of trials.",
-          "Probability of failure": "Incorrect. 'n' represents the number of trials."
+          "Number of successes": "Incorrect. 'n' does not represent the number of successes, it represents the number of trials.",
+          "Probability of success": "Incorrect. 'n' does not represent the probability of success, it represents the number of trials.",
+          "Probability of failure": "Incorrect. 'n' does not represent the probability of failure, it represents the number of trials."
       }
   },
   {
@@ -3168,9 +2041,9 @@
       ],
       "answer": "The total probability",
       "feedback": {
-          "The mean": "Incorrect. The area under the PDF represents the total probability.",
-          "The standard deviation": "Incorrect. The area under the PDF represents the total probability.",
-          "The variance": "Incorrect. The area under the PDF represents the total probability.",
+          "The mean": "Incorrect. The area under the PDF does not represent the mean, it represents the total probability.",
+          "The standard deviation": "Incorrect. The area under the PDF does not represent the standard deviation, it represents the total probability.",
+          "The variance": "Incorrect. The area under the PDF does not represent the variance, it represents the total probability.",
           "The total probability": "Correct! The area under the PDF represents the total probability, which is always 1."
       }
   },
@@ -3184,10 +2057,10 @@
       ],
       "answer": "A value of the function that is lower than neighboring values",
       "feedback": {
-          "The smallest value of the function over its entire range": "Incorrect. This describes a global minimum.",
+          "The smallest value of the function over its entire range": "Incorrect. This describes a global minimum, not a local minimum.",
           "A value of the function that is lower than neighboring values": "Correct! A local minimum is a value that is lower than neighboring values.",
-          "The highest value of the function over its entire range": "Incorrect. This describes a global maximum.",
-          "A value of the function that is higher than neighboring values": "Incorrect. This describes a local maximum."
+          "The highest value of the function over its entire range": "Incorrect. This describes a global maximum, not a local minimum.",
+          "A value of the function that is higher than neighboring values": "Incorrect. This describes a local maximum, not a local minimum."
       }
   },
   {
@@ -3200,9 +2073,9 @@
       ],
       "answer": "A vector indicating the direction and rate of fastest increase",
       "feedback": {
-          "A scalar value representing the rate of change": "Incorrect. The gradient is a vector.",
+          "A scalar value representing the rate of change": "Incorrect. The gradient is not a scalar value, it's a vector.",
           "A vector indicating the direction and rate of fastest increase": "Correct! The gradient is a vector that points in the direction of the steepest ascent.",
-          "A matrix representing the second derivatives": "Incorrect. The Hessian matrix represents the second derivatives.",
+          "A matrix representing the second derivatives": "Incorrect. The gradient is not a matrix, it's a vector.",
           "None of the above": "Incorrect. The gradient is a vector indicating the direction and rate of fastest increase."
       }
   },
@@ -3216,10 +2089,10 @@
       ],
       "answer": "Newton's method",
       "feedback": {
-          "Simplex method": "Incorrect. The simplex method is used for linear programming.",
+          "Simplex method": "Incorrect. The simplex method is used for linear programming, not for unconstrained optimization.",
           "Newton's method": "Correct! Newton's method is commonly used for unconstrained optimization.",
-          "Dual simplex method": "Incorrect. The dual simplex method is used for linear programming.",
-          "Barrier method": "Incorrect. The barrier method is used for constrained optimization."
+          "Dual simplex method": "Incorrect. The dual simplex method is used for linear programming, not for unconstrained optimization.",
+          "Barrier method": "Incorrect. The barrier method is used for constrained optimization, not for unconstrained optimization."
       }
   },
   {
@@ -3233,7 +2106,7 @@
       "answer": "To find the maximum or minimum of a function subject to constraints",
       "feedback": {
           "To linearize a non-linear problem": "Incorrect. The Lagrange multiplier method is not primarily used for linearizing non-linear problems.",
-          "To convert a constrained problem into an unconstrained one": "Incorrect. While it transforms the problem, it is not the main purpose.",
+          "To convert a constrained problem into an unconstrained one": "Incorrect. The main purpose of the Lagrange multiplier method is not to convert a constrained problem into an unconstrained one.",
           "To find the maximum or minimum of a function subject to constraints": "Correct! The Lagrange multiplier method is used to optimize a function subject to constraints.",
           "To reduce the number of variables": "Incorrect. The method does not aim to reduce the number of variables."
       }
@@ -3292,18 +2165,18 @@
           "They are not scalar multiples of each other.",
           "Their dot product is zero.",
           "They span the vector space.",
-          "Their determinant is zero."
+          "No vector in the set can be written as a combination of the others."
       ],
-      "answer": "They are not scalar multiples of each other.",
+      "answer": "No vector in the set can be written as a combination of the others.",
       "feedback": {
-          "They are not scalar multiples of each other.": "Correct! Linearly independent vectors cannot be written as scalar multiples of each other.",
+          "They are not scalar multiples of each other.": "Incorrect. This is not a sufficient condition for linear independence.",
           "Their dot product is zero.": "Incorrect. This describes orthogonality, not linear independence.",
           "They span the vector space.": "Incorrect. Spanning the vector space is related to the concept of a basis, not just independence.",
-          "Their determinant is zero.": "Incorrect. This is not a criterion for linear independence."
+          "No vector in the set can be written as a combination of the others.": "Correct! This is the definition of linear independence."
       }
   },
   {
-      "question": "In matrix multiplication, what condition must be met for two matrices to be multiplied?",
+      "question": "What is the condition for two matrices to be multiplied?",
       "options": [
           "They must be square matrices.",
           "The number of rows in the first matrix must equal the number of columns in the second matrix.",
@@ -3319,7 +2192,7 @@
       }
   },
   {
-      "question": "Which property does a symmetric matrix exhibit?",
+      "question": "What property does a symmetric matrix have?",
       "options": [
           "It is always invertible.",
           "It is equal to its transpose.",
@@ -3330,12 +2203,12 @@
       "feedback": {
           "It is always invertible.": "Incorrect. Not all symmetric matrices are invertible.",
           "It is equal to its transpose.": "Correct! A symmetric matrix is equal to its transpose.",
-          "Its eigenvalues are always positive.": "Incorrect. This describes a positive definite matrix.",
-          "It is equal to its inverse.": "Incorrect. This describes an orthogonal matrix."
+          "Its eigenvalues are always positive.": "Incorrect. This describes a positive definite matrix, not a symmetric matrix.",
+          "It is equal to its inverse.": "Incorrect. This describes an orthogonal matrix, not a symmetric matrix."
       }
   },
   {
-      "question": "What is the eigenvalue of the identity matrix?",
+      "question": "What is the eigenvalue of an identity matrix?",
       "options": [
           "0",
           "1",
@@ -3346,12 +2219,12 @@
       "feedback": {
           "0": "Incorrect. The eigenvalue of the identity matrix is 1.",
           "1": "Correct! The eigenvalue of the identity matrix is 1.",
-          "2": "Incorrect. The eigenvalue of the identity matrix is 1.",
-          "Undefined": "Incorrect. The eigenvalue of the identity matrix is 1."
+          "2": "Incorrect. The eigenvalue of the identity matrix is 1, not 2.",
+          "Undefined": "Incorrect. The eigenvalue of the identity matrix is well-defined and is 1."
       }
   },
   {
-      "question": "What is the rank of a matrix?",
+      "question": "What does the rank of a matrix represent?",
       "options": [
           "The number of rows",
           "The number of columns",
@@ -3362,12 +2235,12 @@
       "feedback": {
           "The number of rows": "Incorrect. The rank is not necessarily the number of rows.",
           "The number of columns": "Incorrect. The rank is not necessarily the number of columns.",
-          "The number of non-zero rows": "Incorrect. The rank is the number of linearly independent rows or columns.",
+          "The number of non-zero rows": "Incorrect. The rank is not the number of linearly independent rows or columns, not the number of non-zero rows.",
           "The number of linearly independent rows or columns": "Correct! The rank is the number of linearly independent rows or columns."
       }
   },
   {
-      "question": "Which matrix operation is not defined?",
+      "question": "Which matrix operation is undefined?",
       "options": [
           "Addition of two matrices",
           "Subtraction of two matrices",
@@ -3376,14 +2249,14 @@
       ],
       "answer": "Division of a matrix by a matrix",
       "feedback": {
-          "Addition of two matrices": "Incorrect. Addition of two matrices is defined.",
-          "Subtraction of two matrices": "Incorrect. Subtraction of two matrices is defined.",
-          "Multiplication of a matrix by a scalar": "Incorrect. Multiplication of a matrix by a scalar is defined.",
-          "Division of a matrix by a matrix": "Correct! Division of one matrix by another is not defined."
+          "Addition of two matrices": "Incorrect. Addition of two matrices is a well-defined operation.",
+          "Subtraction of two matrices": "Incorrect. Subtraction of two matrices is a well-defined operation.",
+          "Multiplication of a matrix by a scalar": "Incorrect. Multiplication of a matrix by a scalar is a well-defined operation.",
+          "Division of a matrix by a matrix": "Correct! Division of one matrix by another is not a defined operation."
       }
   },
   {
-      "question": "What is the inverse of a matrix A if it exists?",
+      "question": "What is the inverse of a matrix A, if it exists?",
       "options": [
           "A matrix that when multiplied by A gives the identity matrix",
           "A matrix that when added to A gives the zero matrix",
@@ -3410,12 +2283,12 @@
       "feedback": {
           "det(A - \u03bbI) = 0": "Correct! The characteristic equation of a matrix A is det(A - \u03bbI) = 0.",
           "tr(A - \u03bbI) = 0": "Incorrect. The characteristic equation involves the determinant, not the trace.",
-          "det(A + \u03bbI) = 0": "Incorrect. The correct equation is det(A - \u03bbI) = 0.",
+          "det(A + \u03bbI) = 0": "Incorrect. The correct equation is det(A - \u03bbI) = 0, not det(A + \u03bbI) = 0.",
           "tr(A + \u03bbI) = 0": "Incorrect. The characteristic equation involves the determinant, not the trace."
       }
   },
   {
-      "question": "Which of the following is true for an orthogonal matrix Q?",
+      "question": "What is the property of an orthogonal matrix Q?",
       "options": [
           "Q^TQ = I",
           "QQ = I",
@@ -3431,7 +2304,7 @@
       }
   },
   {
-      "question": "What is the definition of a positive definite matrix?",
+      "question": "What defines a positive definite matrix?",
       "options": [
           "All its eigenvalues are positive",
           "All its eigenvalues are negative",
@@ -3447,7 +2320,7 @@
       }
   },
   {
-      "question": "What is the result of multiplying a matrix by its transpose?",
+      "question": "What is the outcome of multiplying a matrix by its transpose?",
       "options": [
           "A symmetric matrix",
           "A skew-symmetric matrix",
@@ -3479,7 +2352,7 @@
       }
   },
   {
-      "question": "Which of the following is a property of eigenvalues of a matrix?",
+      "question": "What is a property of eigenvalues of a matrix?",
       "options": [
           "They are always positive.",
           "They can be complex numbers.",
@@ -3495,7 +2368,7 @@
       }
   },
   {
-      "question": "Which of the following matrices has an inverse?",
+      "question": "Which type of matrix has an inverse?",
       "options": [
           "A singular matrix",
           "A matrix with a determinant of 0",
@@ -3575,7 +2448,7 @@
       }
   },
   {
-      "question": "In linear regression, what does the R-squared value represent?",
+      "question": "In linear regression, what does the R-squared value indicate?",
       "options": [
           "The slope of the regression line",
           "The intercept of the regression line",
@@ -3591,7 +2464,7 @@
       }
   },
   {
-      "question": "In probability, what is the complement of an event \\(A\\)?",
+      "question": "In probability, what does the complement of an event \\(A\\) represent?",
       "options": [
           "The probability of A occurring",
           "The union of A with another event",
@@ -3600,14 +2473,14 @@
       ],
       "answer": "The probability of A not occurring",
       "feedback": {
-          "The probability of A occurring": "Incorrect. The complement of an event is the probability of it not occurring.",
-          "The union of A with another event": "Incorrect. The complement of an event is the probability of it not occurring.",
-          "The probability of A not occurring": "Correct! The complement of an event is the probability of it not occurring.",
-          "The intersection of A with another event": "Incorrect. The complement of an event is the probability of it not occurring."
+          "The probability of A occurring": "Incorrect. The complement of an event represents the probability of it not occurring.",
+          "The union of A with another event": "Incorrect. The complement of an event represents the probability of it not occurring.",
+          "The probability of A not occurring": "Correct! The complement of an event represents the probability of it not occurring.",
+          "The intersection of A with another event": "Incorrect. The complement of an event represents the probability of it not occurring."
       }
   },
   {
-      "question": "What does a p-value in hypothesis testing indicate?",
+      "question": "In hypothesis testing, what does a p-value indicate?",
       "options": [
           "The probability of rejecting the null hypothesis",
           "The probability of observing the data given that the null hypothesis is true",
@@ -3616,14 +2489,14 @@
       ],
       "answer": "The probability of observing the data given that the null hypothesis is true",
       "feedback": {
-          "The probability of rejecting the null hypothesis": "Incorrect. The p-value does not directly tell you this probability.",
+          "The probability of rejecting the null hypothesis": "Incorrect. The p-value does not directly indicate this probability.",
           "The probability of observing the data given that the null hypothesis is true": "Correct! The p-value is the probability of observing the data, or something more extreme, given that the null hypothesis is true.",
-          "The probability that the null hypothesis is true": "Incorrect. The p-value does not give this probability.",
-          "The probability that the alternative hypothesis is true": "Incorrect. The p-value does not give this probability."
+          "The probability that the null hypothesis is true": "Incorrect. The p-value does not indicate this probability.",
+          "The probability that the alternative hypothesis is true": "Incorrect. The p-value does not indicate this probability."
       }
   },
   {
-      "question": "What is the purpose of a confidence interval?",
+      "question": "What is the main purpose of a confidence interval?",
       "options": [
           "To provide a range of values within which the true population parameter is expected to fall",
           "To test the significance of a hypothesis",
@@ -3639,7 +2512,7 @@
       }
   },
   {
-      "question": "What does the central limit theorem state?",
+      "question": "What does the Central Limit Theorem state?",
       "options": [
           "The distribution of sample means approaches a normal distribution as the sample size increases",
           "The distribution of sample means approaches a uniform distribution as the sample size increases",
@@ -3648,14 +2521,14 @@
       ],
       "answer": "The distribution of sample means approaches a normal distribution as the sample size increases",
       "feedback": {
-          "The distribution of sample means approaches a normal distribution as the sample size increases": "Correct! The central limit theorem states that the distribution of sample means approaches a normal distribution as the sample size increases.",
-          "The distribution of sample means approaches a uniform distribution as the sample size increases": "Incorrect. The central limit theorem states that the distribution of sample means approaches a normal distribution as the sample size increases.",
-          "The distribution of sample means approaches a binomial distribution as the sample size increases": "Incorrect. The central limit theorem states that the distribution of sample means approaches a normal distribution as the sample size increases.",
-          "The distribution of sample means approaches a Poisson distribution as the sample size increases": "Incorrect. The central limit theorem states that the distribution of sample means approaches a normal distribution as the sample size increases."
+          "The distribution of sample means approaches a normal distribution as the sample size increases": "Correct! The Central Limit Theorem states that the distribution of sample means approaches a normal distribution as the sample size increases.",
+          "The distribution of sample means approaches a uniform distribution as the sample size increases": "Incorrect. The Central Limit Theorem states that the distribution of sample means approaches a normal distribution as the sample size increases.",
+          "The distribution of sample means approaches a binomial distribution as the sample size increases": "Incorrect. The Central Limit Theorem states that the distribution of sample means approaches a normal distribution as the sample size increases.",
+          "The distribution of sample means approaches a Poisson distribution as the sample size increases": "Incorrect. The Central Limit Theorem states that the distribution of sample means approaches a normal distribution as the sample size increases."
       }
   },
   {
-      "question": "What is the purpose of regression analysis?",
+      "question": "What is the main purpose of regression analysis?",
       "options": [
           "To establish causality between variables",
           "To predict the value of a dependent variable based on an independent variable",
@@ -3671,7 +2544,7 @@
       }
   },
   {
-      "question": "What does the law of large numbers state?",
+      "question": "What does the Law of Large Numbers state?",
       "options": [
           "As the number of trials increases, the experimental probability approaches the theoretical probability",
           "As the number of trials increases, the variance of the sample decreases",
