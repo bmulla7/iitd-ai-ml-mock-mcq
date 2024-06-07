@@ -22,7 +22,7 @@
                 <label for="module">Select Module:</label>
                 <select id="module" name="module" required>
                     <option value="module1" {% if session.get('selected_module') == 'module1' %}selected{% endif %}>Module 1</option>
-                    <option value="module2" {% if session.get('selected_module') == 'module2' %}selected{% endif %}>Module 2</option>
+                    <option disabled value="module2" {% if session.get('selected_module') == 'module2' %}selected{% endif %}>Module 2</option>
                 </select>
             </div>
             <button type="submit">Start Quiz</button>
